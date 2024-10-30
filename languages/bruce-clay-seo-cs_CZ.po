@@ -1,0 +1,1670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:23-0700\n"
+"PO-Revision-Date: 2019-07-16 12:23-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Vypadá to, že tady opravdu nic není. Možná zkuste vyhledávání?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Bruce Clay SEO palubní desce"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Bruce Clay SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Funkce neexistuje"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Z rozhraní API byla přijata neplatná odpověď pro"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "chyba"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Chyba při vytváření projektu!"
+
+#: src/class-seotoolsetapi.php:620
+#, fuzzy
+msgid "Missing"
+msgstr "Chybějící"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Neplatný název šablony"
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Zabil všechna nastavení!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr "Nonce nelze ověřit! Nastavení SEOToolSet nebylo aktualizováno."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Nastavení SEOToolSet se nezměnilo."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Nastavení SEOToolSet bylo aktualizováno!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Něco se pokazilo! Nastavení SEOToolSet nebylo aktualizováno."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Nastavení zásuvných modulů není úplné. Přejděte na <a href=\"%s\" >Bruce "
+"Clay SEO--Settings</a> pro autorizaci dat ze sady SEOToolSet® a Google."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Instalace je neúplná. Ujistěte se, že jste přihlášeni, přihlášeni a máte "
+"vybrán aktivní projekt."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Tato stránka je spravována s Bruce Clay SEO."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet operace byly pozastaveny!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Dnes"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Poslední"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "dnů"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet nelze spustit na verze PHP před 5.4.0. Chcete-li aktualizovat "
+"web, obraťte se na poskytovatele hostitelských služeb."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet vyžaduje chybějící knihovnu: Curl. Chcete-li aktualizovat web, "
+"obraťte se na poskytovatele hostitelských služeb."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Důvod"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay SEO stav upozornění"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Zobrazit vše"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Více"
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr "Přihlásit přes Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Kliknutím na výše uvedené tlačítko se spustí vyskakovací okno. Postupujte "
+"podle pokynů, Copy-Paste Google autorizační kód, který prezentuje do pole "
+"níže, a pak zavřete pop-up."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Autentizační kód Google"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Přihlášení bylo úspěšné! Nyní vyberte účet, pro který bude analytika na "
+"tomto webu zahrnuta."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "Aktuálně jsi přihlášený jako"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Odhlásit se"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "Vyberte projekt pro použití s pluginem SEOToolSet WP"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "NEBO vytvořit nový projekt"
+
+#: src/templates/ajax-choose-project.php:83
+#, fuzzy
+msgid "Project Name"
+msgstr "Název projektu"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Popis"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Na webu je% d stránek/post."
+
+#: src/templates/ajax-content-sync.php:65
+#, fuzzy
+msgid "An error occurred."
+msgstr "Došlo k chybě."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Odesláno% d stránek/post (ů) pro indexování!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "K dispozici je% d stránek/post (ů), které je třeba synchronizovat."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Veškerý obsah byl synchronizován."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Analyzovat obsah"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Synchronizovat chybějící obsah"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+msgid "(none)"
+msgstr "(nic)"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Upravit příspěvek"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "příspěvky vyžadují pozornost"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "Žebříčku"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Hodnost"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Nadpis"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Autor"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Zobrazení"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Prům. čas"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Klíčové fráze"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "počet pg přiřazeno"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Nejlepší Průměrná pozice"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "PG. zobrazení"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "Co to je?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Celková průměrná rychlost stránky"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Celkové průměrné mobilní skóre"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "SEO skóre"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "SEO skóre je přepočítán měsíčně a na základě webu jako celku."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Rychlost stránky"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Stránka rychlost je průměrné skóre pro všechny stránky na webu na stupnici "
+"od 0-100, s 100 je nejlepší možné skóre. Skóre rychlosti stránky jsou "
+"reprezentativní pro rychlost načítání stránek.."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "Mobilní skóre"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Mobile Score je průměrné skóre pro všechny stránky na webu na stupnici od "
+"0-100, s 100 je nejlepší možné skóre. Mobilní skóre odrážejí mobilní "
+"použitelnost, rychlost a design."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Zobrazit"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Desktop"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+msgid "Organic"
+msgstr "Organic"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Zaplaceno"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Přímý"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Sociální"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Upozornění"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "vysoká upozornění"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "střední výstrahy"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "nízké výstrahy"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Zobrazit nástěnku"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 příspěvků"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Rozmezí dat"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Aktivita"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Hodnocení obsahu"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Klíčová slova"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Nejlépe posta do doprava"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Nejlépe autor podle Traffic"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Provoz"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+msgid "Meta Robots"
+msgstr "Meta Robots"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Indexovat tuto stránku (index, následovat)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "NeIndexovat tuto stránku (noindex, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+msgid "Custom Attributes"
+msgstr "Vlastní atributy"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Hodnoty oddělené čárkami bez mezer"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr "Kanonická URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Vlastní meta robot Tagy"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Indexovat tuto stránku. Toto je ve výchozím nastavení a předpokládané."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Uchovejte kopii této stránky v mezipaměti vyhledávače nezávisle na "
+"indexování nebo odkazu, který následuje."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr "Sledujte odkazy na této stránce. Toto je výchozí a předpokládané."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "Neindexovat tuto stránku, ale postupujte podle odkazů na této stránce."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"NePoužívejte odkazy na této stránce, ale Indexujte tuto stránku pro obsah."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Indexujte a následujte odkazy na této stránce, ale neuchovávejte kopii "
+"stránky v mezipaměti vyhledávače."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "Nezobrazovat výstřižek (výsledek vyhledávače) pro tuto stránku."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Hodnoty oddělené čárkami použijte bez mezer. Chcete-li například, aby "
+"vyhledávací stroj neindexoval stránku nebo jej udržel v mezipaměti, ale "
+"stále se na něj odkazuje, použijte"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "Aktuálně přihlašujete analytická data pro"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Běžný účet"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Zakázat sledovací skript"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+"Vyberte <b> Ano </b>, pokud již máte sledování na místě pro tento účet."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Aktualizace účtu byla úspěšná. Vyberte účet, pro který bude služba Analytics "
+"na tomto webu zahrnuta."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Bruce Clay SEO plugin vyžaduje připojení k Google Analytics a Google Search "
+"Console používat všechny jeho funkce."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"Při nastavování Bruce Clay SEO pro WordPress plugin, můžete se přihlásit do "
+"Google pomocí stejného účtu Google, který používáte pro přístup k Google "
+"Analytics a Google Search Console. Přihlášení se stane prostřednictvím "
+"serverů Google, a jakmile jste povolili plugin přístup k vašim Analytics a "
+"Search Console data, budete mít kód vložit do pluginu."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"Jakmile je kód vložen, zobrazí se seznam účtů, které jsou aktivní uvnitř "
+"vašeho účtu Google Analytics. Po vybrání bude projekt Google Analytics "
+"použit k poskytování zobrazení stránek a k návštěvě dat zásuvného modulu. "
+"Vybraný účet Google Analytics můžete kdykoli změnit výběrem ikony tužky v "
+"části \"běžný účet\"."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Poznámka: Pokud se zobrazí tato zpráva, jste již přihlášeni do služby Google "
+"Analytics: \"jste aktuální data protokolování Analytics pro [účet Analytics]."
+"\" Pokud tuto zprávu nevidíte, budete se muset znovu přihlásit do služby "
+"Google Analytics."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Aktuální projekt"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Nebyl vybrán žádný projekt!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Změnit nebo nastavit předplatné."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Výběr účtu a projektu"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Bruce Clay SEO plugin vyžaduje připojení k SEOToolSet k moci mnoho z jeho "
+"funkcí. Vaše předplatné zásuvných modulů zahrnuje přístup k SEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"Při nastavování Bruce Clay SEO pro WordPress, musíte se přihlásit do "
+"SEOToolSet a určit příslušný projekt zde v tomto SEOToolSet ověřování "
+"podokno. Projekt je, jak SEOToolSet udržuje data související s vaší webové "
+"stránky společně, jako jsou klíčová slova webu, preference, a tak dále."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"V sekci aktuální projekt klikněte na ikonu pro úpravy (tužka) a vyberte "
+"projekt SEOToolSet, který odpovídá vašemu aktuálnímu webu."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Poznámka: jste již přihlášeni k SEOToolSet Pokud se zobrazí tato zpráva: "
+"\"jste aktuálně přihlášeni jako [vaše uživatelské jméno] v SEOToolSet.\" "
+"Pokud tomu tak není, můžete zadat své uživatelské jméno a heslo pro "
+"přihlášení."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Heslo"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Přihlásit se"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "Zapomněl jsem  heslo"
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Nemám účet."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Klíčové slovo"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "SEO — Klíčový popis (Meta Description)"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Obsah"
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Highlight Color"
+msgstr "Zvýrazňovací barva"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Mít SEOToolSet < a class = \"analyzovat\" href = \"@ @\" > analyzovat váš "
+"obsah </a> za účelem nalezení klíčových slov a frází, které vám pomohou váš "
+"obsah lépe fungovat. Přidat vlastní klíčová slova a fráze, a SEOToolSet bude "
+"analyzovat, které vám pomohou optimalizovat váš obsah."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Zvýraznění"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Vymazat"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "Meta název"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "Náhled fragmentu"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Dopad pravidla"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "mobilní přívětivost"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "PageSpeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "Pořadavek"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Zobrazení"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Kliknutí"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Míra proKliknutí"
+
+#: src/templates/ajax-post-queries.php:23
+msgid "CTR"
+msgstr "CTR"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Připojte se k účtu Google Analytics."
+
+#: src/templates/ajax-post-summary-performance.php:11
+#, fuzzy
+msgid "No data"
+msgstr "Žádná data"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Položka"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Aktuální"
+
+#: src/templates/ajax-post-summary-performance.php:29
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Page Views"
+msgstr "Zobrazení výletů"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Průměrná doba na stránce"
+
+#: src/templates/ajax-post-summary-performance.php:37
+#, fuzzy
+msgid "Views Today"
+msgstr "Zobrazení dnes"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Zobrazení tohoto týdne"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Zobrazení tohoto měsíce"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+#, fuzzy
+msgid "No data."
+msgstr "Žádná data."
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "Cíl"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Příspěvek nebyl analyzován."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Nebyly nalezeny žádné výstrahy."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Upozornění na stav"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Výkon"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Neplatná e-mailová adresa."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Neplatné přihlašovací jméno."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Chybné heslo."
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr "Hesla se neshodují."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "E-mailová adresa"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Potvrdit heslo"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Další"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Nebyl vybrán žádný plán."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Zrušit předplatné"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Při pokusu o načtení dostupných fakturačních plánů došlo k chybě. Vraťte se "
+"zpět a akci zopakujte."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "současný"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Zpět"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Neplatné nebo chybějící křestní jméno."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Neplatné nebo chybějící příjmení."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Poštovní směrovací číslo je neplatné nebo chybí."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Neplatný nebo chybí token platební karty."
+
+#: src/templates/ajax-signup-step3.php:42
+msgid "You must accept the terms and conditions."
+msgstr "Musíte přijmout pravidla a zásady ochrany osobních údajů"
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Účet a předplatné bylo úspěšně vytvořeno."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Předplatné bylo úspěšně aktualizováno."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Předplatné bylo úspěšně odstraněno."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"Po kliknutí na tlačítko Další bude předplatné zrušeno.  Vaše aktuální "
+"předplatné bude pokračovat až do dalšího fakturačního cyklu a pak bude "
+"ukončeno."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Jméno"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Příjmení"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "Informace o kreditní kartě"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "PSČ"
+
+#: src/templates/ajax-signup-step3.php:195
+#, fuzzy
+msgid "I agree to"
+msgstr "Souhlasím s"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "obchodní podmínky"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Úspěch!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Hotovo"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Typ metriky"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Shlédnutí stránky"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Navštivilo"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "Konverzí"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Čas"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Minulý rok"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Minulý měsíc"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "Minulý týden"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Včera"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+#, fuzzy
+msgid "All Time"
+msgstr "Všech dob"
+
+#: src/templates/ajax-traffic.php:122
+#, fuzzy
+msgid "Past Week"
+msgstr "Minulý týden"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "Uplynulý měsíc"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "Minulý rok"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Měsíční změna"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Pořadí stránek"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Hledat"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Stav:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "Zobrazit archiv"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Zobrazit nové"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Použít"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Legenda"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Počet"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Cíl splněn"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Kteří uživatelé mohou zobrazit řídicí panel?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Kteří uživatelé mohou zobrazit widget příspěvek/stránka?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Kteří uživatelé mohou upravovat data na widgetu příspěvek/stránka?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Které uživatelé mohou upravovat Bruce Clay SEO nastavení?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "Ověřování SEOToolSet"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Připojte se k účtu SEOToolSet."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Analyzovat obsah"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Odešlete obsah pro analýzu.  Tento postup je potřeba provést pouze při "
+"prvním nastavení webu s námi nebo v případě, že se počet příspěvku někdy "
+"dostane z synchronizace."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Připojte se k účtu Google Analytics."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Ověřovací kódy pro webMastery"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Zadejte ověřovací kódy pro vyhledávací konzolu Google a nástroje pro "
+"webMastery Bing."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Ověřovací kód Google"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Ověřovací kód Bing"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Titulní stránka a popis meta"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr "Pokud nepoužíváte určitou stránku jako titulní stránku, budou platit."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Titulní stránka"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Titulní stránka meta Description"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "Oprávnění uživatele"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "Ovládání, které Bruce Clay SEO funkce, které uživatelé mají přístup k."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(a vyšší)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Výchozí nastavení"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Toto je stránka pro zajištění správného nastavení položek. Viz WooCommerce "
+"je pro rozsáhlou (možná příliš) příklad."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Počkej!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Pozastavit provoz?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "Zaškrtněte toto políčko pro dočasné zastavení SEOToolSet operací."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "Proměnné prostředí"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "PHP Verze"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "Informace o účtu SEOToolSet"
+
+#: src/templates/page-status.php:80
+msgid "Real Name"
+msgstr "Skutečné jméno"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "Email"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Licenční klíč"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "Test připojení rozhraní API"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Koncový bod"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Shrnutí"
+
+#: src/templates/post-widget.php:36
+#, fuzzy
+msgid "Queries"
+msgstr "Dotazy"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "PageSpeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Direktivy hledání"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Zvýrazňování klíčových slov funguje pouze ve vizuálním editoru. Přepněte "
+"prosím režimy pomocí karet nad obsahem příspěvku."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Klíčové fráze (oddělené čárkami)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Přidat"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Nebo"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Přidat skupinu klíčových slov"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Analyzovat obsah"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Aktualizovat cíle"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Nastavení"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.Seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO dává blog spisovatelů on-page SEO pokyny založené na Real-"
+"time konkurence analýzy. Analytics je integrována do show post výkon, přímo "
+"v WordPress. Sledování klíčových slov, zprávy a více poháněné SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Bruce Clay, Inc"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=plugin&utm_campaign=WordPress-General"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Zkontrolujte nastavení zásuvných modulů. Musíte připojit svůj SEOToolSet "
+#~ "účet."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "Zkontrolujte nastavení zásuvných modulů. Nemáte aktivní předplatné."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Zkontrolujte nastavení zásuvných modulů. Je nutné vybrat projekt."
+
+#~ msgid "Status"
+#~ msgstr "Stav"
+
+#~ msgid "Post Title"
+#~ msgstr "Název příspěvku"
+
+#~ msgid "Last Updated"
+#~ msgstr "Poslední aktualizace"
+
+#~ msgid "Mark as Done"
+#~ msgstr "Označit jako hotové"
+
+#~ msgid "Actions"
+#~ msgstr "Akce"
+
+#, fuzzy
+#~ msgid "Ranking"
+#~ msgstr "Pořadí"
+
+#~ msgid "Pages"
+#~ msgstr "Stránky"
+
+#, fuzzy
+#~| msgid "Last Updated"
+#~ msgid "Last Update"
+#~ msgstr "Poslední aktualizace"
+
+#~ msgid "Total Views"
+#~ msgstr "Zobrazení výletů"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "Prům. zobrazení"
+
+#~ msgid "Published"
+#~ msgstr "Zveřejněné"
+
+#~ msgid "Assignments"
+#~ msgstr "Vaše úkoly"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Nejlépe hodnocené"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "Většina virových"
+
+#~ msgid "Most Shared"
+#~ msgstr "Většina sdílených"
+
+#~ msgid "Check for updates"
+#~ msgstr "Zkontrolovat aktualizace"
+
+#, fuzzy
+#~ msgid "View details"
+#~ msgstr "Zobrazit podrobnosti"
+
+#~ msgid "More information about %s"
+#~ msgstr "Více informací o %s"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Zásuvný modul %s je aktuální."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "K dispozici je nová verze pluginu %s."
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Nelze zjistit, zda jsou k dispozici aktualizace pro %s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Neznámý stav kontroly aktualizací \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Není k dispozici žádný seznam změn."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Místo pro testování rozhraní API, které dává větší smysl než stavová "
+#~ "stránka. Většinou proto, že funguje \"modulárním\": požadavky na API jsou "
+#~ "provedeny pouze po klepnutí na záhlaví položky v seznamu namísto spuštění "
+#~ "<em> všechny </em> testy najednou před načtením stránky."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span class = \"pass\" > zelené položky </span> jsou určeny k předání "
+#~ "při < span class = \"fail\" > oranžové položky </span> jsou určeny k "
+#~ "selhání. Však předávání testů může být vynuceno selhání prostřednictvím "
+#~ "ověřování odhlášením (<code> DELETE/autentifici pentru </code>) první. "
+#~ "Zkontrolujte, zda je odpověď na kód HTTP cURL a odpovídajícím způsobem "
+#~ "oznamování chyb rozhraní API."
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "Příspěvky"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Naposledy Publikováno"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Nejvyšší hodnost"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Hlavní body testu"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "Posledních 30 dní"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "ROZHRANÍ API nevrátilo pole:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "ROZHRANÍ API nevrátilo pole pro pole:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% z minulého měsíce"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "ŽÁDNÝ NÁZEV"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Imps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "By měla opravit"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Problémy, které by mohly snížit rychlost načítání stránky výrazně (na "
+#~ "Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Zvažte opravu"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr ""
+#~ "Problémy, které mohou mít dopad na rychlost načítání stránky (na Google)"
+
+#~ msgid "Positives"
+#~ msgstr "Pozitiva"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Položky, které vyhovují nebo překračují doporučení společnosti Google a "
+#~ "mohou využívat rychlost načítání stránky"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Problémy, které by mohly zranit mobilní přátelskost (na Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "Problémy, které mohou mít dopad na mobilní přívětivost (na Google)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Položky, které odpovídají nebo překračují pokyny pro mobilní zařízení (na "
+#~ "Google)"

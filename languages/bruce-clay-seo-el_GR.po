@@ -1,0 +1,1725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:24-0700\n"
+"PO-Revision-Date: 2019-07-16 12:24-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Δεν βρέθηκε"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Μοιάζει σαν να μην βρέθηκε τίποτα σε αυτή τη θέση. Ίσως να δοκιμάζατε μια "
+"αναζήτηση ?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Μπρους πηλός SEO ταμπλό"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/SEOToolSet.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Bruce πηλός SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Η λειτουργία δεν υπάρχει"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Μη έγκυρη απόκριση που ελήφθη από το API για"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "σφάλμα"
+
+#: src/class-seotoolsetapi.php:485 src/SEOToolSet.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Σφάλμα κατά τη δημιουργία έργου!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Λείπει"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Μη έγκυρο όνομα προτύπου."
+
+#: src/SEOToolSet.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Σκότωσε όλες τις ρυθμίσεις!"
+
+#: src/SEOToolSet.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"Δεν ήταν δυνατή η επαλήθευση του. Οι ρυθμίσεις SEOToolSet σας δεν "
+"ενημερώθηκαν."
+
+#: src/SEOToolSet.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Οι ρυθμίσεις SEOToolSet σας δεν έχουν αλλάξει."
+
+#: src/SEOToolSet.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Οι ρυθμίσεις SEOToolSet σας έχουν ενημερωθεί!"
+
+#: src/SEOToolSet.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Κάτι πήγε στραβά! Οι ρυθμίσεις SEOToolSet σας δεν ενημερώθηκαν."
+
+#: src/SEOToolSet.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Η εγκατάσταση της προσθήκης δεν έχει ολοκληρωθεί. Μετάβαση στο <a href=\"%s"
+"\">Μπρους Κλέι ΣΕΟ--Ρυθμίσεις</a> για την εξουσιοδότηση δεδομένων από το σετ "
+"εργαλείων® και την Google."
+
+#: src/SEOToolSet.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Το πρόγραμμα εγκατάστασης δεν είναι ολοκληρωμένο. Βεβαιωθείτε ότι είστε "
+"συνδεδεμένοι, έχετε εγγραφεί και έχετε επιλέξει ένα ενεργό έργο."
+
+#: src/SEOToolSet.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Αυτό το site διαχειρίζεται με Bruce Clay SEO."
+
+#: src/SEOToolSet.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "Οι επιχειρήσεις SEOToolSet έχουν ανασταλεί!"
+
+#: src/SEOToolSet.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Σήμερα"
+
+#: src/SEOToolSet.php:1041
+msgid "Last"
+msgstr "Τελευταίο"
+
+#: src/SEOToolSet.php:1041
+msgid "days"
+msgstr "ημέρες"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet δεν μπορεί να τρέξει σε PHP εκδόσεις πριν από την 5.4.0. "
+"Επικοινωνήστε με τον παροχέα φιλοξενίας για να ενημερώσετε τον ιστότοπό σας."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet απαιτεί λείπει βιβλιοθήκη: μπούκλα. Επικοινωνήστε με τον παροχέα "
+"φιλοξενίας για να ενημερώσετε τον ιστότοπό σας."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Λόγος"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay προειδοποιήσεις κατάστασης SEO"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Προβολή Όλων"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Περισσότερα"
+
+#: src/templates/ajax-analytics-form.php:14
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Συνδεθείτε με το Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Κάνοντας κλικ στο παραπάνω κουμπί θα ξεκινήσει ένα αναδυόμενο παράθυρο. "
+"Ακολουθήστε τις οδηγίες, Αντιγράψτε-επικολλήστε τον κωδικό εξουσιοδότησης "
+"Google που παρουσιάζει στο παρακάτω πλαίσιο και, στη συνέχεια, κλείστε το "
+"αναδυόμενο παράθυρο."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Κωδικός ελέγχου ταυτότητας Google"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Σύνδεση επιτυχής! Τώρα, επιλέξτε ένα λογαριασμό για τον οποίο θα "
+"συμπεριληφθεί το Analytics σε αυτήν την τοποθεσία."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "Έχετε συνδεθεί ως"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Αποσύνδεση"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "Επιλέξτε ένα έργο για χρήση με το plugin SEOToolSet WP"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "Ή να δημιουργήσετε ένα νέο έργο"
+
+#: src/templates/ajax-choose-project.php:83
+#, fuzzy
+msgid "Project Name"
+msgstr "Όνομα έργου"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Υπάρχουν% d σελίδα (ες)/καταχωρήσεις (ες) στην τοποθεσία σας."
+
+#: src/templates/ajax-content-sync.php:65
+#, fuzzy
+msgid "An error occurred."
+msgstr "Παρουσιάστηκε σφάλμα."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Απεσταλμένα% d σελίδα (ες)/Δημοσιεύσεις για ευρετήριο!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Υπάρχουν% d σελίδα (ες)/καταχωρήσεις (ες) που χρειάζονται συγχρονισμό."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Όλο το περιεχόμενο έχει συγχρονιστεί."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Ανάλυση περιεχομένου"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Συγχρονισμός περιεχομένου που λείπει"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+msgid "(none)"
+msgstr "(Κανένας)"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Επεξεργασία ανάρτησης"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "θέσεις απαιτούν προσοχή"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+msgid "Rankings"
+msgstr "Κατατάξεις"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+#, fuzzy
+msgid "Rank"
+msgstr "Κατάταξη"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Τίτλος"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Συντάκτης"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Προβολές"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Μέσος χρόνος"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Φράσεις-κλειδιά"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "# του PG που αναΤίθεται"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Καλύτερη μέση θέση"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "PG. προβολές"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "Τι είναι αυτό?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Συνολική μέση ταχύτητα σελίδας"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Συνολικό μέσο κινητό σκορ"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "SEO φιλοξενούμενων"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr ""
+"Η βαθμολογία SEO υπολογίζεται εκ νέου μηνιαία και με βάση την ιστοσελίδα στο "
+"σύνολό της."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Ταχύτητα σελίδας"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Η ταχύτητα της σελίδας είναι η μέση βαθμολογία για όλες τις σελίδες στην "
+"ιστοσελίδα σε μια κλίμακα από 0-100, με 100 είναι η καλύτερη δυνατή "
+"βαθμολογία. Τα αποτελέσματα της ταχύτητας σελίδας είναι αντιπροσωπευτικά του "
+"πόσο γρήγορα φορτώνονται οι σελίδες σας.."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "Κινητό σκορ"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Το κινητό σκορ είναι η μέση βαθμολογία για όλες τις σελίδες του site σε μια "
+"κλίμακα από 0-100, με 100 είναι η καλύτερη δυνατή βαθμολογία. Mobile "
+"βαθμολογίες αντικατοπτρίζουν την κινητή χρηστικότητα, την ταχύτητα και το "
+"σχεδιασμό."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Κινητό"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+#, fuzzy
+msgid "Organic"
+msgstr "Οργανικά"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Πληρωμένο"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Απευθείας"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Κοινωνικά"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Προειδοποιήσεις"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "υψηλές προειδοποιήσεις"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "μεσαίου συναγερμού"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "χαμηλές προειδοποιήσεις"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Δείτε τον πίνακα ελέγχου"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 θέσεις"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Εύρος Ημερομηνιών"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Δραστηριότητα"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Κατάταξη περιεχομένου"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Λέξεις κλειδιά"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Κορυφαία θέση από την κυκλοφορία"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Κορυφαίος συντάκτης από την κυκλοφορία"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Κίνηση"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+#, fuzzy
+msgid "Meta Robots"
+msgstr "Meta ρομπότ"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Ευρετήριο αυτής της σελίδας (ευρετήριο, ακολουθήστε)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Μην ευρετήριο αυτή τη σελίδα (Index, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+#, fuzzy
+msgid "Custom Attributes"
+msgstr "Προσαρμοσμένα χαρακτηριστικά"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Τιμές διαχωρισμένες με κόμματα χωρίς κενά"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+#, fuzzy
+msgid "Canonical URL"
+msgstr "Κανονική διεύθυνση URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Προσαρμοσμένο meta ρομπότ Ετικέτες"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Ευρετήριο αυτής της σελίδας. Αυτό είναι από προεπιλογή και σιωπηρή."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Κρατήστε ένα αντίγραφο αυτής της σελίδας στη μνήμη cache του μηχανισμού "
+"αναζήτησης ανεξάρτητα από το ευρετήριο ή τη σύνδεση μετά."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr ""
+"Ακολουθήστε τις συνδέσεις σε αυτήν τη σελίδα. Αυτό είναι προεπιλογή και "
+"σιωπηρή."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr ""
+"Μην ευρετήριο αυτή τη σελίδα, αλλά ακολουθήστε τις συνδέσεις σε αυτή τη "
+"σελίδα."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Μην ακολουθήσετε τις συνδέσεις σε αυτή τη σελίδα, αλλά ευρετήριο αυτή τη "
+"σελίδα για το περιεχόμενο."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Index και ακολουθήστε τις συνδέσεις σε αυτήν τη σελίδα, αλλά δεν διατηρούν "
+"ένα αντίγραφο της σελίδας στη μνήμη cache του μηχανισμού αναζήτησης."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr ""
+"Μην εμφανίζετε ένα απόσπασμα (αποτέλεσμα της μηχανής αναζήτησης) για αυτή τη "
+"σελίδα."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Χρησιμοποιήστε τιμές διαχωρισμένες με κόμματα χωρίς κενά. Για παράδειγμα, "
+"για να έχετε τη μηχανή αναζήτησης δεν ευρετήριο της σελίδας ή να το "
+"κρατήσετε στη μνήμη cache, αλλά εξακολουθούν να ακολουθούν τις συνδέσεις, "
+"χρησιμοποιήστε"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "Αυτήν τη στιγμή κατασυνδέετε δεδομένα ανάλυσης για"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Τρεχούμενος λογαριασμός"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Απενεργοποίηση της δέσμης ενεργειών παρακολούθησης"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+"Επιλέξτε <b> Ναι </b> αν έχετε ήδη εντοπίσει στη θέση του για αυτόν το "
+"λογαριασμό."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Ανανέωση λογαριασμού επιτυχής! Επιλέξτε ένα λογαριασμό για τον οποίο θα "
+"συμπεριληφθεί το Analytics σε αυτήν την τοποθεσία."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+#, fuzzy
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Ο Bruce Clay SEO plugin απαιτεί μια σύνδεση με το Google Analytics και την "
+"κονσόλα αναζήτησης Google για να χρησιμοποιήσετε όλα τα χαρακτηριστικά του."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"Κατά τη σύσταση του Bruce Clay SEO για WordPress plugin, μπορείτε να "
+"συνδεθείτε στο Google χρησιμοποιώντας τον ίδιο λογαριασμό Google που "
+"χρησιμοποιείτε για την πρόσβαση στο Google Analytics και την κονσόλα "
+"αναζήτησης Google. Η σύνδεση θα συμβεί μέσω του Google servers, και αφού "
+"έχετε επιτρέψει την πρόσβαση plugin για να Analytics σας και τα δεδομένα της "
+"κονσόλας αναζήτησης, θα σας δοθεί ένας κωδικός για να επικολλήσετε στο "
+"plugin."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"Μόλις επικολληθεί ο κώδικας μέσα, θα παρουσιαστείτε με έναν κατάλογο "
+"λογαριασμών που είναι ενεργοί μέσα στο λογαριασμό Google Analytics σας. "
+"Μόλις επιλεγεί, το έργο του Google Analytics θα χρησιμοποιηθεί για την "
+"παροχή προβολών σελίδας και την επίσκεψη δεδομένων στο plugin. Μπορείτε να "
+"αλλάξετε τον επιλεγμένο λογαριασμό Google Analytics ανά πάσα στιγμή, "
+"επιλέγοντας το εικονίδιο μολυβιού στην ενότητα \"τρέχων λογαριασμός\"."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Σημείωση: είστε ήδη συνδεδεμένοι στο Google Analytics, αν δείτε αυτό το "
+"μήνυμα: \"είστε τρέχουσα καταγραφή δεδομένων Analytics για [το λογαριασμό "
+"σας στο Analytics].\" Εάν δεν βλέπετε αυτό το μήνυμα, θα χρειαστεί να "
+"συνδεθείτε ξανά στο Google Analytics."
+
+#: src/templates/ajax-logged-in.php:20
+msgid "Current Project"
+msgstr "Τρέχον Έργο"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Δεν έχει επιλεγεί έργο!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Αλλαγή ή εγγραφή εγκατάστασης."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Επιλογή λογαριασμού και έργου"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Η Bruce Clay SEO plugin απαιτεί μια σύνδεση με το SEOToolSet στην εξουσία "
+"πολλά από τα χαρακτηριστικά του. Η συνδρομή σας στο plugin περιλαμβάνει "
+"πρόσβαση στο SEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"Κατά τη δημιουργία Bruce Clay SEO για WordPress, θα πρέπει να συνδεθείτε στο "
+"SEOToolSet και να καθορίσετε το κατάλληλο έργο εδώ σε αυτό το παράθυρο "
+"ελέγχου ταυτότητας SEOToolSet. Ένα έργο είναι το πώς η SEOToolSet διατηρεί "
+"τα δεδομένα που σχετίζονται με την ιστοσελίδα σας μαζί, όπως οι λέξεις-"
+"κλειδιά του site, τις προτιμήσεις, και ούτω καθεξής."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"Στην ενότητα \"τρέχον έργο\", κάντε κλικ στο εικονίδιο Επεξεργασία (μολύβι) "
+"για να επιλέξετε το έργο SEOToolSet που αντιστοιχεί στον τρέχοντα ιστότοπό "
+"σας."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Σημείωση: είστε ήδη συνδεδεμένοι στο SEOToolSet αν δείτε αυτό το μήνυμα: "
+"\"αυτή τη στιγμή είστε συνδεδεμένοι ως [όνομα χρήστη] στο SEOToolSet.\" Αν "
+"όχι, μπορείτε να εισάγετε το όνομα χρήστη και τον κωδικό πρόσβασής σας για "
+"να συνδεθείτε."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Κωδικός"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Σύνδεση"
+
+#: src/templates/ajax-login-form.php:24
+#, fuzzy
+msgid "I forgot my password."
+msgstr "Ξέχασα τον κωδικό μου."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Δεν έχω λογαριασμό."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Λέξη κλειδί"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+#, fuzzy
+msgid "Meta Description"
+msgstr "Περιγραφή meta"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: src/templates/ajax-post-keywords.php:17
+#, fuzzy
+msgid "Highlight Color"
+msgstr "Χρώμα τονισμού"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Έχετε SEOToolSet < a class = \"ανάλυση\" href = \"@ @\" αναλύστε το "
+"περιεχόμενό σας </a> για να βρείτε λέξεις-κλειδιά και φράσεις-κλειδιά που θα "
+"βοηθήσουν το περιεχόμενό σας να αποδώσει καλύτερα. Προσθέστε τις δικές σας "
+"λέξεις-κλειδιά και φράσεις-κλειδιά, και SEOToolSet θα τις αναλύσει για να "
+"σας βοηθήσει να βελτιστοποιήσετε το περιεχόμενό σας."
+
+#: src/templates/ajax-post-keywords.php:56
+#, fuzzy
+msgid "Highlight"
+msgstr "Χρώμα τονισμού"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: src/templates/ajax-post-meta-description.php:40
+#, fuzzy
+msgid "Meta Title"
+msgstr "Τίτλος meta"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "Προεπισκόπηση αποσπάσματος"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Αντίκτυπος κανόνα"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "φιλικότητα προς το κινητό"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Pagespeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr ""
+"Οι ετικέτες υπό συνθήκη ερώτηματος δεν δουλεύουν πριν εκτελεστεί το ερώτημα. "
+"Στην οποία περίπτωση επιστρέφουν σφάλμα."
+
+#: src/templates/ajax-post-queries.php:21
+#, fuzzy
+msgid "Impressions"
+msgstr "Εντυπώσεις"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Κλικ"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Ρυθμός κλικ-μέσω"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "CTR"
+msgstr "Ctr"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Συνδεθείτε στο λογαριασμό σας στο Google Analytics."
+
+#: src/templates/ajax-post-summary-performance.php:11
+#, fuzzy
+msgid "No data"
+msgstr "Δεν υπάρχουν δεδομένα"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Είδος"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Τρέχων"
+
+#: src/templates/ajax-post-summary-performance.php:29
+msgid "Total Page Views"
+msgstr "Σύνολο Προβολών Σελίδας"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Μέσος χρόνος στη σελίδα"
+
+#: src/templates/ajax-post-summary-performance.php:37
+#, fuzzy
+msgid "Views Today"
+msgstr "Εμφανίσεις σήμερα"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Προβολές αυτή την εβδομάδα"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Προβολές αυτό το μήνα"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+#, fuzzy
+msgid "No data."
+msgstr "Δεν υπάρχουν δεδομένα."
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+#, fuzzy
+msgid "Goal"
+msgstr "Στόχος"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Η δημοσίευση δεν αναλύθηκε."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Δεν βρέθηκαν ειδοποιήσεις."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Ειδοποιήσεις κατάστασης"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Απόδοση"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Μη έγκυρη διεύθυνση email"
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Μη έγκυρο όνομα χρήστη."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Εσφαλμένος κωδικός πρόσβασης."
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr "Οι κωδικοί δεν ταιριάζουν."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "Διεύθυνση Email"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Επιβεβαίωση Κωδικού"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Επόμενο"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Δεν έχει επιλεγεί σχέδιο."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Συνέχιση Συνδρομής"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την προσπάθεια λήψης διαθέσιμων σχεδίων χρέωσης. "
+"Παρακαλώ πηγαίνετε πίσω και προσπαθήστε ξανά."
+
+#: src/templates/ajax-signup-step2.php:50
+#, fuzzy
+msgid "current"
+msgstr "Τρέχων"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Επιστροφή"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Το όνομα δεν είναι έγκυρο ή λείπει."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Το επώνυμο δεν είναι έγκυρο ή λείπει."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Άκυρος ή αγνοούμενος ταχυδρομικός κώδικας."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Μη έγκυρο ή λείπει διακριτικό πιστωτικής κάρτας."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "Πρέπει να αποδεχθείτε τους όρους και τις προϋποθέσεις."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Ο λογαριασμός και η συνδρομή δημιουργήθηκαν επιτυχώς."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Η συνδρομή ενημερώθηκε με επιτυχία."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Η συνδρομή διαγράφηκε επιτυχώς."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"Μόλις κάνετε κλικ στο κουμπί Επόμενο, η συνδρομή σας θα ακυρωθεί.  Η "
+"τρέχουσα συνδρομή σας θα συνεχιστεί μέχρι τον επόμενο κύκλο χρέωσης και στη "
+"συνέχεια θα τερματιστεί."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Όνομα"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Επώνυμο"
+
+#: src/templates/ajax-signup-step3.php:185
+#, fuzzy
+msgid "Credit Card Information"
+msgstr "Πληροφορίες πιστωτικών καρτών"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Ταχυδρομικός κώδικας"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "Συμφωνώ να"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "όροι και προϋποθέσεις"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Επιτυχία!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Μετρικός τύπος"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Προβολές Σελίδας"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Επισκέψεις"
+
+#: src/templates/ajax-traffic.php:45
+#, fuzzy
+msgid "Conversions"
+msgstr "Μετατροπές"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Ώρα"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Αυτό το παρελθόν έτος"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Τον τελευταίο μήνα"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "Περασμένη Εβδομάδα"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Χθές"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "Συνεχώς"
+
+#: src/templates/ajax-traffic.php:122
+msgid "Past Week"
+msgstr "Περασμένη Εβδομάδα"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "Προηγούμενο μήνα"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "Προηγούμενο έτος"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Μηνιαία αλλαγή"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Κατάταξη σελίδων"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "Προβολή αρχείου"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Προβολή νέων"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Κατάσταση"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Μέτρηση"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Στόχος Met"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Ποιοι χρήστες μπορούν να δουν τον πίνακα εργαλείων;"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Ποιοι χρήστες μπορούν να δουν τη θέση/τη σελίδα widget;"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr ""
+"Ποιοι χρήστες μπορούν να επεξεργαστούν τα στοιχεία σχετικά με τη θέση/σελίδα "
+"widget;"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Ποιοι χρήστες μπορούν να επεξεργαστούν Bruce Clay ρυθμίσεις SEO;"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "Έλεγχος ταυτότητας SEOToolSet"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Συνδεθείτε στο λογαριασμό σας SEOToolSet."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Ανάλυση περιεχομένου"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Υποβάλετε το περιεχόμενό σας για ανάλυση.  Πρέπει να το κάνετε αυτό μόνο "
+"όταν ρυθμίσετε την τοποθεσία σας μαζί μας, ή αν η καταμέτρηση των "
+"ταχυδρομείων ποτέ δεν είναι συγχρονισμένος."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Συνδεθείτε στο λογαριασμό σας στο Google Analytics."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Κωδικοί επαλήθευσης webmaster"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Εισαγάγετε τους κωδικούς επαλήθευσης για την κονσόλα αναζήτησης Google και "
+"τα εργαλεία webmaster του Bing."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Κωδικός επαλήθευσης Google"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Κωδικός επαλήθευσης Bing"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Πρώτη σελίδα τίτλος και περιγραφή meta"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"Όταν δεν χρησιμοποιείτε μια συγκεκριμένη σελίδα ως πρώτη σελίδα σας, αυτά θα "
+"ισχύουν."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Τίτλος πρωτοσέλιδου"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Πρώτη σελίδα περιγραφή meta"
+
+#: src/templates/page-settings.php:109
+#, fuzzy
+msgid "User Permissions"
+msgstr "Δικαιώματα χρήστη"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr ""
+"Έλεγχος που Bruce Clay SEO χαρακτηριστικά τους χρήστες σας έχουν πρόσβαση."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(και υψηλότερο)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Επαναφορά προκαθορισμένων"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Αυτή είναι μια σελίδα για να εξασφαλίσετε ότι τα πράγματα έχουν ρυθμιστεί "
+"σωστά. Δείτε WooCommerce για μια εκτεταμένη (ίσως υπερβολικά) παράδειγμα."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Περίμενε!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Αναστολή των εργασιών;"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "Ελέγξτε αυτό για να διακόψετε προσωρινά SEOToolSet λειτουργίες."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "Μεταβλητές περιβάλλοντος"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "Έκδοση PHP"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSet πληροφορίες λογαριασμού"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "Πραγματικό όνομα"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "Email"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Κλειδί Άδειας Χρήσης"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "Δοκιμή συνδεσιμότητας API"
+
+#: src/templates/page-status.php:94
+#, fuzzy
+msgid "Endpoint"
+msgstr "Τελικό σημείο"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Περίληψη"
+
+#: src/templates/post-widget.php:36
+#, fuzzy
+msgid "Queries"
+msgstr "Ερωτήματα"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Pagespeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Οδηγίες αναζήτησης"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Η επισήμανση λέξεων-κλειδιών λειτουργεί μόνο στο Visual Editor. Παρακαλώ "
+"αλλάξτε τρόπους χρησιμοποιώντας τις καρτέλες πάνω από το περιεχόμενο post."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Φράσεις-κλειδιά (διαχωρισμένες με κόμματα)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "ή"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Προσθήκη ομάδας λέξεων-κλειδιών"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Ανάλυση περιεχομένου"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Ανανέωση στόχων"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO δίνει blog συγγραφείς on-Page καθοδήγηση SEO βασίζεται σε "
+"πραγματικό χρόνο ανάλυση ανταγωνιστή. Analytics είναι ενσωματωμένη για να "
+"δείξει την απόδοση μετά, δεξιά στο WordPress. Λέξη-κλειδί παρακολούθησης, "
+"εκθέσεις και περισσότερο τροφοδοτείται από SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Μπρους Κλέι, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=plugin&utm_campaign=WordPress-General"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Ελέγξτε τις ρυθμίσεις της προσθήκης. Πρέπει να συνδέσετε το λογαριασμό "
+#~ "σας SEOToolSet."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "Ελέγξτε τις ρυθμίσεις της προσθήκης. Δεν έχετε ενεργή συνδρομή."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Ελέγξτε τις ρυθμίσεις της προσθήκης. Πρέπει να επιλέξετε ένα έργο."
+
+#~ msgid "Status"
+#~ msgstr "Κατάσταση"
+
+#~ msgid "Post Title"
+#~ msgstr "Τίτλος άρθρου"
+
+#~ msgid "Last Updated"
+#~ msgstr "Τελευταία ενημέρωση"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "Σήμανση όπως έγινε"
+
+#~ msgid "Actions"
+#~ msgstr "Ενέργειες"
+
+#~ msgid "Ranking"
+#~ msgstr "Κατάταξη"
+
+#~ msgid "Pages"
+#~ msgstr "Σελίδες"
+
+#, fuzzy
+#~| msgid "Last Updated"
+#~ msgid "Last Update"
+#~ msgstr "Τελευταία ενημέρωση"
+
+#~ msgid "Total Views"
+#~ msgstr "Σύνολο Προβολών"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "Μέση προβολή"
+
+#~ msgid "Published"
+#~ msgstr "Δημοσιευμένη"
+
+#~ msgid "Assignments"
+#~ msgstr "Αναθέσεις Εργασιών"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Κορυφαία κατάταξη"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "Πιο ιογενή"
+
+#, fuzzy
+#~ msgid "Most Shared"
+#~ msgstr "Πιο κοινόχρηστο"
+
+#~ msgid "Check for updates"
+#~ msgstr "Ελεγχος για ενημερώσεις"
+
+#~ msgid "View details"
+#~ msgstr "Δείτε λεπτομέρειες"
+
+#~ msgid "More information about %s"
+#~ msgstr "More information about %s"
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Η προσθήκη %s είναι ενημερωμένη."
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Υπάρχει διαθέσιμη μια νέα έκδοση της προσθήκης %s."
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr ""
+#~ "Δεν ήταν δυνατό να προσδιοριστεί εάν υπάρχουν διαθέσιμες ενημερώσεις για "
+#~ "το %s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Άγνωστη κατάσταση ελέγχου ενημέρωσης \"%s\""
+
+#, fuzzy
+#~ msgid "There is no changelog available."
+#~ msgstr "Δεν υπάρχει διαθέσιμο αρχείο αλλαγών."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Μια θέση για τη δοκιμή API που έχει περισσότερο νόημα από τη σελίδα "
+#~ "κατάστασης. Κυρίως επειδή λειτουργεί \"αρθρωτά\": οι αιτήσεις για το API "
+#~ "γίνονται μόνο όταν κάνετε κλικ στην κεφαλίδα ενός στοιχείου στη λίστα "
+#~ "αντί να τρέχει <em> όλα </em> τις δοκιμές με τη μία πριν από τη φόρτωση "
+#~ "της σελίδας."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span class = \"pass\" τα Πράσινα αντικείμενα που </span> είναι γραφτό "
+#~ "να περάσουν, ενώ η < span class = \"fail\" τα πορτοκαλί αντικείμενα </"
+#~ "span> είναι γραφτό να αποτύχουν. Ωστόσο, περνώντας δοκιμές μπορεί να "
+#~ "αναγκαστεί να αποτύχει μέσω του ελέγχου ταυτότητας από την αποσύνδεση "
+#~ "(<code> Διαγραφή είσοδος </code>) πρώτα. Ελέγξτε την μπούκλα απόκριση "
+#~ "κώδικα HTTP και την αναφορά σφάλματος του API ανάλογα."
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "Συνεισφορές"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Τελευταία δημοσίευση"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Υψηλότερη βαθμίδα"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Στιγμιότυπα δοκιμών"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "Τελευταίες 30 ημέρες"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "Το API δεν επέστρεψε πεδία:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "Το API δεν επέστρεψε πίνακα για πεδία:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% από τον προηγούμενο μήνα"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "ΧΩΡΊς ΌΝΟΜΑ"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Μοπ"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Πρέπει να διορθώσετε"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Ζητήματα που θα μπορούσαν να μειώσουν σημαντικά την ταχύτητα φόρτωσης "
+#~ "σελίδας (ανά Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Εξετάστε το ενδεχόμενο καθορισμού"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr ""
+#~ "Ζητήματα που μπορεί να επηρεάσουν την ταχύτητα φόρτωσης σελίδας (ανά "
+#~ "Google)"
+
+#~ msgid "Positives"
+#~ msgstr "Θετικά"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Στοιχεία που αντιστοιχούν ή υπερβαίνουν τις συστάσεις της Google και "
+#~ "μπορούν να ωφελήσουν την ταχύτητα φόρτωσης σελίδας"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Θέματα που θα μπορούσαν να βλάψουν Mobile φιλικότητα (ανά Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "Θέματα που μπορεί να επηρεάσουν την κινητή φιλικότητα (ανά Google)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Στοιχεία που ταιριάζουν ή υπερβαίνουν τις οδηγίες για τη φιλικότητα προς "
+#~ "το κινητό (ανά Google)"

@@ -1,0 +1,1652 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:25-0700\n"
+"PO-Revision-Date: 2019-07-16 12:25-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+#, fuzzy
+msgid "Not Found"
+msgstr "नहीं मिला"
+
+#: 404.php:21
+#, fuzzy
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ऐसा लगता है कि इस स्थान पर कुछ भी नहीं मिला । शायद एक खोज की कोशिश?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "ब्रूस क्ले एसईओ डैशबोर्ड"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115 src/class-seotoolset-admin-meta-boxes.php:147
+#: src/class-seotoolset.php:150 src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16 src/templates/page-keywords.php:2
+#: src/templates/page-settings.php:29 src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "ब्रूस क्ले एसईओ"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "फ़ंक्शन मौजूद नहीं है"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "के लिए API से प्राप्त अमांय प्रतिसाद"
+
+#: src/class-seotoolsetapi.php:338
+#, fuzzy
+msgid "error"
+msgstr "त्रुटि"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "प्रोजेक्ट बनाने में त्रुटि!"
+
+#: src/class-seotoolsetapi.php:620
+#, fuzzy
+msgid "Missing"
+msgstr "अनुपलब्ध"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "अमांय टेंपलेट नाम ।"
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "सभी सेटिंग्स को मार डाला!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr "उपनाम सत्यापित नहीं किया जा सका! आपकी SEOToolSet सेटिंग्स अद्यतन नहीं की गईं ।"
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "आपकी SEOToolSet सेटिंग्स परिवर्तित नहीं हुई हैं ।"
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "आपकी SEOToolSet सेटिंग्स अद्यतन किया गया है!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "कुछ गलत हो गया! आपकी SEOToolSet सेटिंग्स अद्यतन नहीं की गईं ।"
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- Settings</a> to "
+"authorize data from the SEOToolSet® and Google."
+msgstr ""
+"प्लगइन सेटअप पूरा नहीं हुआ है. <a href=\"%s\">ब्रूस क्ले एसईओ पर जाएँ - सेटिंग्स</a> SEOToolSet® और Google "
+"से डेटा अधिकृत करने के लिए."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an active project "
+"selected."
+msgstr "सेटअप अपूर्ण है. सुनिश्चित करें कि आप में लॉग इन हैं, सदस्यता प्राप्त है और एक सक्रिय प्रोजेक्ट चयनित है।"
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "इस साइट ब्रूस क्ले एसईओ के साथ प्रबंधित है ।"
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet कार्रवाई निलंबित कर दिया गया है!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+#, fuzzy
+msgid "Today"
+msgstr "आज"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "अंतिम"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "दिन"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your hosting provider to "
+"update your site."
+msgstr ""
+"SEOToolSet PHP संस्करण पर 5.4.0 से पहले नहीं चला सकते हैं । कृपया अपनी साइट को अद्यतन करने के लिए अपने "
+"होस्टिंग प्रदाता से संपर्क करें ।"
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting provider to update "
+"your site."
+msgstr ""
+"SEOToolSet लापता पुस्तकालय की आवश्यकता है: कर्ल । कृपया अपनी साइट को अद्यतन करने के लिए अपने होस्टिंग "
+"प्रदाता से संपर्क करें ।"
+
+#: src/templates/ajax-activity-table-sort.php:95 src/templates/ajax-dashboard-activity.php:83
+#, fuzzy
+msgid "Reason"
+msgstr "कारण"
+
+#: src/templates/ajax-activity-table-sort.php:96 src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "ब्रूस क्ले एसईओ स्थिति सचेतक"
+
+#: src/templates/ajax-activity-table-sort.php:105 src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93 src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31 src/templates/ajax-dashboard-topauthor.php:32
+#, fuzzy
+msgid "View All"
+msgstr "सभी देखें"
+
+#: src/templates/ajax-activity-table-sort.php:105 src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "अधिक"
+
+#: src/templates/ajax-analytics-form.php:14
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Google से साइन इन करें"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the directions, copy-paste the "
+"Google Authorization code it presents into the box below, and then close the pop-up."
+msgstr ""
+"ऊपर बटन क्लिक करने से एक पॉप-अप विंडो लॉंच होगी । निर्देशों का पालन करें, कॉपी-पेस्ट गूगल प्राधिकरण कोड यह "
+"नीचे बॉक्स में प्रस्तुत करता है, और फिर पॉप अप बंद करो ।"
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Google प्रमाणीकरण कोड"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be included on this site."
+msgstr "लॉगिन सफल! अब, उस खाते का चयन करें जिसके लिए Analytics इस साइट पर शामिल किया जाएगा."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+#, fuzzy
+msgid "You are currently signed in as"
+msgstr "आप वर्तमान में इस रूप में साइन इन हैं"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "लॉग आउट"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "SEOToolSet WP प्लगइन के साथ प्रयोग करने के लिए एक परियोजना का चयन करें"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "या कोई नया प्रोजेक्ट बनाएं"
+
+#: src/templates/ajax-choose-project.php:83
+#, fuzzy
+msgid "Project Name"
+msgstr "प्रोजेक्ट का नाम"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "विवरण"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "आपकी साइट पर% d page (s)/post (s) हैं ।"
+
+#: src/templates/ajax-content-sync.php:65
+#, fuzzy
+msgid "An error occurred."
+msgstr "कोई त्रुटि उत्पंन हुई ।"
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "इंडेक्सिंग के लिए% d पृष्ठ (s)/"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "% D पृष्ठ (s)/पोस्ट (s) है जिंहें सिंक्रनाइज़ करने की आवश्यकता है ।"
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "सभी सामग्री सिंक्रनाइज़ की गई है ।"
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "सामग्री का विश्लेषण करें"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "गुम सामग्री सिंक करें"
+
+#: src/templates/ajax-content-table-sort.php:23 src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31 src/templates/ajax-dashboard-toppost.php:40
+#, fuzzy
+msgid "(none)"
+msgstr "तुमचे"
+
+#: src/templates/ajax-content-table-sort.php:27 src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+#, fuzzy
+msgid "Edit Post"
+msgstr "पोस्ट संपादित करें"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "पदों पर ध्यान देने की आवश्यकता"
+
+#: src/templates/ajax-dashboard-content.php:35 src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "रैंकिंग"
+
+#: src/templates/ajax-dashboard-content.php:42 src/templates/ajax-dashboard-widget.php:71
+#, fuzzy
+msgid "Rank"
+msgstr "रैंक"
+
+#: src/templates/ajax-dashboard-content.php:43 src/templates/ajax-dashboard-widget.php:72
+#: src/templates/ajax-post-keywords.php:14 src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "शीर्षक"
+
+#: src/templates/ajax-dashboard-content.php:44 src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "लेखक "
+
+#: src/templates/ajax-dashboard-content.php:45 src/templates/ajax-dashboard-widget.php:74
+#: src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "देखा गया"
+
+#: src/templates/ajax-dashboard-content.php:46 src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "औसत समय"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "खोजशब्द वाक्यांश"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "# पीजी का कार्यभार सौंपा"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "सर्वश्रेष्ठ औसत स्थिति"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "Pg. views"
+
+#: src/templates/ajax-dashboard-seoscore.php:15 src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "यह क्या है?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "कुल मिलाकर औसत पृष्ठ गति"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "कुल मिलाकर औसत मोबाइल स्कोर"
+
+#: src/templates/ajax-dashboard-seoscore.php:51 src/templates/ajax-dashboard-widget.php:16
+#: src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "एसईओ स्कोर"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "एसईओ स्कोर मासिक पुनर्परिकलित और एक पूरे के रूप में साइट पर आधारित है ।"
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "पृष्ठ गति"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale from 0 - 100, with "
+"100 being the best possible score. Page Speed scores are representative of how fast your "
+"pages are loading.."
+msgstr ""
+"पृष्ठ गति 0-100 से एक पैमाने पर साइट पर सभी पृष्ठों के लिए औसत स्कोर है, १०० के साथ सबसे अच्छा संभव स्कोर "
+"किया जा रहा है । पृष्ठ गति स्कोर कितनी तेजी से अपने पृष्ठों लोड कर रहे है के प्रतिनिधि हैं ।"
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "मोबाइल स्कोर"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale from 0 - 100, with "
+"100 being the best possible score. Mobile scores reflect mobile usability, speed and design."
+msgstr ""
+"मोबाइल स्कोर १०० सबसे अच्छा संभव स्कोर होने के साथ, 0-100 से एक पैमाने पर साइट पर सभी पृष्ठों के लिए औसत "
+"स्कोर है. मोबाइल स्कोर मोबाइल प्रयोज्य, गति और डिजाइन को प्रतिबिंबित ।"
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "दिखाना"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "डेस्कटॉप"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "मोबाइल"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+#, fuzzy
+msgid "Organic"
+msgstr "कार्बनिक"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+#, fuzzy
+msgid "Paid"
+msgstr "भुगतान"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+#, fuzzy
+msgid "Direct"
+msgstr "प्रत्यक्ष"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+#, fuzzy
+msgid "Social"
+msgstr "सामाजिक"
+
+#: src/templates/ajax-dashboard-widget.php:24
+#, fuzzy
+msgid "Alerts"
+msgstr "चेतावनियाँ"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "हाई अलर्ट"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "मध्यम सचेतक"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "कम अलर्ट"
+
+#: src/templates/ajax-dashboard-widget.php:58
+#, fuzzy
+msgid "View Dashboard"
+msgstr "SEOToolSet डैशबोर्ड"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "शीर्ष 5 पद"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+#, fuzzy
+msgid "Date Range"
+msgstr "दिनांक सीमा"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "गतिविधि"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "सामग्री रैंकिंग"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+#, fuzzy
+msgid "Keywords"
+msgstr "खोजशब्दों"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "यातायात द्वारा शीर्ष पोस्ट"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "यातायात द्वारा शीर्ष लेखक"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+#, fuzzy
+msgid "Traffic"
+msgstr "यातायात"
+
+#: src/templates/ajax-directives.php:16 src/templates/ajax-post-search-directives.php:17
+#, fuzzy
+msgid "Meta Robots"
+msgstr "मेटा रोबोट"
+
+#: src/templates/ajax-directives.php:24 src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "अनुक्रमणिका इस पृष्ठ (अनुक्रमणिका, का पालन करें)"
+
+#: src/templates/ajax-directives.php:26 src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "इस पृष्ठ सूचकांक मत (noindex, nofollow)"
+
+#: src/templates/ajax-directives.php:28 src/templates/ajax-post-search-directives.php:29
+#, fuzzy
+msgid "Custom Attributes"
+msgstr "कस्टम विशेषताएं"
+
+#: src/templates/ajax-directives.php:31 src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "रिक्तियों के बिना कॉमा-सेपरेटेड मान"
+
+#: src/templates/ajax-directives.php:36 src/templates/ajax-post-search-directives.php:37
+#, fuzzy
+msgid "Canonical URL"
+msgstr "विहित यूआरएल"
+
+#: src/templates/ajax-directives.php:42 src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "कस्टम मेटा रोबोट टैग"
+
+#: src/templates/ajax-directives.php:44 src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "अनुक्रमणिका इस पृष्ठ । यह डिफ़ॉल्ट और अव्यक्त रूप से है ।"
+
+#: src/templates/ajax-directives.php:45 src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the indexing or link "
+"following."
+msgstr "खोज इंजन में इस पृष्ठ की एक प्रतिलिपि रखें कैश से स्वतंत्र अनुक्रमण या लिंक के बाद ।"
+
+#: src/templates/ajax-directives.php:46 src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr "इस पृष्ठ पर लिंक का पालन करें । यह डिफ़ॉल्ट और अव्यक्त है ।"
+
+#: src/templates/ajax-directives.php:47 src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "इस पृष्ठ को अनुक्रमित नहीं, लेकिन इस पृष्ठ पर लिंक का पालन करें ।"
+
+#: src/templates/ajax-directives.php:48 src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr "इस पृष्ठ पर लिंक्स का पालन न करें, लेकिन सामग्री के लिए इस पृष्ठ को अनुक्रमित करें ।"
+
+#: src/templates/ajax-directives.php:49 src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page in the search "
+"engine cache."
+msgstr "अनुक्रमणिका और इस पृष्ठ पर लिंक्स का पालन करें, लेकिन पृष्ठ की एक प्रतिलिपि खोज इंजन कैश में नहीं रखें ।"
+
+#: src/templates/ajax-directives.php:50 src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "इस पृष्ठ के लिए एक स्निपेट (खोज इंजन परिणाम) प्रदर्शित न करें."
+
+#: src/templates/ajax-directives.php:52 src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search engine not index "
+"the page or keep it in the cache but still follow the links, use"
+msgstr ""
+"रिक्तियों के बिना कॉमा सेपरेटेड मानों का उपयोग करें । उदाहरण के लिए, खोज इंजन पृष्ठ अनुक्रमणिका नहीं है या इसे "
+"कैश में रखने के लिए, लेकिन अभी भी लिंक का पालन करें, का उपयोग करें"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "आप अभी के लिए Analytics डेटा लॉगिंग कर रहे हैं"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "चालू खाता"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "ट्रैकिंग स्क्रिप्ट अक्षम करें"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid "Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr "यदि आपके पास पहले से इस खाते के लिए स्थान पर ट्रैकिंग है तो <b> हां </b> का चयन करें ।"
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be included on this "
+"site."
+msgstr "खाता ताज़ा करना सफल! उस खाते का चयन करें जिसके लिए Analytics इस साइट पर शामिल किया जाएगा."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+#, fuzzy
+msgid "Google Analytics"
+msgstr "गूगल विश्लेषिकी"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and Google Search Console "
+"to use all of its features."
+msgstr ""
+"ब्रूस क्ले एसईओ प्लगइन गूगल विश्लेषिकी और गूगल खोज के लिए एक कनेक्शन की आवश्यकता को अपनी सुविधाओं के सभी का "
+"उपयोग करें सांत्वना ।"
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to Google using the "
+"same Google account you use to access Google Analytics and Google Search Console. The login "
+"will happen via Google servers, and once you have allowed the plugin access to your Analytics "
+"and Search Console data, you will be given a code to paste into the plugin."
+msgstr ""
+"जब WordPress प्लगइन के लिए ब्रूस क्ले एसईओ की स्थापना, आप गूगल के लिए लॉगिन उसी गूगल खाते का उपयोग कर आप "
+"गूगल विश्लेषिकी और गूगल खोज सांत्वना का उपयोग कर सकते हैं । लॉगिन गूगल सर्वर के माध्यम से होगा, और एक बार "
+"आप अपने विश्लेषिकी और खोज के लिए प्लगइन का उपयोग डेटा सांत्वना अनुमति दी है, तो आप एक कोड के लिए प्लगइन में "
+"पेस्ट दिया जाएगा ।"
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts which are active "
+"inside your Google Analytics Account. Once selected, the Google Analytics project will be "
+"used to provide pageview and visit data to the plugin. You may change the selected Google "
+"Analytics account at any time by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"कोड में चिपकाए जाने के बाद, आपको अपने Google Analytics खाते के अंदर सक्रिय खातों की सूची के साथ प्रस्तुत "
+"किया जाएगा. एक बार चुना है, गूगल विश्लेषिकी परियोजना के लिए पेज प्रदान और यात्रा के लिए डेटा प्लगइन का "
+"इस्तेमाल किया जाएगा । आप \"चालू खाता\" के अंतर्गत पेंसिल आइकन का चयन करके किसी भी समय चयनित Google "
+"Analytics खाता बदल सकते हैं."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: \"You are "
+"current logging Analytics data for [your analytics account].\" If you do not see that "
+"message, you will need to login to Google Analytics again."
+msgstr ""
+"नोट: आप पहले से ही Google analytics में लॉग इन हैं, अगर आपको यह संदेश दिखाई देता है: \"आप [आपके "
+"analytics खाते] के लिए वर्तमान लॉगिंग Analytics डेटा हैं.\" यदि आपको वह संदेश दिखाई नहीं देता है, तो आपको "
+"फिर से Google Analytics में लॉगिन करने की आवश्यकता होगी."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "वर्तमान परियोजना"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "कोई प्रोजेक्ट चयनित नहीं!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "बदलें या सदस्यता सेटअप ।"
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "खाता और प्रोजेक्ट चयन"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power many of its "
+"features. Your plugin subscription includes access to the SEOToolSet."
+msgstr ""
+"ब्रूस क्ले एसईओ प्लगइन अपनी सुविधाओं के कई बिजली के लिए SEOToolSet के लिए एक कनेक्शन की आवश्यकता है । अपने "
+"प्लगइन सदस्यता SEOToolSet करने के लिए उपयोग भी शामिल है."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the SEOToolSet and specify "
+"the appropriate project here in this SEOToolSet Authentication pane. A project is how the "
+"SEOToolSet keeps the data related to your website together, such as the site's keywords, "
+"preferences, and so forth."
+msgstr ""
+"जब WordPress के लिए ब्रूस क्ले एसईओ की स्थापना, आप SEOToolSet में लॉग इन करें और इस SEOToolSet "
+"प्रमाणीकरण फलक में यहां उपयुक्त परियोजना निर्दिष्ट करना होगा । एक परियोजना है कैसे SEOToolSet अपनी "
+"वेबसाइट से संबंधित डेटा एक साथ रखता है, ऐसी साइट खोजशब्दों, वरीयताओं के रूप में, और आगे ।"
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the SEOToolSet project that "
+"corresponds with your current website."
+msgstr ""
+"\"वर्तमान प्रोजेक्ट\" के अंतर्गत, अपनी वर्तमान वेबसाइट से संगत SEOToolSet प्रोजेक्ट चुनने के लिए संपादित करें "
+"चिह्न (पेंसिल) पर क्लिक करें."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: \"You are "
+"currently signed in as [your username] in SEOToolSet.\" If not, you can enter your username "
+"and password to log in."
+msgstr ""
+"नोट: यदि आप यह संदेश देखते हैं, तो आप पहले से ही SEOToolSet में लॉग इन हैं: \"आप वर्तमान में [आपका उपयोगकर्ता "
+"नाम] के रूप में SEOToolSet में साइन इन हैं.\" यदि नहीं, तो आप लॉग इन करने के लिए अपना उपयोगकर्ता नाम और "
+"पासवर्ड दर्ज कर सकते हैं ।"
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: src/templates/ajax-login-form.php:21
+#, fuzzy
+msgid "Log In"
+msgstr "लॉग आउट"
+
+#: src/templates/ajax-login-form.php:24
+#, fuzzy
+msgid "I forgot my password."
+msgstr "मैं अपना पासवर्ड भूल गया ।"
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "मेरा कोई खाता नहीं है ।"
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+#, fuzzy
+msgid "Keyword"
+msgstr "खोजशब्द"
+
+#: src/templates/ajax-post-keywords.php:15 src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+#, fuzzy
+msgid "Meta Description"
+msgstr "मेटा विवरण"
+
+#: src/templates/ajax-post-keywords.php:16
+#, fuzzy
+msgid "Content"
+msgstr "सामग्री"
+
+#: src/templates/ajax-post-keywords.php:17
+#, fuzzy
+msgid "Highlight Color"
+msgstr "हाइलाइट रंग"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in order to find "
+"keywords and keyword phrases that will help your content perform better. Add your own "
+"keywords and keyword phrases, and SEOToolSet will analyze them to help you optimize your "
+"content."
+msgstr ""
+"SEOToolSet < a class = \"विश्लेषण करें\" href = \"@ @\" > अपने सामग्री </a> का विश्लेषण करने के लिए "
+"खोजशब्दों और खोजशब्द वाक्यांश है कि आपकी सामग्री बेहतर प्रदर्शन में मदद मिलेगी खोजने के लिए । अपने खोजशब्दों और "
+"खोजशब्द वाक्यांश जोड़ें, और SEOToolSet उंहें विश्लेषण करने के लिए मदद से आप अपनी सामग्री का अनुकूलन होगा ।"
+
+#: src/templates/ajax-post-keywords.php:56
+#, fuzzy
+msgid "Highlight"
+msgstr "हाइलाइट रंग"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "明确"
+
+#: src/templates/ajax-post-meta-description.php:40
+#, fuzzy
+msgid "Meta Title"
+msgstr "मेटा शीर्षक"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "स्निपेट पूर्वावलोकन"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "नियम प्रभाव"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "मोबाइल मैत्री"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Pagespeed"
+
+#: src/templates/ajax-post-queries.php:16
+#, fuzzy
+msgid "Google"
+msgstr "गूगल"
+
+#: src/templates/ajax-post-queries.php:19
+#, fuzzy
+msgid "Query"
+msgstr "सवाल"
+
+#: src/templates/ajax-post-queries.php:21
+#, fuzzy
+msgid "Impressions"
+msgstr "छापों"
+
+#: src/templates/ajax-post-queries.php:22
+#, fuzzy
+msgid "Clicks"
+msgstr "क्लिक"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "क्लिक-थ्रू दर"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "CTR"
+msgstr "सीटीआर"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid "Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "अपने Google Analytics खाते से कनेक्ट करें."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "कोई आकड़ा उपलब्ध नहीं है"
+
+#: src/templates/ajax-post-summary-performance.php:25 src/templates/ajax-post-summary-statistics.php:16
+#, fuzzy
+msgid "Item"
+msgstr "आइटम"
+
+#: src/templates/ajax-post-summary-performance.php:26 src/templates/ajax-post-summary-statistics.php:17
+#, fuzzy
+msgid "Current"
+msgstr "वर्तमान"
+
+#: src/templates/ajax-post-summary-performance.php:29
+#, fuzzy
+msgid "Total Page Views"
+msgstr "कुल विचार"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "पृष्ठ पर औसत समय"
+
+#: src/templates/ajax-post-summary-performance.php:37
+#, fuzzy
+msgid "Views Today"
+msgstr "विचार आज"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "विचार इस सप्ताह"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "विचार इस महीने"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+#, fuzzy
+msgid "No data."
+msgstr "कोई आकड़ा उपलब्ध नहीं है"
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+#, fuzzy
+msgid "Goal"
+msgstr "लक्ष्य"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "पोस्ट का विश्लेषण नहीं किया ।"
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "कोई चेतावनियां नहीं मिलीं ।"
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "स्थिति चेतावनियां"
+
+#: src/templates/ajax-post-summary.php:21
+#, fuzzy
+msgid "Statistics"
+msgstr "आँकड़े"
+
+#: src/templates/ajax-post-summary.php:28
+#, fuzzy
+msgid "Performance"
+msgstr "प्रदर्शन"
+
+#: src/templates/ajax-signup-step1.php:10
+#, fuzzy
+msgid "Invalid email address."
+msgstr "अमांय ईमेल पता ।"
+
+#: src/templates/ajax-signup-step1.php:15
+#, fuzzy
+msgid "Invalid username."
+msgstr "अमांय उपयोगकर्ता नाम ।"
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "गलत पासवर्ड ।"
+
+#: src/templates/ajax-signup-step1.php:22
+#, fuzzy
+msgid "Passwords don't match."
+msgstr "पासवर्ड मेल नहीं खाते ।"
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "ईमेल पता"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "पासवर्ड पुनः दर्ज करें"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "कैंसिल करें"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "अगला"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "कोई योजना चयनित नहीं है ।"
+
+#: src/templates/ajax-signup-step2.php:28
+#, fuzzy
+msgid "Cancel Subscription"
+msgstr "सदस्यता रद्द करें"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go back and try again."
+msgstr ""
+"उपलब्ध बिलिंग योजनाएं लाने का प्रयास करते समय एक त्रुटि उत्पंन हुई । कृपया वापस जाएं और पुन: प्रयास करें ।"
+
+#: src/templates/ajax-signup-step2.php:50
+#, fuzzy
+msgid "current"
+msgstr "वर्तमान"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+#, fuzzy
+msgid "Back"
+msgstr "वापस"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "अमांय या गुम प्रथम नाम ।"
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "अमांय या गुम अंतिम नाम ।"
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "अमांय या अनुपलब्ध पोस्टल कोड ।"
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "अमांय या गुम क्रेडिट कार्ड टोकन ।"
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "आपको नियम और शर्तों को स्वीकार करना होगा ।"
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "खाता और सदस्यता सफलतापूर्वक बनाई गई ।"
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "सदस्यता सफलतापूर्वक अद्यतन की गई ।"
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "सदस्यता सफलतापूर्वक हटाई गई ।"
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current subscription will "
+"continue until the next billing cycle and will then terminate."
+msgstr ""
+"जब आप अगला क्लिक करेंगे, तो आपकी सदस्यता रद्द कर दी जाएगी ।  आपकी वर्तमान सदस्यता अगले बिलिंग चक्र तक "
+"जारी रहेगी और फिर समाप्त हो जाएगी ।"
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "प्रथम नाम"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "कुल नाम"
+
+#: src/templates/ajax-signup-step3.php:185
+#, fuzzy
+msgid "Credit Card Information"
+msgstr "क्रेडिट कार्ड की जानकारी"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "डाक कोड"
+
+#: src/templates/ajax-signup-step3.php:195
+#, fuzzy
+msgid "I agree to"
+msgstr "मैं सहमत हूं"
+
+#: src/templates/ajax-signup-step3.php:195
+#, fuzzy
+msgid "terms and conditions"
+msgstr "नियम और शर्तें"
+
+#: src/templates/ajax-signup-step4.php:3
+#, fuzzy
+msgid "Success!"
+msgstr "सफलता!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "किया हुआ"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "मीट्रिक प्रकार"
+
+#: src/templates/ajax-traffic.php:39
+#, fuzzy
+msgid "Page Views"
+msgstr "पृष्ठ विचार"
+
+#: src/templates/ajax-traffic.php:42
+#, fuzzy
+msgid "Visits"
+msgstr "विजिट्स"
+
+#: src/templates/ajax-traffic.php:45
+#, fuzzy
+msgid "Conversions"
+msgstr "रूपांतरण"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "समय"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "यह पिछले साल"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "यह पिछले महीने"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "यह पिछले सप्ताह"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+#, fuzzy
+msgid "Yesterday"
+msgstr "कल"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+#, fuzzy
+msgid "All Time"
+msgstr "सभी समय"
+
+#: src/templates/ajax-traffic.php:122
+#, fuzzy
+msgid "Past Week"
+msgstr "पिछले सप्ताह"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "पिछले महीने"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "बीते साल"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "मासिक परिवर्तन"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "पृष्ठ रैंकिंग"
+
+#: src/templates/big-table-sorting.php:36
+#, fuzzy
+msgid "Search"
+msgstr "खोज"
+
+#: src/templates/big-table-sorting.php:60
+#, fuzzy
+msgid "Status:"
+msgstr "ऑर्डर स्थिति"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "देखें पुरालेख"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "दृश्य नई"
+
+#: src/templates/big-table-sorting.php:111
+#, fuzzy
+msgid "Apply"
+msgstr "लागू"
+
+#: src/templates/keyword-legend.php:2
+#, fuzzy
+msgid "Legend"
+msgstr "लेजेंड"
+
+#: src/templates/keyword-legend.php:4
+#, fuzzy
+msgid "Count"
+msgstr "गिनती"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "मिले लक्ष्य"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "कौन से उपयोगकर्ता डैशबोर्ड देख सकते हैं?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "कौन सा उपयोगकर्ता पोस्ट/"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "कौन सा उपयोगकर्ता पोस्ट/पेज विजेट पर डेटा संपादित कर सकते हैं?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "जो उपयोगकर्ताओं ब्रूस क्ले एसईओ सेटिंग्स संपादित कर सकते हैं?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "SEOToolSet प्रमाणीकरण"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "अपने SEOToolSet खाते से कनेक्ट करें ।"
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "सामग्री का विश्लेषण करें"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first set up Bruce Clay "
+"SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"विश्लेषण के लिए अपनी सामग्री सबमिट करें ।  आप केवल जब आप पहली बार हमारे साथ अपनी साइट की स्थापना की है, "
+"या अगर पोस्ट गिनती कभी सिंक से बाहर हो जाता है की जरूरत है ।"
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "अपने Google Analytics खाते से कनेक्ट करें."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "वेबमास्टर सत्यापन कोड"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid "Enter the verification codes for your Google Search Console and Bing Webmaster Tools."
+msgstr "अपने Google खोज कंसोल और Bing वेबमास्टर टूल के लिए सत्यापन कोड डालें."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Google सत्यापन कोड"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Bing सत्यापन कोड"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "फ्रंट पेज शीर्षक और मेटा विवरण"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid "When you're NOT using a specific page as your front page, these will apply."
+msgstr "जब आप अपने फ्रंट पेज के रूप में किसी विशिष्ट पेज का उपयोग नहीं कर रहे हैं, तो ये लागू होंगे ।"
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "फ्रंट पेज शीर्षक"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "फ्रंट पेज मेटा विवरण"
+
+#: src/templates/page-settings.php:109
+#, fuzzy
+msgid "User Permissions"
+msgstr "उपयोगकर्ता अनुमतियाँ"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "नियंत्रण जो ब्रूस क्ले एसईओ आपके उपयोगकर्ताओं के लिए उपयोग किया है सुविधाएं ।"
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(और उच्चतर)"
+
+#: src/templates/page-settings.php:129
+#, fuzzy
+msgid "Restore Defaults"
+msgstr "डिफ़ॉल्ट पुनर्स्थापित करें"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See WooCommerce's for an "
+"extensive (perhaps overly so) example."
+msgstr ""
+"यह सुनिश्चित करना है कि चीजें सही ढंग से स्थापित कर रहे है के लिए एक पृष्ठ है । देखें WooCommerce एक व्यापक "
+"(शायद पीढ़ी तो) उदाहरण के लिए."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "रोकना!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "कार्रवाई निलंबित?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "SEOToolSet कार्रवाइयों को अस्थाई रूप से रोकने के लिए यह जांचें ।"
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "परिवेश चर"
+
+#: src/templates/page-status.php:40
+#, fuzzy
+msgid "PHP Version"
+msgstr "PHP संस्करण"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSet खाता जानकारी"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "असली नाम"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "ईमेल"
+
+#: src/templates/page-status.php:88
+#, fuzzy
+msgid "License Key"
+msgstr "लाइसेंस कुंजी"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "API कनेक्टिविटी परीक्षण"
+
+#: src/templates/page-status.php:94
+#, fuzzy
+msgid "Endpoint"
+msgstr "समापन बिंदु"
+
+#: src/templates/post-widget.php:22
+#, fuzzy
+msgid "Summary"
+msgstr "सारांश"
+
+#: src/templates/post-widget.php:36
+#, fuzzy
+msgid "Queries"
+msgstr "पूछताछ"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Pagespeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "खोज निर्देश"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes using the tabs "
+"above the post content."
+msgstr ""
+"खोजशब्द हाइलाइटिंग केवल दृश्य संपादक में काम करता है । कृपया स्विच पोस्ट सामग्री के ऊपर टैब का उपयोग कर मोड ।"
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "कीवर्ड वाक्यांश (कॉमा सेपरेटेड)"
+
+#: src/templates/post-widget.php:60
+#, fuzzy
+msgid "Add"
+msgstr "जोड़ें"
+
+#: src/templates/post-widget.php:63
+#, fuzzy
+msgid "Or"
+msgstr "या"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "कीवर्ड समूह जोड़ें"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "सामग्री का विश्लेषण करें"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "लक्ष्य ताज़ा करें"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time competitor "
+"analysis. Analytics is integrated to show post performance, right in WordPress. Keyword "
+"tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"ब्रूस क्ले एसईओ पर ब्लॉग लेखकों-पृष्ठ एसईओ वास्तविक समय प्रतियोगी विश्लेषण के आधार पर मार्गदर्शन देता है । "
+"विश्लेषिकी के बाद प्रदर्शन, सही WordPress में दिखाने के लिए एकीकृत है । खोजशब्द ट्रैकिंग, रिपोर्टों और अधिक "
+"SEOToolSet द्वारा संचालित ।"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "ब्रूस क्ले, Inc"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=bc-seo&utm_medium=plugin&utm_campaign=wordpress-general"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr "प्लगइन सेटिंग्स की जाँच करें. आपको अपना SEOToolSet खाता कनेक्ट करना होगा ।"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "प्लगइन सेटिंग्स की जाँच करें. आपके पास सक्रिय सदस्यता नहीं है ।"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "प्लगइन सेटिंग्स की जाँच करें. आपको किसी प्रोजेक्ट का चयन करना होगा ।"
+
+#~ msgid "Status"
+#~ msgstr "ऑर्डर स्थिति"
+
+#~ msgid "Post Title"
+#~ msgstr "पोस्ट शीर्षक"
+
+#, fuzzy
+#~ msgid "Last Updated"
+#~ msgstr "अंतिम अद्यतन"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "पूर्ण चिह्नित करें"
+
+#~ msgid "Actions"
+#~ msgstr "कार्रवाइयाँ"
+
+#, fuzzy
+#~ msgid "Ranking"
+#~ msgstr "रैंकिंग"
+
+#, fuzzy
+#~ msgid "Pages"
+#~ msgstr "Pagespeed"
+
+#, fuzzy
+#~ msgid "Last Update"
+#~ msgstr "अंतिम अद्यतन"
+
+#, fuzzy
+#~ msgid "Total Views"
+#~ msgstr "कुल विचार"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "औसत दृश्य"
+
+#, fuzzy
+#~ msgid "Published"
+#~ msgstr "प्रकाशित"
+
+#, fuzzy
+#~ msgid "Assignments"
+#~ msgstr "कार्य"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "शीर्ष स्थान पर"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "सबसे वायरल"
+
+#, fuzzy
+#~ msgid "Most Shared"
+#~ msgstr "सबसे साझा"
+
+#, fuzzy
+#~ msgid "Check for updates"
+#~ msgstr "अद्यतनों के लिए जांच करें"
+
+#, fuzzy
+#~ msgid "View details"
+#~ msgstr "विवरण देखें"
+
+#, fuzzy
+#~ msgid "More information about %s"
+#~ msgstr "%s के बारे में अधिक जानकारी"
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "%s प्लगइन अप टू डेट है ।"
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "%s प्लगइन का एक नया संस्करण उपलब्ध है ।"
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "यह निर्धारित नहीं कर सका कि क्या %s के लिए अद्यतन उपलब्ध हैं ।"
+
+#, fuzzy
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "अज्ञात अद्यतन परीक्षक स्थिति \" %s\""
+
+#, fuzzy
+#~ msgid "There is no changelog available."
+#~ msgstr "कोई changelog उपलब्ध नहीं है ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. Mostly because it "
+#~ "works \"modularly\": Requests to the API are only made when you click the header of an "
+#~ "item in the list instead of running <em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "एपीआई परीक्षण के लिए एक जगह है कि स्थिति पृष्ठ से अधिक समझ में आता है । ज्यादातर क्योंकि यह काम करता है "
+#~ "\"मॉड्यूलर\": एपीआई के लिए अनुरोध केवल जब आप सूची में एक आइटम के शीर्ष पर क्लिक करें <em> चलाने के बजाय "
+#~ "सभी </em> परीक्षण एक बार में पृष्ठ लोड करने से पहले बना रहे हैं ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span class=\"fail"
+#~ "\">orange items</span> are meant to fail. However, passing tests can be forced to fail via "
+#~ "authentication by logging out (<code>DELETE /login</code>) first. Check the cURL HTTP code "
+#~ "response and the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< स्पैन वर्ग = \"पास\" > ग्रीन आइटम्स </span> पास करने के लिए होती हैं, जबकि < span वर्ग = \"विफल\" "
+#~ "> ऑरेंज आइटम्स </span> विफल करने के लिए होती हैं । हालांकि, पासिंग परीक्षण पहले लॉग आउट (<code> "
+#~ "DELETE/login </code>) द्वारा प्रमाणीकरण के माध्यम से विफल करने के लिए मजबूर किया जा सकता है । कर्ल "
+#~ "HTTP कोड प्रतिक्रिया और एपीआई के अनुसार रिपोर्टिंग त्रुटि की जांच करें ।"
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "योगदान"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "पिछले प्रकाशित"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "सर्वोच्च कोटि"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "परीक्षण हाइलाइट्स"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "पिछले 30 दिन"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API ने फ़ील्ड को वापस नहीं किया:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API ने फ़ील्ड (मों) के लिए सरणी वापस नहीं की:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "पिछले महीने से 10%"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "नाम नहीं"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "आईएमपीएस"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "ठीक करना चाहिए"
+
+#, fuzzy
+#~ msgid "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr "वे समस्याएं जो पृष्ठ लोड गति को काफी कम कर सकती है (प्रति Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "फिक्सिंग पर विचार"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr "वे समस्याएँ जो पृष्ठ लोड गति को प्रभावित कर सकती हैं (प्रति Google)"
+
+#, fuzzy
+#~ msgid "Positives"
+#~ msgstr "सकारात्मक"
+
+#, fuzzy
+#~ msgid "Items that match or exceed Google's recommendations and may benefit page load speed"
+#~ msgstr "Google की सिफारिशों से मेल खाने वाले या उससे अधिक वाले आइटम और पेज लोड गति का लाभ उठा सकते है"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "ऐसे मुद्दे जो मोबाइल मैत्री को चोट पहुंचा सकते हैं (प्रति Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "मोबाइल मैत्री (प्रति Google) को प्रभावित कर सकने वाली समस्याएँ"
+
+#, fuzzy
+#~ msgid "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr "वे आइटम जो मोबाइल-मैत्री दिशानिर्देशों (प्रति Google) से मेल खाते या उससे अधिक हैं"

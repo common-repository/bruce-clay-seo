@@ -1,0 +1,1683 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:28-0700\n"
+"PO-Revision-Date: 2019-07-16 12:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Det ser ut som att inget hittades på denna plats. Du kanske ska testa "
+"sökfunktionen?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Bruce Clay SEO Dashboard"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Bruce Clay SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Funktionen finns inte"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Ogiltigt svar som togs emot från API: et för"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "fel"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Fel vid skapande av projekt!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Saknas"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Ogiltigt Mallnamn."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Dödade alla inställningar!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"Det gick inte att verifiera temporärt! Dina SEOToolSet-inställningar "
+"uppdaterades inte."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Dina SEOToolSet-inställningar har inte ändrats."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Dina SEOToolSet-inställningar har uppdaterats!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Något gick snett! Dina SEOToolSet-inställningar uppdaterades inte."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Plugin-installationen är inte slutförd. Gå till <a href=\"%s\">Bruce Clay "
+"SEO--inställningar</a> att auktorisera data från SEOToolSet® och Google."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Installationen är ofullständig. Se till att du är inloggad, prenumererar och "
+"har ett aktivt projekt valt."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Denna webbplats hanteras med Bruce Clay SEO."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet verksamhet har avbrutits!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Idag"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Sista"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "dagar"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet kan inte köras på PHP-versioner före 5.4.0. Kontakta din "
+"webbhotellsleverantör för att uppdatera din webbplats."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet kräver saknat bibliotek: curl. Kontakta din webbhotellsleverantör "
+"för att uppdatera din webbplats."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Orsak"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay SEO status varningar"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Visa alla"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Mer"
+
+#: src/templates/ajax-analytics-form.php:14
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Logga in med Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Klicka på knappen ovan för att starta ett popup-fönster. Följa efter det "
+"riktningen, kopia-pasta den Google bemyndigandena koden den gåvan in i låda "
+"nedan, och då nära den popmusik-upp."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Google authentication code"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Logga in framgångsrikt! Nu väljer du ett konto för vilket Analytics kommer "
+"att ingå på denna webbplats."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+#, fuzzy
+msgid "You are currently signed in as"
+msgstr "Du är för närvarande inloggad som"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Logga ut"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "Välj ett projekt att använda med SEOToolSet WP plugin"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "ELLER skapa ett nytt projekt"
+
+#: src/templates/ajax-choose-project.php:83
+#, fuzzy
+msgid "Project Name"
+msgstr "Projektets namn"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Det finns% d sida (er)/post (er) på din webbplats."
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr "Ett fel inträffade."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Skickade% d sida (er)/post (er) för indexering!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Det finns% d sida (er)/post (er) som behöver synkroniseras."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Allt innehåll har synkroniserats."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Analysera innehåll"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Synkronisera saknade innehåll"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+#, fuzzy
+msgid "(none)"
+msgstr "ingen"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Redigera inlägg"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "Inlägg kräver uppmärksamhet"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "Ranking"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Rank"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Titel"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Författare"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Visningar"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Genomsnittlig tid"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "SökordsFraser"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "antal PG tilldelade"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Bästa genomsnittliga positionen"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "PG. visningar"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "Vad är det här?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Total genomsnittlig sidhastighet"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Totalt genomsnittligt mobilt resultat"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+msgid "SEO Score"
+msgstr "SEO-Status"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr ""
+"SEO-poängen räknas om varje månad och baseras på webbplatsen som helhet."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Sidhastighet"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Sidan hastighet är den genomsnittliga poängen för alla sidor på webbplatsen "
+"på en skala från 0-100, med 100 är den bästa möjliga poäng. Sid "
+"Hastighetspoäng är representativa för hur snabbt dina sidor läses in.."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "Mobil Poäng"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Den mobila poängen är den genomsnittliga poängen för alla sidor på "
+"webbplatsen på en skala från 0-100, med 100 är den bästa möjliga poängen. "
+"Mobile Scores återspeglar mobil användbarhet, hastighet och design."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Visa"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Skrivbord"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+#, fuzzy
+msgid "Organic"
+msgstr "Ekologiska"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Betald"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Direkt"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Socialt"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Alerts"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "höga varningar"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "medelstora varningar"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "låga varningar"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Visa kontrollpanel"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Topp 5 inlägg"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Datum intervall"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Aktivitet"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Rankning av innehåll"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Nyckelord"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Topp post efter trafik"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Topp författare av Traffic"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+#, fuzzy
+msgid "Traffic"
+msgstr "Trafik"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+#, fuzzy
+msgid "Meta Robots"
+msgstr "Meta robotar"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Indexera denna sida (index, följ)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Indexera inte denna sida (noindex, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+#, fuzzy
+msgid "Custom Attributes"
+msgstr "Anpassade attribut"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Kommaavgränsade värden utan blanksteg"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr "Kanonisk URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Anpassade meta robot Taggar"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Indexera den här sidan. Detta är som standard och underförstått."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Behåll en kopia av denna sida i sökmotorns cacheminne oberoende av "
+"indexering eller länk efter."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr ""
+"Följ länkarna på den här sidan. Detta är förinställt och underförstått."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "Indexera inte den här sidan, men Följ länkarna på den här sidan."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Följ inte länkarna på den här sidan, men indexera den här sidan för innehåll."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Index och följ länkarna på denna sida, men inte behålla en kopia av sidan i "
+"sökmotorns cache."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "Visa inte ett utdrag (sökmotor resultat) för den här sidan."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Använd kommaavgränsade värden utan mellanslag. Om du till exempel vill att "
+"sökmotorn inte ska indexera sidan eller behålla den i cacheminnet, men ändå "
+"följa länkarna, använder du"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "Du loggar för närvarande analysdata för"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "BytesBalansen"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Inaktivera spårnings skript"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr "Välj <b> Ja </b> om du redan har spårning på plats för det här kontot."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Konto uppdatera lyckad! Välj ett konto för vilket Analytics ska inkluderas "
+"på den här webbplatsen."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Den Bruce Clay SEO plugin kräver en anslutning till Google Analytics och "
+"Google Search Console för att använda alla dess funktioner."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"När du ställer in Bruce Clay SEO för WordPress plugin, kan du logga in på "
+"Google med samma Google-konto som du använder för att komma åt Google "
+"Analytics och Google Search Console. Inloggningen sker via Google-servrar, "
+"och när du har tillåtit plugin tillgång till din Analytics och Search "
+"Console data, kommer du att få en kod för att klistra in i "
+"insticksprogrammet."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"När koden har klistrats in, kommer du att presenteras med en lista över "
+"konton som är aktiva i ditt Google Analytics-konto. När valt, Google "
+"Analytics-projektet kommer att användas för att ge sidvisning och besök data "
+"till plugin. Du kan när som helst ändra det valda Google Analytics-kontot "
+"genom att välja pennikonen under \"aktuellt konto\"."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Du är redan inloggad i Google Analytics om du ser det här meddelandet: \"du "
+"är aktuell loggnings analysdata för [ditt Analytics-konto].\" Om du inte ser "
+"det meddelandet måste du logga in på Google Analytics igen."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Aktuella projektet"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Inget projekt valt!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Ändra eller konfigurera prenumeration."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Konto-och projektval"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Den Bruce Clay SEO plugin kräver en anslutning till SEOToolSet att driva "
+"många av dess funktioner. Din plugin-prenumeration inkluderar tillgång till "
+"SEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"När du ställer in Bruce Clay SEO för WordPress, måste du logga in på "
+"SEOToolSet och ange lämpligt projekt här i denna SEOToolSet autentisering "
+"rutan. Ett projekt är hur SEOToolSet håller data relaterade till din "
+"webbplats tillsammans, till exempel webbplatsens nyckelord, preferenser och "
+"så vidare."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"Klicka på redigeringsikonen (pennan) under aktuellt projekt för att välja "
+"det SEOToolSet-projekt som motsvarar din aktuella webbplats."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Obs: du är redan inloggad på SEOToolSet om du ser det här meddelandet: \"du "
+"är för närvarande inloggad som [ditt användarnamn] i SEOToolSet.\" Om inte, "
+"kan du ange ditt användarnamn och lösenord för att logga in."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Användarnamn"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Lösenord"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Logga in"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "Jag har glömt mitt lösenord."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Jag har inget konto."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Nyckelord"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "Meta beskrivning"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Innehåll"
+
+#: src/templates/ajax-post-keywords.php:17
+#, fuzzy
+msgid "Highlight Color"
+msgstr "Markeringsfärg"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Har SEOToolSet < a class = \"analysera\" href = \"@ @\" > analysera ditt "
+"innehåll </a> för att hitta sökord och sökordsfraser som hjälper ditt "
+"innehåll prestera bättre. Lägg till dina egna sökord och sökordsfraser, och "
+"SEOToolSet kommer att analysera dem för att hjälpa dig att optimera ditt "
+"innehåll."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Markera"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Rensa"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "Meta-rubrik"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "FörHandsGranskning av utdrag"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Regel påverkan"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "mobil vänlighet"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Pagespeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "Fråga"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Visningar"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Klick"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Klickfrekvens"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "CTR"
+msgstr "Ctr"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Anslut till ditt Google Analytics-konto."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "Ingen data"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Artikel"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Nuvarande"
+
+#: src/templates/ajax-post-summary-performance.php:29
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Page Views"
+msgstr "Antal visningar"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Genomsnittlig tid på sidan"
+
+#: src/templates/ajax-post-summary-performance.php:37
+#, fuzzy
+msgid "Views Today"
+msgstr "Visningar idag"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Visningar denna vecka"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Visningar denna månad"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr "Ingen data."
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "Mål"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Post analyseras inte."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Inga varningar hittades."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Status varningar"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Statistik"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Prestanda"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Ogiltig e-post."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Fel användarnamn."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Felaktigt lösenord."
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr "Lösenorden matchar inte."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "E-postadress"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Bekräfta lösenord"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Nästa"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Ingen plan har valts."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Avbryt Prenumeration"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Ett fel uppstod när tillgängliga faktureringsplaner skulle hämtas. Vänligen "
+"gå tillbaka och försök igen."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "nuvarande"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Tillbaka"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Förnamnet är ogiltigt eller saknas."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Efter namnet är ogiltigt eller saknas."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Postnumret är ogiltigt eller saknas."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Ogiltig eller saknad kreditkorts token."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "Du måste acceptera villkoren."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Konto och prenumeration har skapats."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Prenumerationen har uppdaterats."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Prenumerationen har tagits bort."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"När du klickar på nästa kommer din prenumeration att annulleras.  Din "
+"nuvarande prenumeration kommer att fortsätta tills nästa faktureringsperiod "
+"och avslutas sedan."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Förnamn"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: src/templates/ajax-signup-step3.php:185
+#, fuzzy
+msgid "Credit Card Information"
+msgstr "KreditkortsUppgifter"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Postnummer"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "Jag godkänner"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "villkor"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Klart!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Klar"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Metrisk typ"
+
+#: src/templates/ajax-traffic.php:39
+#, fuzzy
+msgid "Page Views"
+msgstr "Sidvisningar"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Besök"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "Konvertering"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Tid"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Det gångna året"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Den senaste månaden"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "Den gångna veckan"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Igår"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "Totalt"
+
+#: src/templates/ajax-traffic.php:122
+#, fuzzy
+msgid "Past Week"
+msgstr "Gångna veckan"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "Senaste månaden"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "Gångna året"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Månatlig förändring"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Sidrankning"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Sök"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Status:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "Visa Arkiv"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Visa nya"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Historia"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Antal"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Målet möttes"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Vilka användare kan se instrumentpanelen?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Vilka användare kan se inlägg/sida widget?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Vilka användare kan redigera data på inlägget/sida widget?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Vilka användare kan redigera Bruce Clay SEO inställningar?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "SEOToolSet-autentisering"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Anslut till ditt SEOToolSet-konto."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Analysera innehåll"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Skicka in ditt innehåll för analys.  Du behöver bara göra detta när du först "
+"ställer in din webbplats hos oss, eller om antalet inlägg någonsin kommer ur "
+"synk."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Anslut till ditt Google Analytics-konto."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "VerifieringsKoder för webbAnsvariga"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Ange verifieringskoderna för Google Search Console och Bing verktyg för "
+"webbAnsvariga."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Google VerifieringsKod"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Bing VerifieringsKod"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Framsida titel och Meta Description"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"När du inte använder en viss sida som första sida kommer dessa att gälla."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Titel på framsidan"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Front Page meta beskrivning"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "Användare behörigheter"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr ""
+"Kontrollera vilka Bruce Clay SEO funktioner dina användare har tillgång till."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(och högre)"
+
+#: src/templates/page-settings.php:129
+#, fuzzy
+msgid "Restore Defaults"
+msgstr "Återställ standardVärden"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Detta är en sida för att se till att saker och ting är korrekt inställda. Se "
+"WooCommerce ' s för en omfattande (kanske alltför så) exempel."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Håll upp!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Avbryta verksamheten?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "Kontrollera detta för att tillfälligt stoppa SEOToolSet operationer."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "Miljövariabler"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "PHP-version"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSet konto information"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "Riktiga namn"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "E-post"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Licensnyckel"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "API Connectivity test"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Slutpunkt"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: src/templates/post-widget.php:36
+msgid "Queries"
+msgstr "Databasfrågor"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Pagespeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Sök direktiv"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Nyckelords markering fungerar bara i den visuella redigeraren. Vänligen "
+"växla lägen med hjälp av flikarna ovanför inlägget innehåll."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "SökordsFraser (komma-separerade)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Lägg till"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Eller"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Lägg till sökords grupp"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Analysera innehåll"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Uppdatera mål"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Inställningar"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO ger blogg författare på sidan SEO vägledning baserad på "
+"realtid konkurrent analys. Analytics är integrerad för att Visa inläggs "
+"prestanda, direkt i WordPress. Sökords spårning, rapporter och mer Powered "
+"by SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Bruce Clay, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=plugin&utm_campaign=WordPress-General"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Kontrollera plugin inställningar. Du måste ansluta ditt SEOToolSet-konto."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr ""
+#~ "Kontrollera plugin inställningar. Du har inte en aktiv prenumeration."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Kontrollera plugin inställningar. Du måste välja ett projekt."
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Post Title"
+#~ msgstr "Inläggs titel"
+
+#~ msgid "Last Updated"
+#~ msgstr "Senast uppdaterad"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "Markera som gjort"
+
+#~ msgid "Actions"
+#~ msgstr "Åtgärder"
+
+#, fuzzy
+#~ msgid "Ranking"
+#~ msgstr "Ranking"
+
+#~ msgid "Pages"
+#~ msgstr "Sidor"
+
+#~ msgid "Last Update"
+#~ msgstr "Senast uppdaterad"
+
+#~ msgid "Total Views"
+#~ msgstr "Antal visningar"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "AVG. visningar"
+
+#~ msgid "Published"
+#~ msgstr "Publicerad"
+
+#~ msgid "Assignments"
+#~ msgstr "Uppgifter"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Högst rankad"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "De flesta viral"
+
+#, fuzzy
+#~ msgid "Most Shared"
+#~ msgstr "Mest delade"
+
+#~ msgid "Check for updates"
+#~ msgstr "Kontrollera om det finns uppdateringar"
+
+#~ msgid "View details"
+#~ msgstr "Visa detaljer"
+
+#~ msgid "More information about %s"
+#~ msgstr "Mer information om %s"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Detta %s tillval har senaste version."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Det finns en ny version av %s tillval tillgänglig."
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Det gick inte att avgöra om det finns uppdateringar för %s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Okänd uppdatering kontrollera status \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Det finns ingen ändringslogg tillgänglig."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "En plats för API-testning som är vettigare än status sidan. Mestadels för "
+#~ "att det fungerar \"modulärt\": förfrågningar till API görs endast när du "
+#~ "klickar på huvudet av ett objekt i listan i stället för att köra <em> "
+#~ "alla </em> testerna på en gång innan du laddar sidan."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span class = \"pass\" > gröna objekt </span> är tänkta att passera "
+#~ "medan < span class = \"misslyckas\" > orange objekt </span> är avsedda "
+#~ "att misslyckas. Men passerar tester kan tvingas att misslyckas via "
+#~ "autentisering genom att logga ut (<code> bort/Login to </code>) först. "
+#~ "Kontrollera cURL HTTP Code Response och API felrapportering därefter."
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "Bidrag"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Senast publicerat"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Högsta rang"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Test höjdpunkter"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "Senaste 30 dagarna"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API returnerade inte fält:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API returnerade inte array för Field (s):"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% från förra månaden"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "INGET NAMN"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Imps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Bör fixa"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Problem som kan minska sidladdningshastigheten avsevärt (per Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Överväga att fastställa"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr "Problem som kan påverka sidans laddningshastighet (per Google)"
+
+#, fuzzy
+#~ msgid "Positives"
+#~ msgstr "Positiva"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Objekt som uppfyller eller överträffar Googles rekommendationer och kan "
+#~ "dra nytta av sidans laddningshastighet"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Problem som kan skada mobil vänlighet (per Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "Problem som kan påverka mobil vänligheten (per Google)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Objekt som uppfyller eller överstiger riktlinjerna för mobil vänlighet "
+#~ "(per Google)"

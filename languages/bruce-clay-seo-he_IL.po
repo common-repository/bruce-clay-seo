@@ -1,0 +1,1650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:25-0700\n"
+"PO-Revision-Date: 2019-07-16 12:25-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "לא נמצא"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה כי אין כאן כלום. אולי כדאי לנסות את אפשרות החיפוש?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "ברוס קליי SEO מחוונים"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "ברוס קליי SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "פונקציה אינה קיימת"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "תגובה לא חוקית שהתקבלה מ-API עבור"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "שגיאה"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "שגיאה ביצירת פרוייקט!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "חסר"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "שם תבנית לא חוקי."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "! הרגו את כל ההגדרות"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr "לא היתה אפשרות לאמת את Nonce! הגדרות SEOToolSet שלך לא עודכנו."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "הגדרות SEOToolSet שלך לא השתנו."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "הגדרות SEOToolSet שלך עודכנו!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "! משהו השתבש הגדרות SEOToolSet שלך לא עודכנו."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"התקנת התוסף אינה מושלמת. עבור אל <a href=%s> ברוס קליי SEO--הגדרות</a> כדי "
+"לאשר נתונים מתוך SEOToolSet® ו-Google."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"תוכנית ההתקנה לא הושלמה. ודא שאתה מחובר, רשום כמנוי ושנבחר פרוייקט פעיל."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "אתר זה מנוהל עם ברוס קליי SEO."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "פעולות SEOToolSet הושעו!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "היום"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "אחרון"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "ימים"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet לא יכול לרוץ על גרסאות PHP לפני 5.4.0. נא פנה לספק האירוח שלך כדי "
+"לעדכן את האתר שלך."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet דורש ספריה חסרה: קורל. נא פנה לספק האירוח שלך כדי לעדכן את האתר "
+"שלך."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "סיבה"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "ברוס קליי התראות סטטוס SEO"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "הצג הכל"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "עוד"
+
+#: src/templates/ajax-analytics-form.php:14
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "הירשם ב-Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"לחיצה על הלחצן לעיל תפעיל חלון מוקפץ. בצע את ההוראות, העתק-הדבק את קוד "
+"ההרשאה של Google הוא מציג לתוך התיבה להלן, ולאחר מכן לסגור את המוקפץ."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "קוד אימות של גוגל"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr "ההתחברות מוצלחת! כעת, בחר חשבון שעבורו ייכללו הניתוחים באתר זה."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+#, fuzzy
+msgid "You are currently signed in as"
+msgstr "אתה מחובר כרגע כ"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "התנתק"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "בחר פרוייקט לשימוש עם תוסף WP SEOToolSet"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "או ליצור פרוייקט חדש"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "שם פרויקט"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "תיאור"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "קיימים% d עמודים/post באתר שלך."
+
+#: src/templates/ajax-content-sync.php:65
+#, fuzzy
+msgid "An error occurred."
+msgstr "אירעה שגיאה."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "נשלחו% d עמודים/הצבה ליצירת אינדקס!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "קיימים% d עמודים/שכתוב (ים) הזקוקים לסינכרון."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "כל התוכן סונכרן."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "נתח תוכן"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "סנכרן תוכן חסר"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+#, fuzzy
+msgid "(none)"
+msgstr "לא"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "ערוך פוסט"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "הצבות דורשות תשומת לב"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "דירוג"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "דירוג"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "כותרת"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "מחבר"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "צפיות"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "זמן ממוצע"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "ביטויים של מילות מפתח"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "מתחת לעמוד המוקצה"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "המיקום הממוצע הטוב ביותר"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "פ. צפיות"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "מה זה?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "מהירות עמוד ממוצעת כוללת"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "ניקוד נייד ממוצע הכולל"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "ציון SEO"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "הציון SEO מחושב מחדש חודש בהתבסס על האתר בכללותה."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "מהירות עמוד"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"מהירות הדף היא הציון הממוצע עבור כל הדפים באתר בקנה מידה מ 0-100, עם 100 "
+"להיות הציון הטוב ביותר האפשרי. תוצאות מהירות העמוד מייצגות את מהירות הטעינה "
+"של הדפים."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "ציון נייד"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"הציון הנייד הוא הציון הממוצע עבור כל הדפים באתר בקנה מידה מ 0-100, עם 100 "
+"להיות הציון הטוב ביותר האפשרי. ציונים ניידים משקפים שימושיות ניידים, מהירות "
+"ועיצוב."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "הצג"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "מחשב שולחני"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "נייד"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+msgid "Organic"
+msgstr "אורגני"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "שולם"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+#, fuzzy
+msgid "Direct"
+msgstr "ישירה"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "חברתי"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "התראות"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "התראות גבוהות"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "התראות בינוניות"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "התראות נמוכות"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "צפה בלוח הבקרה"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 הודעות"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "טווח תאריכים"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "פעילות"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "דירוג התוכן"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "מילות מפתח"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "למעלה פוסט על ידי תעבורה"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "המחבר העליון לפי תנועה"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+#, fuzzy
+msgid "Traffic"
+msgstr "תנועה"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+msgid "Meta Robots"
+msgstr "מטא רובוטים"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "צור אינדקס בדף זה (אינדקס, עקוב אחר)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "אל תיצור אינדקס של דף זה (noindex, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+#, fuzzy
+msgid "Custom Attributes"
+msgstr "תכונות מותאמות אישית"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "ערכים מופרדים באמצעות פסיקים ללא רווחים"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+#, fuzzy
+msgid "Canonical URL"
+msgstr "כתובת קנונית"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "תגי Meta מותאמים אישית"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "צור אינדקס בדף זה. הדבר כברירת מחדל ומרומז."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"שמור עותק של דף זה במטמון מנוע החיפוש ללא תלות ביצירת האינדקס או בקישור הבא."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr "בצע את הקישורים בדף זה. זוהי ברירת מחדל ומשתמעת."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "אל תיצור אינדקס בדף זה, אך בצע את הקישורים בדף זה."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr "אל תבצע את הקישורים בדף זה, אך צור אינדקס לדף זה עבור תוכן."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"באינדקס ובצע את הקישורים בדף זה, אך אל תשמור עותק של הדף במטמון מנוע החיפוש."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "אל תציג גזיר (תוצאת מנוע חיפוש) עבור דף זה."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"השתמש בערכים מופרדים באמצעות פסיק ללא רווחים. לדוגמה, כדי שמנגנון החיפוש לא "
+"יכלול את העמוד באינדקס או ישמור אותו במטמון, אך עדיין תעקוב אחר הקישורים, "
+"השתמש ב"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "אתה כרגע מבצע רישום של נתוני ניתוח עבור"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "חשבון נוכחי"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "הפוך סקריפט מעקב ללא זמין"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr "בחר <b> כן </b> אם כבר יש לך מעקב במקום עבור חשבון זה."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr "רענון החשבון הצליח! בחר חשבון שעבורו ייכללו הניתוחים באתר זה."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "גוגל אנליטיקס"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"התוסף ברוס קליי SEO דורש חיבור ל-google analytics ומסוף חיפוש של google כדי "
+"להשתמש בכל התכונות שלה."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"כאשר הגדרת ברוס חימר SEO עבור תוסף לוורדפרס, אתה יכול להתחבר לגוגל באמצעות "
+"אותו חשבון Google אתה משתמש כדי לגשת google analytics ומסוף חיפוש של גוגל. "
+"ההתחברות תתרחש באמצעות שרתי גוגל, וברגע שאיפשרת את גישת התוסף לניתוחים "
+"ולנתוני מסוף החיפוש, תינתן לך קוד להדביק לתוך התוסף."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"ברגע שהקוד מודבק ב, אתה יוצג עם רשימה של חשבונות אשר פעילים בתוך החשבון שלך "
+"Google analytics. לאחר שנבחר, פרויקט הניתוח של גוגל ישמש כדי לספק pageview "
+"ולבקר נתונים תוסף. באפשרותך לשנות את החשבון הנבחר של Google analytics בכל עת "
+"על-ידי בחירת סמל העיפרון תחת ' חשבון נוכחי '."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"הערה: אתה כבר מחובר ל-Google analytics אם אתה רואה הודעה זו: \"אתה מבצע "
+"רישום הנוכחי של נתוני ניתוח עבור [חשבון הניתוח שלך].\" אם אינך רואה את "
+"ההודעה, יהיה עליך להיכנס שוב לניתוח של Google."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "פרוייקט נוכחי"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "לא נבחר פרוייקט!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "שינוי או התקנה של מנוי."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "בחירת חשבון ופרוייקט"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"התוסף ברוס קליי SEO דורש חיבור SEOToolSet כוח רבים של התכונות שלו. מנוי "
+"התוסף שלך כולל גישה לSEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"כאשר הגדרת ברוס קליי SEO עבור WordPress, עליך להיכנס אל SEOToolSet ולציין את "
+"הפרוייקט המתאים כאן בחלונית זו אימות SEOToolSet. פרויקט הוא כיצד SEOToolSet "
+"שומר את הנתונים הקשורים לאתר שלך יחד, כגון מילות מפתח של האתר, העדפות, וכן "
+"הלאה."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"תחת \"פרוייקט נוכחי\", לחץ על סמל העריכה (עיפרון) כדי לבחור את הפרוייקט "
+"SEOToolSet המתאים לאתר האינטרנט הנוכחי שלך."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"הערה: אתה כבר מחובר לSEOToolSet אם אתה רואה את ההודעה הזאת: \"אתה כרגע חתום "
+"בשם שם המשתמש שלך בSEOToolSet.\" אם לא, באפשרותך להזין את שם המשתמש והסיסמה "
+"שלך כדי להיכנס."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "שם משתמש"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "סיסמה"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "התחבר"
+
+#: src/templates/ajax-login-form.php:24
+#, fuzzy
+msgid "I forgot my password."
+msgstr ". שכחתי את הסיסמא שלי"
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr ". אין לי חשבון"
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "מילת מפתח"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "תיאור מטא"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "תוכן"
+
+#: src/templates/ajax-post-keywords.php:17
+#, fuzzy
+msgid "Highlight Color"
+msgstr "צבע סימון"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"יש SEOToolSet < מחלקה = \"לנתח\" href = \"@ @\" > לנתח את התוכן שלך </a> כדי "
+"למצוא מילות מפתח וצירופי מילות מפתח שיסייעו התוכן שלך לבצע טוב יותר. הוסף "
+"מילות מפתח משלך וביטויים מילות מפתח, ו SEOToolSet תנתח אותם כדי לסייע לך "
+"למטב את התוכן שלך."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "סמן"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "נקה"
+
+#: src/templates/ajax-post-meta-description.php:40
+#, fuzzy
+msgid "Meta Title"
+msgstr "מטא-כותרת"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "תצוגה מקדימה של גזיר"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "השפעת כלל"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "ידידותיות לסלולר"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Pagespeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "גוגל"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "שאילתא"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "חשיפות"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "קליקים"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "קצב לחץ-דרך"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "CTR"
+msgstr "קליקים"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "התחבר לחשבון שלך ב-Google analytics."
+
+#: src/templates/ajax-post-summary-performance.php:11
+#, fuzzy
+msgid "No data"
+msgstr "אין נתונים"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "פריט"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "נוכחי"
+
+#: src/templates/ajax-post-summary-performance.php:29
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Page Views"
+msgstr "סה\"כ צפיות"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "זמן ממוצע בעמוד"
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr "סהכ צפיות היום"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "תצוגות השבוע"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "תצוגות החודש"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr "אין נתונים"
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "יעד"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "ההודעה לא נותחה."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+msgid "No alerts found."
+msgstr "לא נמצאו התראות."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "התראות מצב"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "סטטיסטיקות"
+
+#: src/templates/ajax-post-summary.php:28
+#, fuzzy
+msgid "Performance"
+msgstr "ביצועים"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "כתובת אימייל לא תקינה."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "שם משתמש לא תקין."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "סיסמה רעה."
+
+#: src/templates/ajax-signup-step1.php:22
+#, fuzzy
+msgid "Passwords don't match."
+msgstr ". הסיסמאות לא תואמות"
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "כתובת אימייל"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "אשר סיסמא"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "הבא"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "לא נבחרה תוכנית."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "ביטול מנוי לקופסא"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"אירעה שגיאה בעת ניסיון להביא תוכניות חיוב זמינות. . בבקשה חזרי ונסי שוב"
+
+#: src/templates/ajax-signup-step2.php:50
+#, fuzzy
+msgid "current"
+msgstr "נוכחי"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "חזור"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "שם פרטי לא חוקי או חסר."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "שם משפחה לא חוקי או חסר."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "מיקוד דואר לא חוקי או חסר."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "אסימון כרטיס אשראי לא חוקי או חסר."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "עליך לקבל את התנאים וההתניות."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "החשבון והמנוי נוצרו בהצלחה."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "המנוי עודכן בהצלחה."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "המנוי נמחק בהצלחה."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"לאחר שתלחץ על הבא, המנוי שלך יבוטל.  המנוי הנוכחי שלך ימשיך עד למחזור החיוב "
+"הבא ולאחר מכן יסתיים."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "שם פרטי"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "שם משפחה"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "פרטי כרטיס אשראי"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "מיקוד"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "אני מסכים ל"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "תנאי שימוש"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "הצלחה!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "בוצע"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "סוג מטרי"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "צפיות בעמוד"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "כניסות"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "המרות"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "זמן"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "שנה אחרונה"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "בחודש האחרון"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "בשבוע האחרון"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "בכל זמן"
+
+#: src/templates/ajax-traffic.php:122
+msgid "Past Week"
+msgstr "בשבוע האחרון"
+
+#: src/templates/ajax-traffic.php:126
+msgid "Past Month"
+msgstr "בחודש האחרון"
+
+#: src/templates/ajax-traffic.php:130
+msgid "Past Year"
+msgstr "שנה אחרונה"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "שינוי חודשי"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "דירוג עמוד"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "חיפוש"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "סטטוס:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "צפה בארכיון"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "הצג חדש"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "החל"
+
+#: src/templates/keyword-legend.php:2
+#, fuzzy
+msgid "Legend"
+msgstr "אגדה"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "ספירה"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "המטרה נפגשה"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "אילו משתמשים יכולים לראות את לוח המחוונים?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "אילו משתמשים יכולים לראות את יישומון הצבה/עמוד?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "אילו משתמשים יכולים לערוך נתונים ביישומון הצבה/עמוד?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "אילו משתמשים יכולים לערוך את ברוס קליי הגדרות SEO?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "אימות SEOToolSet"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "התחבר לחשבון SEOToolSet שלך."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "נתח תוכן"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"שלח את התוכן שלך לניתוח.  אתה רק צריך לעשות את זה כאשר אתה מגדיר את האתר "
+"לראשונה איתנו, או אם ספירת ההודעה אי פעם יוצא מסונכרן."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "התחבר לחשבון שלך ב-Google analytics."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "מנהל האתר קודים לאימות"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"הזן את קודי האימות עבור מסוף החיפוש שלך ב-Google וכלים בינג מנהל האתרים."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "קוד אימות של גוגל"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "בינג קוד אימות"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "כותרת ותיאור של עמוד ראשי"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr "כאשר אינך משתמש בעמוד מסוים כעמוד הראשי שלך, אלה יחולו."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "כותרת עמוד ראשי"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "המטא-תג עמוד ראשי"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "הרשאות משתמש"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "שליטה אשר ברוס קליי SEO תכונות המשתמשים שלך יש גישה."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(ומעלה)"
+
+#: src/templates/page-settings.php:129
+#, fuzzy
+msgid "Restore Defaults"
+msgstr "שחזר ברירות מחדל"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"זהו דף המבטיח שדברים מוגדרים כראוי. ראה WooCommerce עבור דוגמה מקיפה (אולי "
+"מדי)."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "! חכו רגע"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "? להשעות את המבצעים"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "בדוק זאת כדי לעצור באופן זמני פעולות SEOToolSet."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "משתני סביבה"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "גרסת PHP"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "מידע חשבון SEOToolSet"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "השם האמיתי"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "אימייל"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "מפתח רישיון"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "בדיקת קישוריות API"
+
+#: src/templates/page-status.php:94
+#, fuzzy
+msgid "Endpoint"
+msgstr "קצה"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "סיכום"
+
+#: src/templates/post-widget.php:36
+#, fuzzy
+msgid "Queries"
+msgstr "שאילתות"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Pagespeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "הוראות חיפוש"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"הדגשת מילות מפתח פועלת רק בעורך החזותי. נא החלף מצבים באמצעות הכרטיסיות מעל "
+"לתוכן ההודעה."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "צירופי מילים של מילות מפתח (מופרדים באמצעות פסיק)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "הוסף"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "או"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "הוספת קבוצת מילות מפתח"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "נתח תוכן"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "מטרות רענון"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "הגדרות"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"ברוס קליי seo מעניקה לכותבים בלוג באתר SEO הדרכה מבוסס על ניתוח בזמן אמת "
+"מתחרה. ניתוח משולב להראות ביצועים פוסט, הזכות בוורדפרס. מעקב אחר מילות מפתח, "
+"דוחות ומופעל על-ידי SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "ברוס קליי, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr "בדוק את הגדרות התוסף. עליך לחבר את חשבון SEOToolSet שלך."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "בדוק את הגדרות התוסף. אין לך מנוי פעיל."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "בדוק את הגדרות התוסף. עליך לבחור פרוייקט."
+
+#~ msgid "Status"
+#~ msgstr "סטטוס"
+
+#~ msgid "Post Title"
+#~ msgstr "כותרת פוסט"
+
+#~ msgid "Last Updated"
+#~ msgstr "עודכן לאחרונה"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "סמן כגמור"
+
+#~ msgid "Actions"
+#~ msgstr "פעולות"
+
+#~ msgid "Ranking"
+#~ msgstr "דירוג"
+
+#~ msgid "Pages"
+#~ msgstr "עמודים"
+
+#~ msgid "Last Update"
+#~ msgstr "עדכון אחרון"
+
+#~ msgid "Total Views"
+#~ msgstr "סה\"כ צפיות"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "ממוצע צפיות"
+
+#~ msgid "Published"
+#~ msgstr "פורסם"
+
+#~ msgid "Assignments"
+#~ msgstr "שיעורי בית"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "העליון מדורג"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "ויראלי"
+
+#, fuzzy
+#~ msgid "Most Shared"
+#~ msgstr "משותף"
+
+#~ msgid "Check for updates"
+#~ msgstr "לחץ כאן לבדוק האם קיים עדכון"
+
+#~ msgid "View details"
+#~ msgstr "פרטים נוספים"
+
+#~ msgid "More information about %s"
+#~ msgstr "למידע נוסף על %s"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "תוסף %s מעודכן."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "קיימת גירסה חדשה לתוסף %s."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "לא יכל לקבוע האם קיים עדכון עבור %s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "סטטוס עדכון לא ידוע עבור עדכון ל%s, פנה לתמיכה הטכנית של יוצר התוסף"
+
+#~ msgid "There is no changelog available."
+#~ msgstr "לוג שינווים לא קיים."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "מקום לבדיקות API ההגיוניות יותר מעמוד המצב. בעיקר מכיוון שהוא פועל "
+#~ "\"מבחינה מודולרית\": בקשות ל-API מתבצעות רק כאשר אתה לוחץ על הכותרת של "
+#~ "פריט ברשימה במקום להפעיל <em> כל </em> בדיקות בבת אחת לפני טעינת הדף."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span class = \"לעבור\" > ירוק פריטים </span> אמורים לעבור בעוד < span "
+#~ "class = \"להיכשל\" > פריטים כתומים </span> נועדו להיכשל. עם זאת, בדיקות "
+#~ "עוברות יכול להיות נאלץ להיכשל באמצעות אימות על ידי התנתקות (<code> למחוק/"
+#~ "login </code>) תחילה. בדוק את התגובה לקוד התלתלים של HTTP ואת השגיאות של "
+#~ "ה-API המדווחים בהתאם."
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "תרומות"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "פורסם לאחרונה"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "דרגה גבוהה ביותר"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "הבהרה במבחנים"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "30 הימים האחרונים"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API לא החזיר שדה (ים):"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API לא החזיר מערך עבור שדות:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% מהחודש שעבר"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "אין שם"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "דונים"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "צריך לתקן"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr "בעיות שעלולות להפחית את מהירות עומס העמוד באופן משמעותי (לכל גוגל)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "שקול לתקן"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr "בעיות שעלולות להשפיע על מהירות עומס הדף (לכל גוגל)"
+
+#~ msgid "Positives"
+#~ msgstr "תוצאות חיוביות"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "פריטים התואמים או עולים על ההמלצות של Google ועשויים להועיל במהירות עומס "
+#~ "הדף"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "בעיות שעלולות לפגוע בידידותיות לנייד (לכל גוגל)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "בעיות שעלולות להשפיע על ידידותיות לנייד (לכל גוגל)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr "פריטים התואמים או עולים על הנחיות ניידות-ידידותיות (לכל גוגל)"

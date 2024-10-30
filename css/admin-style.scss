@@ -1,0 +1,1904 @@
+/**
+ * seotoolset: v0.8.0
+ */
+
+// ----- Our color palette. Maybe palettes in the future. ------------------- //
+
+$white:   #fff;
+$black:   #000;
+
+// 50^H Shades of Grey. There are a few others used sporadically.
+$dark-gray:    #3d3f40;
+$lesser-gray:  #676c73;
+$gray:         #9099a5;
+$greater-gray: #bfc4ca;
+$light-gray:   #f5f5f5;
+
+// Status colors.
+$red:    #f96700;
+$orange: $red;
+$yellow: #f6a100;
+$green:  #6ebc00;
+
+// Pastels.
+$p-red:    #ff225e;
+$p-orange: #ff745e;
+$p-yellow: #f6bd60;
+$p-green:  #5bdbab;
+$p-blue:   #00b8e2;
+$p-teal:   #22e3c3;
+$p-purple: #806da0;
+$p-pink:   #ff54cc;
+
+$goal-met: $green;
+
+$color-map: (
+    red:    $p-red,
+    orange: $p-orange,
+    yellow: $p-yellow,
+    green:  $p-green,
+    blue:   $p-blue,
+    purple: $p-purple
+);
+
+// Status by word. Not sure if useful.
+$bad:        $red;
+$needs-work: $yellow;
+$okay:       $green;
+
+// Text colors.
+$dark-blue: #274060;
+
+$header-color: $dark-blue;
+$text-color:   $dark-blue;
+
+// WP colors.
+$wp-text-color: #444;
+$wp-gray:       #eee;
+$wp-blue:       #00a0d2;
+
+// The padding WP puts on (some of) its `.inside` elements.
+$postbox-padding: 11px;
+
+
+// Media query sizes.
+$big-enough: 851px;  // WP switches to left/right columns here.
+$quite-bigg: 1152px;
+$tremendous: 1280px;
+
+// ----- Mixins. ------------------------------------------------------------ //
+
+// Basically a copy of `.wp-clearfix`.
+@mixin clearfix {
+    &:after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+}
+
+// Because typing "rgba" is tiring.
+@function black($opacity) {
+    @return rgba(0, 0, 0, $opacity);
+}
+
+@function white($opacity) {
+    @return rgba(255, 255, 255, $opacity);
+}
+
+// Just a list with `inline-block` (or floated) elements.
+@mixin flat-list($method: inline) {
+    @if $method == float {
+        @include clearfix;
+
+        li {
+            float: left;
+        }
+    }
+
+    // margin: 0;
+
+    li {
+        display: inline-block;
+        margin: 0 0 0 1.5em;
+        padding: 0;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+// The main, giant SEO score.
+@mixin seo-score {
+    color: $black;
+    font-size: 7em;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+// The "+/-#%" rating below the giant score.
+@mixin seo-score-delta {
+    border: 0;
+    font-size: 1.25em !important; // overriding wp's overbearing styles
+    margin: 0.5em 0 !important; // overriding wp's overbearing styles
+}
+
+// The "##/100" rating used for various scores.
+@mixin fractional-score {
+    color: $gray;
+    font-size: 4em;
+    font-weight: 300;
+    line-height: 1;
+    padding: 0;
+    position: relative;
+    text-align: left;
+
+
+    strong {
+        color: $black;
+    }
+    .sep,
+    span {
+        margin: 0 0.15em;
+    }
+}
+
+// Various little alert bubbles.
+@mixin circle($background: $red, $size: 16px) {
+    background: $background;
+    border-radius: 50%;
+    display: inline-block;
+    height: $size;
+    line-height: $size;
+    position: relative;
+        top: 3px;
+    text-align: center;
+    text-decoration: none;
+    width: $size;
+
+    // This surrounds them with a blue shadow but with a small white gap.
+    &.active {
+        box-shadow: 0 0 0 1px $white, 0px 0px 3px 2px $wp-blue;
+    }
+}
+
+// Links along the top of every page.
+@mixin top-navigation {
+    @include flat-list;
+
+    @media (min-width: $big-enough) {
+        margin: 0;
+        position: absolute;
+            left: 14em;
+            top: 1.4em;
+    }
+
+    line-height: 1;
+    list-style: none;
+    padding: 0;
+
+    li {
+        position: relative;
+
+        a {
+            color: $gray;
+            display: inline-block;
+            font-weight: bold;
+            padding: 0.25em 0;
+            text-decoration: none;
+        }
+
+        &.active a,
+        a:hover {
+            color: $black;
+        }
+
+            &.active a {
+                border-bottom: 3px solid $orange;
+            }
+
+        // The marker for updates that need attention.
+        .badge {
+            @include circle;
+
+            background: $orange;
+            color: $white;
+            font-size: 10px;
+            position: absolute;
+                right: -12px;
+                top: -12px;
+            text-align: center;
+        }
+    }
+}
+
+@mixin postbox-tabs {
+    @include flat-list;
+
+    border-bottom: 1px solid darken($wp-gray, 10%);
+    margin: 0;
+
+    li {
+        @at-root body.chrome & {
+            position: relative;
+                top: 1px;
+        }
+
+        margin: 0;
+
+        a {
+            border: 1px solid transparent; // otherwise the heights don't match
+            border-bottom: 1px solid darken($wp-gray, 10%);
+            display: inline-block;
+            line-height: 1;
+            padding: 0.75em;
+            position: relative;
+            text-decoration: none;
+            z-index: 10;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+            &.active {
+                a {
+                    @media (min-width: $tremendous) {
+                        background: transparent;
+                        border: 1px solid darken($wp-gray, 10%);
+                        border-bottom: 1px solid $white;
+                    }
+
+                    background: darken($wp-gray, 10%);
+                    color: $wp-text-color;
+                }
+            }
+    }
+}
+
+// The little triangle interface bit styled like WP's.
+@mixin drop-triangle {
+    color: $lesser-gray;
+    content: '\f140';
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin vertical-align($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+@mixin center-align {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+        left: 0;
+        right: 0;
+}
+
+// ----- More general things. ----------------------------------------------- //
+
+// Debugging without a debugger.
+pre.seotoolset {
+    background: #e1e1e1; // `body.wp-admin` is #f1f1f1.
+    padding: 1em;
+}
+
+// Debugging output that lands outside of any `.wrap` structures needs to be
+// pushed to the right or it'll fall behind the menu.
+body.wp-admin > pre {
+    padding-left: 170px;
+    padding-top: 10px;
+}
+
+// General elements.
+.seotoolset {
+    h1,
+    h2,
+    h3,
+    h4 {
+        // color: $header-color;
+    }
+
+    h1 {
+        margin-bottom: 0.75em;
+    }
+
+    a {
+        &.icon {
+            text-decoration: none;
+        }
+    }
+
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    pre {
+        background: #e1e1e1;
+        padding: 1em;
+    }
+
+    hr {
+        clear: both;
+        margin: 1em 0;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 14px;
+    }
+
+    abbr {
+        border-bottom: 1px dotted $gray;
+    }
+
+    dl {
+        color: $lesser-gray;
+
+        dt {
+            clear: left;
+            color: $black;
+            float: left;
+            margin: 0.5em 1em 0 0;
+        }
+
+        dd {
+            border-bottom: 1px solid $greater-gray;
+            margin: 0;
+            padding: 0.5em 0 0.5em 6em;
+        }
+    }
+}
+
+// Classes.
+.seotoolset {
+    // Status by class. Not sure if useful.
+    @each $name, $color in $color-map {
+        .#{$name} {
+            color: $color;
+        }
+    }
+
+    p.warning {
+        color: $red;
+        display: none;
+        font-weight: bold;
+    }
+
+    // Make these WP-styled buttons shorter.
+    .button,
+    .button-primary {
+        @media (min-width: $big-enough) {
+            height: 23px;
+            line-height: 21px;
+        }
+
+        vertical-align: baseline !important;
+    }
+
+    // WP comes with its own spinner GIF intended to be used inline.
+    .spinner {
+        @include vertical-align(absolute);
+        @include center-align;
+
+        opacity: 1;
+
+        &:after {
+            animation: dotdotdot 2.25s infinite;
+            animation-delay: 0.75s;
+            color: $gray;
+            content: 'Loading';
+            font-style: italic;
+            line-height: 20px;
+            position: relative;
+                left: 25px;
+
+            @keyframes dotdotdot {
+                25% {
+                    content: 'Loading.';
+                }
+
+                50% {
+                    content: 'Loading..';
+                }
+
+                75% {
+                    content: 'Loading...';
+                }
+            }
+        }
+    }
+
+    &.loading {
+        > h3,
+        > h4,
+        .inside {
+            opacity: 0.33;
+        }
+
+        .spinner {
+            visibility: visible;
+        }
+    }
+
+    .postbox {
+        position: relative;
+
+        a.signup-btn-done,
+        a.signup-btn-cancel {
+          position: relative;
+          top: 13px;
+          margin-left: 7px;
+        }
+
+        div#signup-card iframe,
+        div#signup-card {
+            height: 30px !important;
+        }
+
+        input.signup-btn-next,
+        input.signup-btn-finish {
+          position: relative;
+          top: 13px;
+          margin-left: 7px;
+          float: right;
+        }
+
+
+        &.api-error {
+            border: 1px solid $red;
+        }
+    }
+
+    // Full-page tables will all have some sort of sorting options at the top.
+    .table-sorting {
+        .field {
+            background: transparent;
+            margin-right: 1em;
+
+            &.status {
+                a:focus {
+                    box-shadow: none;
+                }
+            }
+
+            // These seem slightly misaligned.
+            .search {
+                position: relative;
+                    top: 1px;
+            }
+        }
+
+        input.search {
+            width: 40%;
+        }
+    }
+
+    ul.flat-list {
+        @include flat-list;
+    }
+
+    // An alternative is use background images with a class on `<li>`.
+    ul.alerts {
+        &.with-ps {
+            .circle {
+                float: left;
+                margin-right: 5px;
+                margin-top: -2px;
+            }
+        }
+    }
+
+    // These represent at-a-glance notifiers of metric performance in a pill-
+    // shaped format. The left side is a count for the current metric and the
+    // right side is the goal.
+    span.pill {
+        color: $wp-text-color;
+        line-height: 1;
+        font-weight: normal;
+        white-space: nowrap;
+
+        span {
+            padding: 5px 7px;
+            display: table-cell;
+        }
+
+        .have {
+            background: $greater-gray;
+            border-radius: 1em 0 0 1em;
+            padding-left: 8px;
+        }
+
+        .goal {
+            background: $gray;
+            border-radius: 0 1em 1em 0;
+            color: $white;
+            padding-right: 8px;
+
+            &.met {
+                background: $goal-met;
+            }
+        }
+    }
+
+    // Pop-ups are aligned with the link that opens them and then moved upward
+    // by half their height to be vertically centered on that link.
+    .pop-up {
+        @include center-align;
+
+        background: $white;
+        border: 1px solid $p-blue;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px black(0.2);
+        color: $gray;
+        display: none;
+        margin: 0;
+        min-width: 300px;
+        padding: 5px $postbox-padding;
+        text-align: left;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50%;
+        z-index: 1000;        
+
+        // This creates a small triangle that points at the link.
+        .pointer {
+            @media (min-width: $big-enough) {
+                display: block;
+            }
+
+            border-top: 7px solid transparent;
+            border-bottom: 7px solid transparent;
+            border-right: 7px solid $p-blue;
+            display: none;
+            height: 0;
+            position: absolute;
+                left: -7px;
+                top: 50%;
+            width: 0;
+
+            &:after {
+                border-top: 7px solid transparent;
+                border-bottom: 7px solid transparent;
+                border-right: 7px solid $white;
+                content: '';
+                height: 0;
+                position: absolute;
+                    left: 1px;
+                    top: -7px;
+                width: 0;
+            }
+        }
+        &.left {
+            margin-left: -65%;
+            .pointer {
+                left: auto;
+                right: -7px;
+                border-right: none;
+                border-left: 7px solid $p-blue;
+            
+                &:after {
+                    border-right:none;
+                    border-left: 7px solid $white;
+                    left: auto;
+                    right: 1px;
+                }
+            }      
+        }
+
+        h3 {
+            margin-top: 0.5em;
+        }
+    }
+}
+
+// All our various tables.
+.seotoolset {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        tr {
+            // The X link on tables to remove that line item.
+            a.remove-item {
+                color: $gray;
+                margin-left: 3px;
+                text-decoration: none;
+                position: relative;
+                    top: 2px;
+            }
+            a.unsee-item {
+                color: $gray;
+                margin-left: 3px;
+                text-decoration: none;
+                position: relative;
+                    top: 2px;
+            }
+            a.delete-item {
+                color: $gray;
+                margin-left: 3px;
+                text-decoration: none;
+                position: relative;
+                    top: 2px;
+            }
+
+            &.legend {
+                th {
+                    border: 0;
+                    border-top: 1px solid $wp-gray;
+                    padding-top: 1em;
+                }
+            }
+        }
+
+        td,
+        th {
+            padding: 5px $postbox-padding;
+        }
+
+        th {
+            border-bottom: 1px solid $wp-gray;
+            color: $gray;
+            font-size: 0.9em;
+            font-weight: bold;
+            line-height: 1.4;
+            text-align: left;
+        }
+
+        td {
+            vertical-align: middle;
+
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        // No striped rows on tables by default.
+        &.stripes {
+            border-collapse: collapse;
+
+            tr:nth-child(even) td {
+                background: $light-gray;
+            }
+        }
+
+        // This is a strange default WP class.
+        &.widefat {
+            margin: 1em 0;
+        }
+
+        // Full-pagers.
+        &.big-boy {
+            tr:first-child {
+                border-bottom: 1px solid #e5e5e5;
+
+                th {
+                    padding-bottom: $postbox-padding;
+                    padding-top: $postbox-padding;
+                }
+            }
+        }
+
+        // Attempt, perhaps harebrained, at table alignment without needing
+        // classes on each cell or to target each table specifically.
+        &.center-1 {
+            th:nth-child(1),
+            td:nth-child(1) {
+                text-align: center;
+            }
+        }
+
+        @for $i from 2 through 7 {
+            &.right-#{$i} {
+                th:nth-child(#{$i}),
+                td:nth-child(#{$i}) {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    .inside {
+        > table {
+            margin-left: -$postbox-padding;
+            margin-right: -$postbox-padding;
+            width: calc(100% + 22px);
+        }
+    }
+
+    // Styled similarly to WP's table paging. However, that markup is locked
+    // away in the `WP_List_Table` class, so things aren't quite the same.
+    .table-pagination {
+        float: right;
+
+        a,
+        span {
+            background: #e5e5e5;
+            border: 1px solid #ccc;
+            color: $gray;
+            float: left;
+            line-height: 1;
+            margin-left: 4px;
+            min-width: 15px;
+            padding: 5px;
+            padding-top: 6px;
+            text-align: center;
+        }
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    background: $wp-blue;
+                    border: 1px solid $wp-blue;
+                    color: $white;
+                }
+            }
+
+        .first,
+        .prev,
+        .next,
+        .last {
+            padding-top: 5px;
+            padding-bottom: 6px;
+        }
+    }
+}
+
+// Various little alert bubbles -- usually inline with some text.
+.seotoolset {
+    .circle {
+        @include circle;
+
+        @each $name, $color in $color-map {
+            &.#{$name} {
+                background: $color;
+            }
+        }
+    }
+}
+
+// A rudimentary grid system. Page-layout columns switch back to side-by-side
+// earlier than those in the postboxes where the data layout causes... trouble.
+.seotoolset {
+    &.wrap {
+        @media (min-width: $big-enough) {
+            > .columns {
+                > div,
+                > .col {
+                    float: left;
+                    padding: 0 8px;
+                    width: 50%;
+
+                    // Nested within the page layout columns...
+                    > .columns {
+                        > div,
+                        > .col {
+                            float: left;
+                            padding: 0 8px;
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.postbox {
+        @media (min-width: $tremendous) {
+            .columns {
+                > div,
+                > .col {
+                    float: left;
+                    padding: 0 8px;
+                    width: 50%;
+
+                    &.one-third {
+                        width: 33.33%;
+                    }
+
+                    &.two-thirds {
+                        width: 66.67%;
+                    }
+
+                    &.left {
+                        padding-left: 4px;
+                    }
+                    &.seoscore {
+                        margin-left:auto;
+                        margin-right:auto;
+                        text-align:left;
+                    }
+                    &.left-border {
+                        border-right:2px solid #bbb;
+                        height:180px;
+                    }
+                    &.seo-score-help-link a{
+                        float: right;
+                    }
+                    .seo-score-today{
+                        float:right;
+                    }
+                    .boldlink{
+                        font-weight:bold;
+                    }
+                    &.right {
+                        padding-right: 4px;
+                    }
+                    
+                }
+
+                &.three {
+                    > div,
+                    > .col {
+                        width: 33.33%;
+                    }
+                }
+
+                &.four {
+                    > div,
+                    > .col {
+                        width: 25%;
+                    }
+                }
+            }
+        }
+    }
+
+    .columns {
+        margin: 0 -8px;
+        @include clearfix;
+
+        > div,
+        > .col {
+            box-sizing: border-box;
+            padding: 8px;
+        }
+
+        &.separators {}
+    }
+}
+.seo-score-help-link{
+    float: right;
+    margin: 1em 0 0 0;
+}
+// The main tabs and links along the top of all our pages.
+.seotoolset {
+    .nav-tabs,
+    .nav-config {
+        @include top-navigation;
+    }
+
+    .nav-tabs {
+        li.seotoolset-settings {
+            display: none;
+        }
+    }
+
+    .nav-config {
+        left: auto;
+        right: 0;
+
+        li {
+            margin-right: 0.5em;
+
+            a {
+                position: relative;
+                    left: 5px;
+                    top: -5px;
+            }
+
+            &.active a {
+                border: 0;
+            }
+        }
+    }
+}
+
+// Forms.
+.seotoolset form,
+form .seotoolset {
+    input[type="checkbox"] {
+        @each $name, $color in $color-map {
+            &.#{$name}:checked {
+                border-color: $color;
+
+                &:before {
+                    color: $color;
+                }
+            }
+        }
+    }
+
+    .required {
+        &.empty {
+            background: lighten($red, 50%);
+            border-color: $red;
+        }
+    }
+}
+
+// Charts and graphs.
+.seotoolset {
+    .chart {
+        position: relative;
+
+        img {
+            display: block;
+        }
+
+
+        &.donut {
+            margin: 2em auto;
+            max-width: 500px; // That's the width of the mask PNG in play.
+            width: 90%;
+
+            // The ball at the end of the needle.
+            &:after {
+                @include circle($gray, 10px);
+                @include center-align;
+
+                box-shadow: 0 0 0 1px $white;
+                content: '';
+                top: 95%; // @@ Hmm. This needs small adjustments not on screen width but on chart width.
+            }
+
+            // The gauge's needle.
+            .needle {
+                background: $gray;
+                border-radius: 10px;
+                box-shadow: 0 0 0 1px $white;
+                content: '';
+                display: block;
+                height: 3px; // Width of the needle.
+                position: absolute;
+                    bottom: 0;
+                transform: rotate(0deg); // This needs to be set inline based on the actual score: score / 100 * 180.
+                transform-origin: 100% 50%; // Makes it rotate off its right edge.
+                width: 50%;
+            }
+
+            &.score-good {
+                background: $p-green;
+            }
+
+            &.score-okay {
+                background: $p-yellow;
+            }
+
+            &.score-bad {
+                background: $p-red;
+            }
+
+            // Overrides the non-gradients above if the browser supports it.
+            &.donut {
+                background: linear-gradient(to right, #ff225e 3%, #ff745e 20%, #f6bd60 47%, #f6bd60 53%, #5bdbab 70%, #00b8e2 97%)
+            }
+        }
+
+
+    }
+
+    .chart-wrapper {
+        svg {
+            // We don't want Arial. Let's use the the default WP fonts.
+            text {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            }
+        }
+
+        &.donut {
+            path[fill="none"] {
+                display: none;
+            }
+        }
+
+        &.area {
+            .chart {
+                min-height: 300px;
+            }
+
+            // Didn't see a way to add point borders with the settings.
+            circle {
+                stroke: $white;
+                stroke-width: 2px;
+            }
+        }
+    }
+}
+
+// ----- Dashboard page pseudo meta boxes. ---------------------------------- //
+
+// We won't have have literal WP meta boxes on our dashboard due to how/when
+// WP runs the `add_meta_boxes` hook and includes the relevant support code.
+// Thus, we style our pseudo meta boxes generally first.
+.seotoolset.postbox.pseudo {
+    @include clearfix;
+
+    min-width: 0;
+
+    // Style the headers like they are in actual WP meta boxes.
+    > h2,
+    > h3 {
+        border-bottom: 1px solid $wp-gray;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 8px 12px;
+    }
+
+    h4 {
+        margin: 1em 0 0 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+        &.seo-score-help-link{
+            float: right;
+            margin: 1em 0 0 0;
+        }
+    }
+
+    // In other words, we want an `h4` in there too.
+    &.with-descriptor {
+        h3 {
+            border-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        h3 + h4 {
+            border-bottom: 1px solid $wp-gray;
+            color: $gray;
+            font-weight: normal;
+            line-height: 1.4;
+            margin: 0;
+            padding: 12px;
+            padding-top: 6px;
+        }
+    }
+
+    // Tabs within the boxes.
+    ul.tabs {
+        @include postbox-tabs;
+    }
+
+    .tab {
+        display: none;
+
+        &:first-of-type {
+            display: block;
+        }
+    }
+
+    // Small title bars that collapse whatever's beneath them.
+    .collapsible {
+        position: relative;
+
+        .title {
+            background: $wp-gray;
+            border-top: 1px solid #ddd;
+            cursor: pointer;
+            padding: 3px $postbox-padding 9px $postbox-padding;
+
+            h4 {
+               display: inline;
+               margin: 0;
+           }
+        }
+
+        &.closed {
+            .title + div {
+                max-height: 0;
+                overflow: hidden;
+            }
+        }
+        .alert-reasons {
+            cursor: pointer;
+
+
+            &:after {
+                @include drop-triangle;
+            }
+        }
+
+        &.closed {
+            .alert-reasons:after {
+                content: '\f142';
+            }
+
+            .alert-reasons + div {
+                max-height: 0;
+                overflow: hidden;
+            }
+        }
+        .alert-reasons-view.button{
+            display: inline-block;
+            float: right;
+        }
+    }
+}
+
+// Now for specific adjustments to our pseudo meta boxes.
+.seotoolset {
+	.inside{
+		min-height:70px;
+	}
+
+    // The dashboard activity widget.
+    .postbox.activity {
+        h3 {
+            border-bottom: 0;
+        }
+    }
+
+    // The dashboard SEO score widget.
+    .postbox.seo-score {
+        .inside {
+            text-align: center;
+        }
+
+        h1.seo-score {
+            @include seo-score;
+        }
+
+        h2 {
+            @include fractional-score;
+        }
+
+        h3.seo-score-delta {
+            @include seo-score-delta;
+        }
+    }
+
+    // The dashboard content ranking widget.
+    .postbox.content-ranking {
+       .view-all {
+           position: absolute;
+               right: $postbox-padding;
+               top: 0;
+       }
+    }
+
+    // The dashboard keyword rankings widget.
+    .postbox.keywords {
+        .view-all {
+            position: absolute;
+                right: $postbox-padding;
+                top: 4px;
+        }
+    }
+
+    // The "top" widgets.
+    .postbox.top-post,
+    .postbox.top-author {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// ----- Various actual meta boxes. ----------------------------------------- //
+
+// These are the actual WP meta boxes added via the `add_meta_boxes` hook.
+.seotoolset.postbox.actual {
+    // WP uses margin instead of padding (and less of it) on the edit screens.
+    .inside {
+        margin-top: $postbox-padding !important;
+    }
+
+    // Tabs within the boxes.
+    ul.tabs {
+        @include postbox-tabs;
+    }
+
+    .tab {
+        display: none;
+
+        &:first-of-type {
+            display: block;
+        }
+    }
+}
+
+// Main WP dashboard widget.
+#seotoolset_dashboard_widget {
+    h1.seo-score {
+        @include seo-score;
+    }
+
+    h3.seo-score-delta {
+        @include seo-score-delta;
+    }
+}
+
+// The multi-tabbed workhorse on the post/page edit screen.
+#seotoolset_post_widget {
+    ul.tabs {
+        text-align: center;
+    }
+
+    .tab {
+        input[type="text"],
+        textarea {
+            width: 100%;
+        }
+
+        .score {
+            @include fractional-score;
+
+            font-size: 3em;
+        }
+
+            .donut + .score {
+                margin-top: -0.5em;
+            }
+
+        &.summary {}
+
+        &.keywords {
+            .form {
+                padding: 0.5em 0;
+
+                .field {
+                    &.phrases {
+                        input[type="text"] {
+                            width: 33%;
+                        }
+                    }
+                }
+            }
+
+            input {
+                width: auto;
+            }
+
+            strong {
+                text-transform: uppercase;
+            }
+
+            table {
+                &.unanalyzed {
+                    tr.unanalyzed {
+                        display: table-row;
+                    }
+
+                    tr {
+                        display: none;
+                    }
+                }
+
+                &.analyzed {
+                    tr.unanalyzed {
+                        display: none;
+                    }
+
+                    tr {
+                        display: table-row;
+                    }
+                }
+
+                td {
+                    border-top: 1px solid $wp-gray;
+                    padding-bottom: $postbox-padding;
+                    padding-top: $postbox-padding;
+                }
+
+                .unanalyzed {
+                    p {
+                        margin: 2em auto;
+                        width: 50%;
+                    }
+                }
+
+                .analyzed {
+                    display: none;
+                }
+
+                .color-picker {
+                    background: $p-red;
+                    display: inline-block;
+                    height: 16px;
+                    width: 16px;
+
+                    &:after {
+                        @include drop-triangle;
+
+                        font-size: 16px;
+                        position: relative;
+                            left: 16px;
+                    }
+                }
+            }
+
+            .test-highlight {
+                border-top: 1px solid $wp-gray;
+                padding-top: 0.5em;
+                margin-top: 0.5em;
+
+                li {
+                    margin: 0 1em 0 0;
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                    @each $color in ('red', 'green', 'blue', 'purple') {
+                        a[data-color="#{$color}"] {
+                            background: #{$color};
+                            border-radius: 3px;
+                            color: $white;
+                            font-weight: 600;
+                            padding: 3px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.meta-description {
+            .snippets {
+                h4 {
+                    margin-bottom: 0.5em;
+                }
+            }
+
+            .snippet {
+                font-family: Roboto, Arial, sans-serif;
+                margin-top: 0;
+
+                a {
+                    color: #1a0dab;
+                    font-size: 18px;
+                    display: block; // necessary for overflow stuff
+                    overflow: hidden;
+                    text-decoration: none;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                cite {
+                    color: #006621;
+                    font-size: 14px;
+                    font-style: normal;
+                }
+
+                span {
+                    color: #545454;
+                }
+            }
+        }
+
+        &.traffic {
+            // Things aren't fitting too well down here.
+            .left {
+                .one-third {
+                    width: 30%;
+                }
+
+                .one-third:last-child {
+                    width: 40%;
+                }
+            }
+
+            table.metric {
+                td {
+                    border-top: 1px solid $wp-gray;
+                    padding-bottom: $postbox-padding;
+                    padding-top: $postbox-padding;
+
+                    &:first-child {
+                        color: $gray;
+                    }
+
+                    &:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+
+            span.field {
+                float: left;
+                width: 50%;
+            }
+        }
+
+        &.queries {
+            .left {
+                table {
+                    border-right: 1px solid $wp-gray;
+                }
+            }
+
+            .right {
+                table {
+                    border-left: 1px solid $wp-gray;
+                }
+            }
+        }
+
+        &.pagespeed {
+            ul.alerts {
+                margin: 2em 0;
+            }
+        }
+
+        &.mobile {
+            ul.alerts {
+                margin: 2em 0;
+            }
+        }
+
+        &.search-directives {
+            input[name="seotoolset_attributes_custom"] {
+                margin-bottom: 0.4em;
+                margin-left: 1.7em;
+                margin-top: 0.5em;
+                width: 80%;
+            }
+
+            a.whats-this {
+                @include circle($wp-blue, 24px);
+
+                color: $white;
+                float: right;
+                margin: 8px 10px 0 0;
+                top: 0;
+            }
+        }
+
+        // Keep people from messing if they don't have permission to mess.
+        &.look-but-dont-touch {
+            cursor: not-allowed;
+            position: relative;
+
+            &:after {
+                background: transparent;
+                content: '';
+                height: 100%;
+                position: absolute;
+                    left: 0;
+                    top: 0;
+                width: 100%;
+                z-index: 9999;
+            }
+        }
+    }
+}
+
+// ----- Page-specific things. ---------------------------------------------- //
+
+.keyword-target{
+    background-color: #EEEEEE;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.keyword-range{
+    background-color: #9EA3A8;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2px;
+    padding-right: 5px;
+    color: #ffffff;
+    padding-left: 5px;
+}
+.keyword-goalmet{
+    background-color:#6EBC00!important;
+    color:#ffffff;
+}
+
+// A wrapper class for our full-page templates.
+.seotoolset.wrap {
+    // color: $text-color;
+    position: relative;
+}
+
+.seotoolset.page-settings {
+    label {
+        display: block;
+        margin: 1em 0 0.5em 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    input[type="text"],
+    input[type="password"],
+    textarea {
+        display: block;
+        width: 100%;
+    }
+
+        .toggle-password {
+            cursor: pointer;
+            position: absolute;
+                right: 1em;
+        }
+
+    input[type="submit"] {
+        float: right;
+        margin: 1em 0;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin: 2px 3px 1px 1px;
+
+        + label {
+            display: inline;
+            line-height: 1.4;
+            margin: 0;
+        }
+    }
+
+        input[type="radio"]:checked {
+            + label {
+                font-weight: bold;
+            }
+        }
+
+        // Not sure we're gonna handle it like this for real.
+        h4 {
+            input[type="radio"] {
+                margin-top: -2px;
+            }
+        }
+
+    .help-links {
+        @include flat-list;
+
+        float: left;
+        margin: 1em 0;
+    }
+
+    .project-list {}
+
+    .new-project {
+        margin-top: 1em;
+
+        ul {
+            margin: 1em 0;
+
+            li {
+                width: 45%;
+            }
+        }
+    }
+
+    // Not sure if this will be used elsewhere and ought to be a mixin.
+    button.google {
+        background: $white;
+        border: 1px solid $light-gray;
+        border-radius: 5px;
+        box-shadow: 0px 1px 1px black(0.5);
+        cursor: pointer;
+        display: block;
+        font-weight: 600;
+        margin: 1.5em auto;
+        padding: 0.5em 2em;
+        position: relative;
+        text-transform: uppercase;
+        width: 250px;
+
+        &:before {
+            color: $wp-blue;
+            content: '\f462';
+            font: 400 26px/1 dashicons;
+            position: absolute;
+                left: 0.5em;
+                top: 2px;
+        }
+    }
+
+    #google-auth {
+        display: none;
+    }
+
+    .google {
+        .sites {
+            display: none;
+        }
+    }
+
+    .authentication {
+        .projects {
+            display: none;
+        }
+    }
+}
+
+.seotoolset.page-status {
+    table.widefat {
+        td:first-child {
+            width: 30%;
+        }
+    }
+
+    tr {
+        &.loading {
+            opacity: 0.33;
+        }
+
+        &.active {
+            border: 1px solid $green;
+
+            td {
+                background: lighten($green, 50%);
+            }
+        }
+
+        &.suspended {
+            border: 1px solid $orange;
+
+            td {
+                background: lighten($orange, 50%);
+            }
+        }
+    }
+
+    table#test {
+        .login td {
+            text-align: center;
+
+            input {
+                width: 32.5%;
+            }
+        }
+
+        .response td {
+            pre {
+                background: transparent;
+                padding: 0;
+            }
+        }
+    }
+}
+
+//
+.seotoolset .loading,
+.seotoolset.loading {
+  cursor: wait;
+}
+.seotoolset .loading .spinner,
+.seotoolset.loading .spinner {
+  visibility: visible !important;
+}
+#seotoolset_post_widget .tab.keywords .form span + strong {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#seotoolset_post_widget .keyword-delete {
+  background: #EEEEEE;
+  border-radius: 9px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#seotoolset_post_widget .keyword-delete:hover {
+  color: #FFF;
+  background-color: #9EA3A8;
+}
+
+div.alert {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
+/*div.alert:after {
+  content: 'x';
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}*/
+div.alert-success {
+  border-color:#d6e9c6;
+  background: #dff0d8;
+  color: #3c763d;
+}
+div.alert-success:after {
+  color: #3c763d;
+}
+div.alert-info {
+  border-color:#bce8f1;
+  background: #d9edf7;
+  color: #31708f;
+}
+div.alert-info:after {
+  color: #31708f;
+}
+div.alert-warning {
+  border-color:#faebcc;
+  background: #fcf8e3;
+  color: #8a6d3b;
+}
+div.alert-warning:after {
+  color: #8a6d3b;
+}
+div.alert-danger {
+  border-color:#ebccd1;
+  background: #f2dede;
+  color: #a94442;
+}
+div.alert-danger:after {
+  color: #a94442;
+}
+
+.seotoolset .alert-reasons {
+  cursor: pointer;
+  user-select: none;
+}
+.seotoolset .alert-reasons:after {
+  color: #676c73;
+  content: '\f140';
+  display: inline-block;
+  font: 400 20px/1 dashicons;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: 5px;
+}
+.seotoolset .alert-status {
+  position: relative;
+}
+.seotoolset .alert-reasons + div {
+  display: none;
+  position: absolute;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+  padding: 15px;
+  left: 0px;
+  top: 30px;
+  background: white;
+  min-width: 80px;
+  min-height: 40px;
+  white-space: nowrap;
+  z-index: 100;
+}
+.seotoolset .alert-reasons + div > * {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.seotoolset .alert-reasons + div > *:last-child {
+  margin-bottom: 0px;
+}
+.seotoolset .alert-reasons + div > b,
+.seotoolset .alert-reasons + div > span {
+  color: #333;
+}
+.seotoolset .alert-reasons.open:after {
+  content: '\f142';
+}
+.seotoolset .alert-reasons.open + div {
+  display: block;
+}
+.seotoolset .alert-reasons + div:hover {
+  display: block;
+}
+.seotoolset.page-activity .field.archive {
+  float: right;
+}
+.seotoolset #chart-controls h4 {
+  margin-bottom: 10px;
+}
+.seotoolset #chart-controls .field {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+[data-ajax-load] > .inside {
+  margin: 3px 0 0 0;
+  padding: 0;
+}
+.insidemargin > .inside {
+  margin: 3px 15px;
+}
+#seotoolset_post_widget > .inside {
+  min-height: 300px;
+}
+
+#ajax-post-pagespeed .alerts > li > p,
+#ajax-post-mobile .alerts > li > p {
+    margin-left: 25px;
+}
+#ajax-post-pagespeed .alerts > li > ul > li,
+#ajax-post-mobile .alerts > li > ul > li {
+    list-style-type: circle !important;
+    margin-left: 50px;
+}
+
+.seotoolset .wrap-collapsible {
+  margin-bottom: 1.2rem 0;
+}
+
+.seotoolset .wrap-collapsible input[type='checkbox'] {
+  display: none;
+}
+
+.seotoolset .wrap-collapsible .lbl-notoggle,
+.seotoolset .wrap-collapsible .lbl-toggle {
+  display: block;
+
+  font-weight: bold;
+  font-family: monospace;
+
+  padding: 1rem;
+
+  background: #EEE;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  transition: all 0.25s ease-out;
+}
+
+.seotoolset .wrap-collapsible .lbl-toggle:hover {
+  color: #7C5A0B;
+}
+
+.seotoolset .wrap-collapsible .lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+.seotoolset .wrap-collapsible .toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.seotoolset .wrap-collapsible .collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.seotoolset .wrap-collapsible .toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100%;
+}
+
+.seotoolset .wrap-collapsible .toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.seotoolset .wrap-collapsible .collapsible-content .content-inner {
+  background: rgba(224, 224, 224, .2);
+  border-bottom: 1px solid rgba(224, 224, 224, .45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
+
+#adminmenu li.menu-top.toplevel_page_seotoolset {
+  margin-top: 11px;
+}

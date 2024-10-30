@@ -1,0 +1,1695 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:27-0700\n"
+"PO-Revision-Date: 2019-07-16 12:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n"
+"%100<=19) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Nu a fost gasit"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Se pare că nu sa găsit nimic în această locație. Poate încercați o căutare"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Bruce Clay SEO tabloul de bord"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Bruce Clay SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Funcția nu există"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Răspuns incorect primit de la API pentru"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "eroare"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Eroare la crearea proiectului!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Absent"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Nume șablon incorect."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "A ucis toate setările!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"Nonce nu a putut fi verificat! Setările SEOToolSet nu au fost actualizate."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Setările SEOToolSet nu s-au modificat."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Setările SEOToolSet au fost actualizate!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Ceva a mers prost! Setările SEOToolSet nu au fost actualizate."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Configurarea pluginului nu este completă. Du-te la <a href=\"%s\"> Bruce "
+"Clay SEO--Settings </a> pentru a autoriza datele de la SEOToolSet® și Google."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Configurarea este incompletă. Asigurați-vă că sunteți autentificat, abonat "
+"și aveți un proiect activ selectat."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Acest site este gestionat cu Bruce Clay SEO."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "Operațiunile SEOToolSet au fost suspendate!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Astăzi"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Ultimul"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "zile"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet nu poate rula pe versiunile PHP înainte de a 5.4.0. Vă rugăm să "
+"contactați furnizorul de hosting pentru a actualiza site-ul dumneavoastră."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet necesită bibliotecă lipsă: Curl. Vă rugăm să contactați "
+"furnizorul de hosting pentru a actualiza site-ul dumneavoastră."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Motiv"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay SEO Status alerte"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Vezi toate"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Mai mult"
+
+#: src/templates/ajax-analytics-form.php:14
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Conectează-te cu Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Făcând clic pe butonul de mai sus va lansa o fereastră pop-up. Urmați "
+"instrucțiunile, copiați-lipiți codul de autorizare Google pe care îl "
+"prezintă în caseta de mai jos, apoi închideți fereastra pop-up."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Cod de autentificare Google"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Login de succes! Acum, selectați un cont pentru care Analytics vor fi "
+"incluse pe acest site."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Salvare Modificari"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "Sunteti conectat ca"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Deconectare"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "Selectați un proiect de utilizat cu SEOToolSet WP plugin"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "SAU de a crea un nou proiect"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "Numele proiectului"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Descriere"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Există% d pagină (i)/post (e) pe site-ul dvs."
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr "A aparut o eroare."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "A trimis% d Page (s)/post (e) pentru indexare!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Există% d pagină (i)/post (e) care necesită sincronizare."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Tot conținutul a fost sincronizat."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Analizarea conținutului"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Sincronizare conținut lipsă"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+#, fuzzy
+msgid "(none)"
+msgstr "Nici unul"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Editează postarea"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "Posts necesită atenție"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "Clasamentul"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Poziție"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Titlu"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Autor"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Vizualizări"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Oră medie"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Fraze de cuvinte cheie"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "# de PG atribuit"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Cea mai bună poziție medie"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "PG. Vizualizari"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "ce este acesta?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Viteza medie globală a paginii"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Scorul mediu mobil global"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "SEO Scor"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "SEO Scor este recalculat lunar și bazate pe site-ul ca un întreg."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Viteza paginii"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Viteza de pagină este scorul mediu pentru toate paginile de pe site-ul pe o "
+"scară de la 0-100, cu 100 fiind cel mai bun scor posibil. Scorurile de "
+"viteză ale paginii sunt reprezentative pentru cât de repede se încarcă "
+"paginile.."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "Scor mobil"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Scorul mobil este scorul mediu pentru toate paginile de pe site-ul pe o "
+"scară de la 0-100, cu 100 fiind cel mai bun scor posibil. Scorurile mobile "
+"reflectă uzabilitate mobil, viteză și design."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Arată"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Desktop"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+#, fuzzy
+msgid "Organic"
+msgstr "Organice"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Platit"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+#, fuzzy
+msgid "Direct"
+msgstr "Direct"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Social"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Alerte"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "alerte de mare"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "alerte medii"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "alerte reduse"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Vezi panoul de control"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 posturi"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Domeniu dată"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Activitate"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Clasament conținut"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Cuvinte cheie"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Top post de trafic"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Top autor de trafic"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Trafic"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+msgid "Meta Robots"
+msgstr "Roboţi"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Indexarea acestei pagini (index, urmărire)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Nu indexa această pagină (indexare, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+#, fuzzy
+msgid "Custom Attributes"
+msgstr "Atribute particularizate"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Valori separate prin virgulă fără spații"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+#, fuzzy
+msgid "Canonical URL"
+msgstr "URL canonic"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Custom meta robot Tag-uri"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Indexați această pagină. Acest lucru este implicit și implicite."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Păstrați o copie a acestei pagini în cache-ul motorului de căutare "
+"independent de indexare sau link-ul de mai jos."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr ""
+"Urmați link-uri de pe această pagină. Acest lucru este implicit și implicite."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "Nu indexați această pagină, dar urmați linkurile de pe această pagină."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Nu urmați link-urile de pe această pagină, dar index această pagină pentru "
+"conținut."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Index și urmați linkurile de pe această pagină, dar nu păstrați o copie a "
+"paginii în memoria cache a motorului de căutare."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr ""
+"Nu afișați un fragment (rezultatul motorului de căutare) pentru această "
+"pagină."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Utilizați valori separate prin virgulă fără spații. De exemplu, pentru a "
+"avea motorul de căutare nu indexa pagina sau păstrați-l în memoria cache, "
+"dar încă urmați link-uri, utilizați"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "Sunteți în prezent în jurnal de date Analytics pentru"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Cont curent"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Dezactivare script de urmărire"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+"Selectați <b> Da </b> dacă aveți deja de urmărire în loc pentru acest cont."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Refresh de cont de succes! Selectați un cont pentru care Analytics va fi "
+"inclusă pe acest site."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Bruce Clay SEO plugin necesită o conexiune la Google Analytics și Google "
+"Search Console pentru a utiliza toate caracteristicile sale."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"Când înființarea Bruce Clay SEO pentru WordPress plug-in, vă puteți "
+"autentifica la Google folosind același cont Google pe care îl utilizați "
+"pentru a accesa Google Analytics și Google Search Console. Login se va "
+"întâmpla prin intermediul serverelor Google, și odată ce ați permis accesul "
+"la plugin-ul de analiză și de date consola de căutare, vi se va da un cod "
+"pentru a lipi în plug-in."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"Odată ce codul este inserat în, veți fi prezentat cu o listă de conturi care "
+"sunt active în interiorul contului Google Analytics. Odată selectată, "
+"proiectul Google Analytics va fi utilizat pentru a furniza vizualizare și a "
+"vizita datele la plug-in. Puteți modifica în orice moment Contul Google "
+"Analytics selectat, selectând pictograma creion de sub \"cont curent\"."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Notă: sunteți conectat deja la Google Analytics dacă vedeți acest mesaj: "
+"\"sunteți datele de analiză a datelor de logare curente pentru [contul dvs. "
+"de analiză].\" Dacă nu vedeți acest mesaj, va trebui să vă conectați din nou "
+"la Google Analytics."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Proiect curent"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Nici un proiect selectat!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Modificare sau configurare abonament."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Selectare cont și proiect"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Bruce Clay SEO plugin necesită o conexiune la SEOToolSet la putere multe "
+"dintre caracteristicile sale. Abonamentul plugin-ul include acces la "
+"SEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"Când înființarea Bruce Clay SEO pentru WordPress, trebuie să vă conectați la "
+"SEOToolSet și specificați proiectul potrivit aici, în acest panou de "
+"autentificare SEOToolSet. Un proiect este modul în care SEOToolSet păstrează "
+"datele legate de site-ul dvs., ar fi cuvintele cheie ale site-ului, "
+"preferințele, și așa mai departe."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"Sub \"proiectul curent\", faceți clic pe pictograma Editare (creion) pentru "
+"a alege proiectul SEOToolSet care corespunde cu site-ul curent."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Notă: sunteți deja autentificat la SEOToolSet dacă vedeți acest mesaj: "
+"\"sunteți conectat în prezent ca [numele de utilizator] în SEOToolSet.\" "
+"Dacă nu, puteți introduce numele de utilizator și parola pentru a vă "
+"autentifica."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Utilizator"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Parola"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Autentificare"
+
+#: src/templates/ajax-login-form.php:24
+#, fuzzy
+msgid "I forgot my password."
+msgstr "Mi-am uitat parola."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Nu am un cont."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Cuvânt cheie"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "Meta Descriere"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Conținut"
+
+#: src/templates/ajax-post-keywords.php:17
+#, fuzzy
+msgid "Highlight Color"
+msgstr "Evidențiere culoare"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Au SEOToolSet < a class = \"analiza\" href = \"@ @\" > analiza de conținut </"
+"a> în scopul de a găsi cuvinte cheie și fraze de cuvinte cheie care va ajuta "
+"conținutul dumneavoastră să funcționeze mai bine. Adăugați-vă propriile "
+"cuvinte cheie și fraze de cuvinte cheie, iar SEOToolSet le va analiza pentru "
+"a vă ajuta să optimizați conținutul."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Evidențiere"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Sterge"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "Meta"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "Previzualizare fragment"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Impact regulă"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "mobil prietenos"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "PageSpeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "întrebare"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Impresii"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Click-uri"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Rata de clic-through"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "CTR"
+msgstr "Ctr"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Conectați-vă la contul Google Analytics."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "Nu există date"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Produs"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Actual"
+
+#: src/templates/ajax-post-summary-performance.php:29
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Page Views"
+msgstr "Vizualizări totale"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Timpul mediu de pe pagina"
+
+#: src/templates/ajax-post-summary-performance.php:37
+#, fuzzy
+msgid "Views Today"
+msgstr "Vizualizări astăzi"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Vizualizări în această săptămână"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Vizualizări în această lună"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr "Nu există informații"
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+#, fuzzy
+msgid "Goal"
+msgstr "Scopul"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Post nu a analizat."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Nu s-au găsit alerte."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Alerte de stare"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Statistici"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Performanță"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Adresă de email nevalidă."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Nume de utilizator invalid."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Parolă proastă."
+
+#: src/templates/ajax-signup-step1.php:22
+#, fuzzy
+msgid "Passwords don't match."
+msgstr "Parolele nu se potrivesc."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "Adresa email"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Confirmați noua parolă"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Anulează"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Următor"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Nici un plan selectat."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Anulează abonament"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"S-a produs o eroare la încercarea de preluare a planurilor de facturare "
+"disponibile. Vă rugăm să mergeți înapoi și încercați din nou."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "curent"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Înapoi"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Prenume incorect sau lipsă."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Nume de familie incorect sau lipsă."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Cod poștal incorect sau lipsă."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Token de card de credit neValid sau lipsă."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "Trebuie să acceptați termenii și condițiile."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Contul și abonamentul create cu succes."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Abonament actualizat cu succes."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Abonamentul a fost șters cu succes."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"După ce faceți clic pe următorul, abonamentul va fi anulat.  Abonamentul "
+"curent va continua până la următorul ciclu de facturare și apoi se va "
+"termina."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Prenume"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Nume"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "Informații Card de Credit"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Cod poștal"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "Sunt de acord cu"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "Termeni și condiții"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Succes!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Terminat"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Tip metric"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Vizualizări de pagină"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Vizite"
+
+#: src/templates/ajax-traffic.php:45
+#, fuzzy
+msgid "Conversions"
+msgstr "Conversii"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Program"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Anul trecut"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Luna trecută"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "În această săptămână trecut"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "Tot Timpul"
+
+#: src/templates/ajax-traffic.php:122
+#, fuzzy
+msgid "Past Week"
+msgstr "Săptămâna trecută"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "Luna trecută"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "Anul trecut"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Schimbarea lunară"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Clasament pagină"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Caută"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Stare:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "Vizualizare arhivă"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Vizualizare nouă"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Aplica"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Legendă"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Numara"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Obiectiv întâlnit"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Care utilizatorii pot vedea tabloul de bord?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Care utilizatorii pot vedea post/widget de pagini?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Care utilizatorii pot edita datele de pe post/pagina widget?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Care utilizatorii pot edita Bruce Clay SEO Settings?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "Autentificare SEOToolSet"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Conectează-te la contul tău SEOToolSet."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Analizarea conținutului"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Trimiteți conținutul pentru analiză.  Trebuie doar să faceți acest lucru "
+"atunci când vă configurați pentru prima dată site-ul cu noi sau dacă numărul "
+"de postare iese vreodată din sincronizare."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Conectați-vă la contul Google Analytics."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Coduri de verificare pentru webmasteri"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Introduceți codurile de verificare pentru consola de căutare Google și "
+"pentru instrumentele pentru webmasteri Bing."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Codul de verificare Google"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Cod verificare Bing"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Prima pagină titlu și meta descriere"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"Atunci când nu utilizați o anumită pagină ca prima pagină, acestea se vor "
+"aplica."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Titlul paginii frontale"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Prima pagina Descriere Meta"
+
+#: src/templates/page-settings.php:109
+#, fuzzy
+msgid "User Permissions"
+msgstr "Permisiuni utilizator"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "Control care Bruce Clay SEO caracteristici utilizatorii au acces la."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(și mai mare)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Restabiliți setările de bază"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Aceasta este o pagină pentru a vă asigura că lucrurile sunt stabilite "
+"corect. A se vedea WooCommerce pentru o extinsă (probabil prea mult) exemplu."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Stai asa!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Să suspendăm operațiunile?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "Verificați acest lucru pentru a opri temporar operațiunile SEOToolSet."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "Variabile de mediu"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "Versiune PHP"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "Informații cont SEOToolSet"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "Nume real"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "Email"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Cheie de licență"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "API conectivitate de testare"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Punct final"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Rezumat"
+
+#: src/templates/post-widget.php:36
+#, fuzzy
+msgid "Queries"
+msgstr "Interogări"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "PageSpeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Directive de căutare"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Evidențierea cuvintelor cheie funcționează numai în editorul vizual. Vă "
+"rugăm să comutați moduri utilizând filele de mai sus conținutul post."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Fraze de cuvinte cheie (separate prin virgulă)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Adaugă"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Sau"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Adăugare grup de cuvinte cheie"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Analizarea conținutului"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Reîmprospătare goluri"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Setări"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO oferă blog scriitori de pe pagina de orientare SEO bazate pe "
+"analiza concurent în timp real. Analytics este integrat pentru a arăta post "
+"de performanță, chiar în WordPress. Cuvinte cheie de urmărire, rapoarte și "
+"mai Powered by SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Bruce Clay, Inc"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=plugin&utm_campaign=WordPress-general"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Verificați setările plugin-ului. Trebuie să vă conectați contul "
+#~ "SEOToolSet."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "Verificați setările plugin-ului. Nu aveți un abonament activ."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Verificați setările plugin-ului. Trebuie să selectați un proiect."
+
+#~ msgid "Status"
+#~ msgstr "Stare"
+
+#~ msgid "Post Title"
+#~ msgstr "Titlul postării"
+
+#, fuzzy
+#~ msgid "Last Updated"
+#~ msgstr "Ultima actualizare"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "Marcare ca terminat"
+
+#~ msgid "Actions"
+#~ msgstr "Acțiuni"
+
+#, fuzzy
+#~ msgid "Ranking"
+#~ msgstr "Clasament"
+
+#~ msgid "Pages"
+#~ msgstr "Pagini"
+
+#, fuzzy
+#~ msgid "Last Update"
+#~ msgstr "Ultima actualizare"
+
+#~ msgid "Total Views"
+#~ msgstr "Vizualizări totale"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "Vizualizări media"
+
+#~ msgid "Published"
+#~ msgstr "Publicat"
+
+#~ msgid "Assignments"
+#~ msgstr "Teme"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Top clasat"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "Cele mai virale"
+
+#, fuzzy
+#~ msgid "Most Shared"
+#~ msgstr "Cele mai partajate"
+
+#~ msgid "Check for updates"
+#~ msgstr "Verifica actualizari"
+
+#~ msgid "View details"
+#~ msgstr "Vezi detalii"
+
+#~ msgid "More information about %s"
+#~ msgstr "Mai multe informaţii despre %s"
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Plugin-ul %s este actualizat."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "O nouă versiune a plugin-ului %s este disponibilă."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr ""
+#~ "Imposibil de determinat dacă actualizările sunt disponibile pentru %s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Stare Verificator actualizare neCunoscută \" %s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Nu există nici o Changelog disponibile."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Un loc pentru testarea API care face mai mult sens decât pagina de stare. "
+#~ "Mai ales pentru că funcționează \"modular\": cererile de API sunt făcute "
+#~ "numai atunci când faceți clic pe antetul unui element din listă în loc de "
+#~ "a rula <em> toate </em> teste la o dată înainte de încărcarea paginii."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span clasa = \"pass\" > elemente verzi </span> sunt menite să treacă în "
+#~ "timp ce < span clasa = \"fail\" > elemente Orange </span> sunt menite să "
+#~ "eșueze. Cu toate acestea, testele de trecere poate fi forțat să nu prin "
+#~ "autentificarea prin logare (<code> șterge/login </code>) în primul rând. "
+#~ "Verificați codul de buclă HTTP răspuns și de raportare a erorilor API în "
+#~ "consecință."
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "Contribuţii"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Ultima publicare"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Cel mai înalt rang"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Repere de testare"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "Ultimele 30 de zile"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API nu a returnat câmpul (ele):"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API nu a returnat matrice pentru câmpuri:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% de la ultima lună"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "NICI UN NUME"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Imps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Ar trebui să stabilească"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Probleme care ar putea scădea viteza de încărcare a paginii în mod "
+#~ "semnificativ (pe Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Luați în considerare fixarea"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr "Probleme care pot afecta viteza de încărcare a paginii (per Google)"
+
+#, fuzzy
+#~ msgid "Positives"
+#~ msgstr "Pozitive"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Elementele care corespund sau depășesc recomandările Google și pot "
+#~ "beneficia de viteza de încărcare a paginii"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Probleme care ar putea afecta prietenos mobil (pe Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "Probleme care pot avea impact de prietenie mobil (pe Google)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Elemente care se potrivesc sau depășesc liniile directoare pentru "
+#~ "prietenie mobilă (per Google)"

@@ -1,0 +1,1220 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:23-0700\n"
+"PO-Revision-Date: 2018-12-13 11:05-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: src/class-seotoolset-admin-menu.php:68
+msgid "Bruce Clay SEO Dashboard"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+msgid "Bruce Clay SEO"
+msgstr ""
+
+#: src/class-seotoolsetapi.php:235
+msgid "Function doesn't exist"
+msgstr ""
+
+#: src/class-seotoolsetapi.php:336
+msgid "Invalid response received from the API for "
+msgstr ""
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr ""
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+msgid "Error creating project!"
+msgstr ""
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr ""
+
+#: src/class-seotoolsetapi.php:820
+msgid "Invalid template name."
+msgstr ""
+
+#: src/class-seotoolset.php:197
+msgid "Killed all the settings!"
+msgstr ""
+
+#: src/class-seotoolset.php:202
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+
+#: src/class-seotoolset.php:244
+msgid "Your SEOToolSet settings have not changed."
+msgstr ""
+
+#: src/class-seotoolset.php:251
+msgid "Your SEOToolSet settings have been updated!"
+msgstr ""
+
+#: src/class-seotoolset.php:255
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr ""
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+
+#: src/class-seotoolset.php:590
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+
+#: src/class-seotoolset.php:749
+msgid "This site is managed with Bruce Clay SEO."
+msgstr ""
+
+#: src/class-seotoolset.php:776
+msgid "SEOToolSet operations have been suspended!"
+msgstr ""
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr ""
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr ""
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr ""
+
+#: seotoolset.php:81
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+
+#: seotoolset.php:96
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr ""
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+msgid "Bruce Clay SEO Status Alerts"
+msgstr ""
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr ""
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr ""
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr ""
+
+#: src/templates/ajax-analytics-form.php:15
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+
+#: src/templates/ajax-analytics-form.php:18
+msgid "Google Authentication Code"
+msgstr ""
+
+#: src/templates/ajax-analytics-form.php:26
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:58
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:74
+msgid "OR create a new Project"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr ""
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:36
+#, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:67
+#, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:71
+#, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:73
+msgid "All content has been synchronized."
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:77
+msgid "Sync All Content"
+msgstr ""
+
+#: src/templates/ajax-content-sync.php:79
+msgid "Sync Missing Content"
+msgstr ""
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+msgid "(none)"
+msgstr ""
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr ""
+
+#: src/templates/ajax-dashboard-activity.php:27
+msgid "posts require attention"
+msgstr ""
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+msgid "Rankings"
+msgstr ""
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr ""
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr ""
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr ""
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr ""
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+msgid "Avg. Time"
+msgstr ""
+
+#: src/templates/ajax-dashboard-keywords.php:42
+msgid "Keyword Phrases"
+msgstr ""
+
+#: src/templates/ajax-dashboard-keywords.php:43
+msgid "# of Pg Assigned"
+msgstr ""
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+msgid "Best Average Position"
+msgstr ""
+
+#: src/templates/ajax-dashboard-keywords.php:45
+msgid "Pg. Views"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+msgid "What's this?"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+msgid "Overall Average Page Speed"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+msgid "Overall Average Mobile Score"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+msgid "SEO Score"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+msgid "Page Speed"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+msgid "Mobile Score"
+msgstr ""
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+msgid "Organic"
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr ""
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr ""
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr ""
+
+#: src/templates/ajax-dashboard-widget.php:46
+msgid "high alerts"
+msgstr ""
+
+#: src/templates/ajax-dashboard-widget.php:50
+msgid "medium alerts"
+msgstr ""
+
+#: src/templates/ajax-dashboard-widget.php:54
+msgid "low alerts"
+msgstr ""
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr ""
+
+#: src/templates/ajax-dashboard-widget.php:68
+msgid "Top 5 Posts"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:50
+msgid "Content Ranking"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:66
+msgid "Top Post by Traffic"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:72
+msgid "Top Author by Traffic"
+msgstr ""
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr ""
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+msgid "Meta Robots"
+msgstr ""
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+msgid "Index this Page (index,follow)"
+msgstr ""
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr ""
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+msgid "Custom Attributes"
+msgstr ""
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+msgid "Comma-separated values without spaces"
+msgstr ""
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr ""
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+msgid "Custom Meta Robot Tags"
+msgstr ""
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+msgid "Index this page. This is by default and implied."
+msgstr ""
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+msgid "Follow links on this page. This is default and implied."
+msgstr ""
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+msgid "Do not index this page, but follow the links on this page."
+msgstr ""
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr ""
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:18
+msgid "You are currently logging Analytics data for "
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:21
+msgid "Current Account"
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:26
+msgid "Disable Tracking Script"
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:27
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:42
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:50
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:51
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:52
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+
+#: src/templates/ajax-has-analytics.php:53
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:20
+msgid "Current Project"
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:26
+msgid "No project selected!"
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:38
+msgid "Change or setup subscription."
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:41
+msgid "Account and Project Selection"
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:42
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:43
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:44
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+
+#: src/templates/ajax-logged-in.php:45
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr ""
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr ""
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr ""
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr ""
+
+#: src/templates/ajax-login-form.php:25
+msgid "I don't have an account."
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Highlight Color"
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:53
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr ""
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr ""
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr ""
+
+#: src/templates/ajax-post-meta-description.php:52
+msgid "Snippet Preview"
+msgstr ""
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+msgid "Rule Impact"
+msgstr ""
+
+#: src/templates/ajax-post-mobile.php:107
+msgid "mobile friendliness"
+msgstr ""
+
+#: src/templates/ajax-post-pagespeed.php:107
+msgid "page load speed"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:23
+msgid "Click-Through Rate"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:23
+msgid "CTR"
+msgstr ""
+
+#: src/templates/ajax-post-queries.php:38
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:29
+msgid "Total Page Views"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:33
+msgid "Average Time on Page"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:41
+msgid "Views this Week"
+msgstr ""
+
+#: src/templates/ajax-post-summary-performance.php:45
+msgid "Views this Month"
+msgstr ""
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr ""
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr ""
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+msgid "Post not analyzed."
+msgstr ""
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+msgid "No alerts found."
+msgstr ""
+
+#: src/templates/ajax-post-summary.php:14
+msgid "Status Alerts"
+msgstr ""
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr ""
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:19
+msgid "Bad password."
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr ""
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr ""
+
+#: src/templates/ajax-signup-step2.php:15
+msgid "No plan selected."
+msgstr ""
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr ""
+
+#: src/templates/ajax-signup-step2.php:33
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr ""
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:24
+msgid "Invalid or missing first name."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:30
+msgid "Invalid or missing last name."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:34
+msgid "Invalid or missing postal code."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:38
+msgid "Invalid or missing credit card token."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:42
+msgid "You must accept the terms and conditions."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:99
+msgid "Account and subscription successfully created."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:104
+msgid "Subscription successfully updated."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:109
+msgid "Subscription successfully deleted."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:173
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr ""
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr ""
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr ""
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:35
+msgid "Metric Type"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:53
+msgid "This Past Year"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:56
+msgid "This Past Month"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:59
+msgid "This Past Week"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:122
+msgid "Past Week"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:126
+msgid "Past Month"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:130
+msgid "Past Year"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:138
+msgid "Monthly Change"
+msgstr ""
+
+#: src/templates/ajax-traffic.php:142
+msgid "Page Ranking"
+msgstr ""
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr ""
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr ""
+
+#: src/templates/big-table-sorting.php:81
+msgid "View Archive"
+msgstr ""
+
+#: src/templates/big-table-sorting.php:87
+msgid "View New"
+msgstr ""
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr ""
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr ""
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr ""
+
+#: src/templates/keyword-legend.php:8
+msgid "Goal Met"
+msgstr ""
+
+#: src/templates/page-settings.php:19
+msgid "Which users can see the dashboard?"
+msgstr ""
+
+#: src/templates/page-settings.php:20
+msgid "Which users can see the post/page widget?"
+msgstr ""
+
+#: src/templates/page-settings.php:21
+msgid "Which users can edit data on the post/page widget?"
+msgstr ""
+
+#: src/templates/page-settings.php:22
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr ""
+
+#: src/templates/page-settings.php:36
+msgid "SEOToolSet Authentication"
+msgstr ""
+
+#: src/templates/page-settings.php:37
+msgid "Manage your SEOToolSet® integration."
+msgstr ""
+
+#: src/templates/page-settings.php:49
+msgid "Synchronize Content"
+msgstr ""
+
+#: src/templates/page-settings.php:50
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+
+#: src/templates/page-settings.php:60
+msgid "Connect to your Google Analytics account."
+msgstr ""
+
+#: src/templates/page-settings.php:75
+msgid "Webmaster Verification Codes"
+msgstr ""
+
+#: src/templates/page-settings.php:76
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+
+#: src/templates/page-settings.php:79
+msgid "Google Verification Code"
+msgstr ""
+
+#: src/templates/page-settings.php:81
+msgid "Bing Verification Code"
+msgstr ""
+
+#: src/templates/page-settings.php:94
+msgid "Front Page Title and Meta Description"
+msgstr ""
+
+#: src/templates/page-settings.php:95
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+
+#: src/templates/page-settings.php:98
+msgid "Front Page Title"
+msgstr ""
+
+#: src/templates/page-settings.php:100
+msgid "Front Page Meta Description"
+msgstr ""
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr ""
+
+#: src/templates/page-settings.php:110
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr ""
+
+#: src/templates/page-settings.php:119
+msgid " (and higher)"
+msgstr ""
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr ""
+
+#: src/templates/page-status.php:24
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+
+#: src/templates/page-status.php:26
+msgid "Hold Up!"
+msgstr ""
+
+#: src/templates/page-status.php:29
+msgid "Suspend operations?"
+msgstr ""
+
+#: src/templates/page-status.php:32
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr ""
+
+#: src/templates/page-status.php:37
+msgid "Environment Variables"
+msgstr ""
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr ""
+
+#: src/templates/page-status.php:69
+msgid "SEOToolSet Account Information"
+msgstr ""
+
+#: src/templates/page-status.php:80
+msgid "Real Name"
+msgstr ""
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr ""
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr ""
+
+#: src/templates/page-status.php:93
+msgid "API Connectivity Test"
+msgstr ""
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr ""
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr ""
+
+#: src/templates/post-widget.php:36
+msgid "Queries"
+msgstr ""
+
+#: src/templates/post-widget.php:39
+msgid "Pagespeed"
+msgstr ""
+
+#: src/templates/post-widget.php:46
+msgid "Search Directives"
+msgstr ""
+
+#: src/templates/post-widget.php:55
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+
+#: src/templates/post-widget.php:59
+msgid "Keyword Phrases (comma-separated)"
+msgstr ""
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr ""
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr ""
+
+#: src/templates/post-widget.php:67
+msgid "Add Keyword Group"
+msgstr ""
+
+#: src/templates/post-widget.php:74
+msgid "Analyze Content"
+msgstr ""
+
+#: src/templates/post-widget.php:75
+msgid "Refresh Goals"
+msgstr ""
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bruce Clay, Inc."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""

@@ -1,0 +1,1499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-04-30 11:00-0700\n"
+"PO-Revision-Date: 2019-08-22 10:16-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "みつかりません"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ここには何も見つからなかったようです。たぶん検索しますか？"
+
+#: src/class-seotoolset-admin-menu.php:68
+msgid "Bruce Clay SEO Dashboard"
+msgstr "ブルースクレイSEOダッシュボード"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:82
+#: src/class-seotoolset-admin-meta-boxes.php:113
+#: src/class-seotoolset-admin-meta-boxes.php:145 src/class-seotoolset.php:164
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+msgid "Bruce Clay SEO"
+msgstr "ブルースクレイSEO"
+
+#: src/class-seotoolsetapi.php:235
+msgid "Function doesn't exist"
+msgstr "関数が存在しません"
+
+#: src/class-seotoolsetapi.php:332
+msgid "Invalid response received from the API for "
+msgstr "APIから無効な応答を受信しました："
+
+#: src/class-seotoolsetapi.php:334
+msgid "error"
+msgstr "エラー"
+
+#: src/class-seotoolsetapi.php:473 src/class-seotoolset.php:231
+#: src/templates/ajax-choose-project.php:42
+msgid "Error creating project!"
+msgstr "プロジェクト作成中のエラー！"
+
+#: src/class-seotoolsetapi.php:608
+msgid "Missing"
+msgstr "不明"
+
+#: src/class-seotoolsetapi.php:808
+msgid "Invalid template name."
+msgstr "テンプレート名が無効です。"
+
+#: src/class-seotoolset.php:211
+msgid "Killed all the settings!"
+msgstr "すべての設定を削除しました！"
+
+#: src/class-seotoolset.php:216
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"ナンスを検証できませんでした。SEOToolSet の設定は更新されませんでした。"
+
+#: src/class-seotoolset.php:258
+msgid "Your SEOToolSet settings have not changed."
+msgstr "SEOToolSetの設定は変更されていません。"
+
+#: src/class-seotoolset.php:265
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "SEOToolSetの設定が更新されました！"
+
+#: src/class-seotoolset.php:269
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "問題が発生しました。 SEOToolSetの設定は更新されませんでした。"
+
+#: src/class-seotoolset.php:563
+msgid "Check plugin settings. You must connect your SEOToolSet account."
+msgstr ""
+"プラグイン設定を確認して下さい。SEOToolSetアカウントに接続する必要がありま"
+"す。"
+
+#: src/class-seotoolset.php:576
+msgid "Check plugin settings. You do not have an active subscription."
+msgstr "プラグイン設定を確認して下さい。アクティブな購読をしていません。"
+
+#: src/class-seotoolset.php:589
+msgid "Check plugin settings. You must select a project."
+msgstr "プラグイン設定を確認して下さい。プロジェクトを選択してください。"
+
+#: src/class-seotoolset.php:765
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "このサイトはBruce Clay SEOによって運営されています。"
+
+#: src/class-seotoolset.php:792
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet操作は中断されました！"
+
+#: src/class-seotoolset.php:1012 src/templates/ajax-traffic.php:63
+#: src/templates/ajax-traffic.php:112
+msgid "Today"
+msgstr "本日"
+
+#: src/class-seotoolset.php:1012
+msgid "Last"
+msgstr "前の"
+
+#: src/class-seotoolset.php:1012
+msgid "days"
+msgstr "日数"
+
+#: seotoolset.php:77
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSetは5.6.0より前のPHPバージョンでは実行できません。 あなたのサイトを更"
+"新するためにあなたのホスティングプロバイダーに連絡してください。"
+
+#: seotoolset.php:92
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSetには欠けているライブラリが必要です：「curl」。このサイトを更新する"
+"ためにあなたのホスティングプロバイダーに連絡してください。"
+
+#: src/templates/ajax-activity-table-sort.php:4
+msgid "Status"
+msgstr "ステータス"
+
+#: src/templates/ajax-activity-table-sort.php:5
+msgid "Post Title"
+msgstr "投稿タイトル"
+
+#: src/templates/ajax-activity-table-sort.php:6
+#: src/templates/ajax-activity-table-sort.php:91
+#: src/templates/ajax-dashboard-activity.php:84
+msgid "Reason"
+msgstr "理由"
+
+#: src/templates/ajax-activity-table-sort.php:7
+#: src/templates/ajax-authors-table-sort.php:5
+#: src/templates/ajax-content-table-sort.php:6
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:65
+msgid "Author"
+msgstr "投稿者"
+
+#: src/templates/ajax-activity-table-sort.php:8
+msgid "Last Updated"
+msgstr "最終更新"
+
+#: src/templates/ajax-activity-table-sort.php:9 src/templates/ajax-dashboard.php:55
+#: src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "キーワード"
+
+#: src/templates/ajax-activity-table-sort.php:10 src/templates/ajax-traffic.php:37
+msgid "Page Views"
+msgstr "ページビュー数"
+
+#: src/templates/ajax-activity-table-sort.php:12
+msgid "Mark as Done"
+msgstr "完了としてマーク"
+
+#: src/templates/ajax-activity-table-sort.php:14
+#: src/templates/ajax-content-table-sort.php:10
+msgid "Actions"
+msgstr "アクション"
+
+#: src/templates/ajax-activity-table-sort.php:92
+#: src/templates/ajax-dashboard-activity.php:85
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay SEOステータス警告"
+
+#: src/templates/ajax-activity-table-sort.php:101
+#: src/templates/ajax-dashboard-activity.php:31
+#: src/templates/ajax-dashboard-activity.php:94
+#: src/templates/ajax-dashboard-content.php:30
+#: src/templates/ajax-dashboard-keywords.php:29
+#: src/templates/ajax-dashboard-topauthor.php:30
+msgid "View All"
+msgstr "すべてを見る"
+
+#: src/templates/ajax-activity-table-sort.php:101
+#: src/templates/ajax-dashboard-activity.php:94
+msgid "More"
+msgstr "もっと"
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr "Googleアカウントでログイン"
+
+#: src/templates/ajax-analytics-form.php:15
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"上のボタンをクリックするとポップアップウィンドウが開きます。指示に従って、表"
+"示されたGoogle認証コードを下のボックスにコピーして貼り付け、ポップアップを閉"
+"じます。"
+
+#: src/templates/ajax-analytics-form.php:18
+msgid "Google Authentication Code"
+msgstr "Google認証コード"
+
+#: src/templates/ajax-analytics-form.php:26
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr "ログイン成功！このサイトにAnalyticsを含めるアカウントを選択します。"
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: src/templates/ajax-authors-table-sort.php:4
+#: src/templates/ajax-content-table-sort.php:4
+msgid "Ranking"
+msgstr "順位"
+
+#: src/templates/ajax-authors-table-sort.php:6
+msgid "Pages"
+msgstr "ページ"
+
+#: src/templates/ajax-authors-table-sort.php:7
+msgid "Last Update"
+msgstr "最終更新日"
+
+#: src/templates/ajax-authors-table-sort.php:8
+msgid "Total Views"
+msgstr "総計ビュー"
+
+#: src/templates/ajax-authors-table-sort.php:9
+msgid "Avg. Views / page"
+msgstr "1ページあたりの平均表示回数"
+
+#: src/templates/ajax-authors-table-sort.php:10
+#: src/templates/ajax-content-table-sort.php:9
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:67
+msgid "Avg. Time"
+msgstr "平均時間"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "としてログインしています"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: src/templates/ajax-choose-project.php:58
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "SEOToolSet WPプラグインで使用するプロジェクトを選択してください"
+
+#: src/templates/ajax-choose-project.php:74
+msgid "OR create a new Project"
+msgstr "または、新しいプロジェクトを作成する"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "プロジェクトの名"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "プロジェクトの説明"
+
+#: src/templates/ajax-content-sync.php:31
+#, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "サイトに%dページの/postがあります。"
+
+#: src/templates/ajax-content-sync.php:60
+msgid "An error occurred."
+msgstr "エラーが発生しました。"
+
+#: src/templates/ajax-content-sync.php:62
+#, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "索引付けのために%dページ／投稿を送信しました！"
+
+#: src/templates/ajax-content-sync.php:66
+#, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "同期が必要なページ／投稿が%d個あります。"
+
+#: src/templates/ajax-content-sync.php:68
+msgid "All content has been synchronized."
+msgstr "すべてのコンテンツが同期されました。"
+
+#: src/templates/ajax-content-sync.php:72
+msgid "Sync All Content"
+msgstr "すべてのコンテンツを同期"
+
+#: src/templates/ajax-content-sync.php:74
+msgid "Sync Missing Content"
+msgstr "欠けているコンテンツを同期"
+
+#: src/templates/ajax-content-table-sort.php:5
+#: src/templates/ajax-dashboard-content.php:41
+#: src/templates/ajax-dashboard-widget.php:64 src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-keywords.php:17
+msgid "Title"
+msgstr "タイトル"
+
+#: src/templates/ajax-content-table-sort.php:7
+msgid "Published"
+msgstr "公開済み"
+
+#: src/templates/ajax-content-table-sort.php:8
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:66
+#: src/templates/ajax-keywords-table-sort.php:7 src/templates/ajax-traffic.php:106
+msgid "Views"
+msgstr "閲覧数"
+
+#: src/templates/ajax-content-table-sort.php:21
+#: src/templates/ajax-dashboard-content.php:57
+#: src/templates/ajax-dashboard-topauthor.php:29
+#: src/templates/ajax-dashboard-toppost.php:38
+msgid "(none)"
+msgstr "（なし）"
+
+#: src/templates/ajax-content-table-sort.php:25
+#: src/templates/ajax-dashboard-content.php:25
+#: src/templates/ajax-dashboard-content.php:27
+msgid "Edit Post"
+msgstr "投稿を編集"
+
+#: src/templates/ajax-dashboard-activity.php:28
+msgid "posts require attention"
+msgstr "レビューが必要な投稿"
+
+#: src/templates/ajax-dashboard-content.php:33
+#: src/templates/ajax-dashboard-keywords.php:33
+msgid "Rankings"
+msgstr "順位"
+
+#: src/templates/ajax-dashboard-content.php:40
+#: src/templates/ajax-dashboard-widget.php:63
+msgid "Rank"
+msgstr "順位"
+
+#: src/templates/ajax-dashboard-keywords.php:40
+msgid "Keyword Phrases"
+msgstr "キーワードフレーズ"
+
+#: src/templates/ajax-dashboard-keywords.php:41
+msgid "# of Pg Assigned"
+msgstr "割り当てられたページ数"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#: src/templates/ajax-keywords-table-sort.php:6 src/templates/ajax-post-queries.php:21
+msgid "Best Average Position"
+msgstr "最高の平均掲載順位"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+msgid "Pg. Views"
+msgstr "ページビュー"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+msgid "What's this?"
+msgstr "これは何ですか？"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+msgid "Overall Average Page Speed"
+msgstr "全体の平均PageSpeed"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+msgid "Overall Average Mobile Score"
+msgstr "全体の平均モバイルスコア"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:13 src/templates/ajax-dashboard.php:61
+msgid "SEO Score"
+msgstr "SEOスコア"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "SEOスコアは毎月計算され、サイト全体に基づいています。"
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+msgid "Page Speed"
+msgstr "ページ速度"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"ページ速度スコアは、ページの読み込み速度を表します。ページ速度は、0〜100の範"
+"囲の全ページの平均スコアです。100が最高のスコアです。"
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+msgid "Mobile Score"
+msgstr "モバイルスコア"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"モバイルスコアは、モバイルの使いやすさ、スピード、デザインを反映しています。"
+"モバイルスコアは、0〜100の範囲の全ページの平均スコアです。100が最高のスコアで"
+"す。"
+
+#: src/templates/ajax-dashboard-traffic.php:24 src/templates/ajax-traffic.php:70
+msgid "Show"
+msgstr "表示"
+
+#: src/templates/ajax-dashboard-traffic.php:26 src/templates/ajax-traffic.php:74
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: src/templates/ajax-dashboard-traffic.php:29 src/templates/ajax-traffic.php:79
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "携帯電話"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:84
+msgid "Organic"
+msgstr "自然"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:89
+msgid "Paid"
+msgstr "有料"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:94
+msgid "Direct"
+msgstr "ダイレクト"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:99
+msgid "Social"
+msgstr "ソーシャル"
+
+#: src/templates/ajax-dashboard-widget.php:21
+msgid "Alerts"
+msgstr "アラート"
+
+#: src/templates/ajax-dashboard-widget.php:41
+msgid "high alerts"
+msgstr "アラート（高）"
+
+#: src/templates/ajax-dashboard-widget.php:45
+msgid "medium alerts"
+msgstr "アラート（中）"
+
+#: src/templates/ajax-dashboard-widget.php:49
+msgid "low alerts"
+msgstr "アラート（低）"
+
+#: src/templates/ajax-dashboard-widget.php:53
+msgid "View Dashboard"
+msgstr "ダッシュボードを見る"
+
+#: src/templates/ajax-dashboard-widget.php:60
+msgid "Top 5 Posts"
+msgstr "トップ5投稿"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:99
+msgid "Date Range"
+msgstr "期間"
+
+#: src/templates/ajax-dashboard.php:47
+msgid "Activity"
+msgstr "タイムライン"
+
+#: src/templates/ajax-dashboard.php:51
+msgid "Content Ranking"
+msgstr "コンテンツ順位"
+
+#: src/templates/ajax-dashboard.php:67
+msgid "Top Post by Traffic"
+msgstr "トラフィック別の上位投稿"
+
+#: src/templates/ajax-dashboard.php:73
+msgid "Top Author by Traffic"
+msgstr "トラフィック別の上位作家"
+
+#: src/templates/ajax-dashboard.php:79 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "トラフィック"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:18
+msgid "Meta Robots"
+msgstr "meta robotsタグ"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:26
+msgid "Index this Page (index,follow)"
+msgstr "このページに索引をつける (index, follow)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:28
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "このページに索引をつけない (noindex, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:30
+msgid "Custom Attributes"
+msgstr "カスタム属性"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:33
+msgid "Comma-separated values without spaces"
+msgstr "スペースなしのコンマ区切り値"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:38
+msgid "Canonical URL"
+msgstr "正規URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:44
+msgid "Custom Meta Robot Tags"
+msgstr "カスタムmeta robotsタグ"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:46
+msgid "Index this page. This is by default and implied."
+msgstr "このページをインデックスする。これは既定／暗黙。"
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:47
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"このページのコピーを、インデックス作成やリンク追跡とは関係なく検索エンジンの"
+"キャッシュに保存してください。"
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:48
+msgid "Follow links on this page. This is default and implied."
+msgstr "このページのリンクをたどってください。これは既定／暗黙。"
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:49
+msgid "Do not index this page, but follow the links on this page."
+msgstr "このページのインデックスしませんが、リンクをたどってください。"
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:50
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr "このページのリンクをたどらずに、コンテンツにインデックスしてください。"
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:51
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"このページの各リンクは、インデクスして、たどってください。ただし、ページのコ"
+"ピーを検索エンジンのキャッシュに保存しないでください。"
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:52
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "このページのスニペット（検索エンジンの結果）を表示しません。"
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:54
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"スペースを入れずにコンマ区切り値を使用してください。たとえば、検索エンジンで"
+"ページのインデックスを作成しないようにしたり、キャッシュに保持したままリンク"
+"をたどるようにしたりするには："
+
+#: src/templates/ajax-has-analytics.php:18
+msgid "You are currently logging Analytics data for "
+msgstr "分析データを現在記録しています："
+
+#: src/templates/ajax-has-analytics.php:21
+msgid "Current Account"
+msgstr "現在の預金口座"
+
+#: src/templates/ajax-has-analytics.php:26
+msgid "Disable Tracking Script"
+msgstr "トラッキング スニペットを無効にする"
+
+#: src/templates/ajax-has-analytics.php:27
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+"このアカウントに対して既に追跡が行われている場合は、<b>Yes</b> を選択します。"
+
+#: src/templates/ajax-has-analytics.php:42
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"アカウントの更新に成功しました！このサイトにAnalyticsを含めるアカウントを選択"
+"します。"
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Googleアナリティクス"
+
+#: src/templates/ajax-has-analytics.php:50
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Bruce Clay SEOプラグインのすべての機能を使用するには、Google Analyticsと"
+"Google Search Consoleに接続する必要があります。"
+
+#: src/templates/ajax-has-analytics.php:51
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"WordPressプラグイン用にBruce Clay SEOを設定するときは、Google Analyticsおよび"
+"Google Search Consoleへのアクセスに使用するのと同じGoogleアカウントを使用して"
+"Googleにログインできます。ログインはGoogleサーバーを介して行われ、Analyticsお"
+"よび検索コンソールのデータへのプラグインアクセスを許可すると、プラグインに貼"
+"り付けるコードが与えられます。"
+
+#: src/templates/ajax-has-analytics.php:52
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"コードが貼り付けられると、Google Analyticsアカウント内で有効なアカウントのリ"
+"ストが表示されます。選択されると、Google Analyticsプロジェクトはページビュー"
+"と訪問データをプラグインに提供するために使用されます。選択したGoogle "
+"Analyticsアカウントは、【現在のアカウント】の下の鉛筆アイコンをクリックしてい"
+"つでも変更できます。"
+
+#: src/templates/ajax-has-analytics.php:53
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"注：このメッセージが表示された場合は、既にGoogle Analyticsにログインしていま"
+"す。「現在【あなたのAnalyticsアカウント】のAnalyticsデータを記録していま"
+"す。」そのメッセージが表示されない場合は、もう一度Google Analyticsにログイン"
+"する必要があります。"
+
+#: src/templates/ajax-keywords-table-sort.php:4 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Keyword"
+msgstr "キーワード"
+
+#: src/templates/ajax-keywords-table-sort.php:5
+msgid "Assignments"
+msgstr "課題"
+
+#: src/templates/ajax-keywords-table-sort.php:8 src/templates/ajax-post-queries.php:23
+msgid "Clicks"
+msgstr "クリック数"
+
+#: src/templates/ajax-keywords-table-sort.php:9 src/templates/ajax-post-queries.php:22
+msgid "Impressions"
+msgstr "インプレッション"
+
+#: src/templates/ajax-keywords-table-sort.php:10 src/templates/ajax-post-queries.php:24
+msgid "Click-Through Rate"
+msgstr "CTR"
+
+#: src/templates/ajax-keywords-table-sort.php:10 src/templates/ajax-post-queries.php:24
+msgid "CTR"
+msgstr "CTR"
+
+#: src/templates/ajax-logged-in.php:20
+msgid "Current Project"
+msgstr "現行のプロジェクト"
+
+#: src/templates/ajax-logged-in.php:26
+msgid "No project selected!"
+msgstr "プロジェクトが選択されていません！"
+
+#: src/templates/ajax-logged-in.php:38
+msgid "Change or setup subscription."
+msgstr "購読を変更または設定する。"
+
+#: src/templates/ajax-logged-in.php:41
+msgid "Account and Project Selection"
+msgstr "アカウントとプロジェクトの選択"
+
+#: src/templates/ajax-logged-in.php:42
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Bruce Clay SEOプラグインは、その機能の多くを動かすためにSEOToolSetへの接続を"
+"必要とします。プラグイン購読はSEOToolSetへのアクセスを含みます。"
+
+#: src/templates/ajax-logged-in.php:43
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"WordPress用にBruce Clay SEOを設定するときは、ログインして、このSEOToolSet認証"
+"ウィンドウでプロジェクトをここで選択する必要があります。プロジェクトとは、"
+"SEOToolSetがサイトのキーワード、設定など、サイトに関連するデータをまとめて保"
+"持する方法です。"
+
+#: src/templates/ajax-logged-in.php:44
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"「現行のプロジェクト」の下で、編集アイコン（鉛筆）をクリックして、現行のサイ"
+"トに対応するSEOToolSetプロジェクトを選択してください。"
+
+#: src/templates/ajax-logged-in.php:45
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"注：このメッセージが表示されたら、すでにSEOToolSetにログインしています。「現"
+"在、SEOToolSetで【あなたのユーザー名】としてサインインしています。」そうでな"
+"ければ、ログインするためにユーザ名とパスワードを入力してください。"
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "ユーザー名"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/ajax-signup-step1.php:42 src/templates/page-status.php:76
+msgid "Password"
+msgstr "パスワード"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "ログイン"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "パスワードを忘れた。"
+
+#: src/templates/ajax-login-form.php:25
+msgid "I don't have an account."
+msgstr "アカウントを持ってない。"
+
+#: src/templates/ajax-post-keywords.php:16
+#: src/templates/ajax-post-meta-description.php:44
+#: src/templates/ajax-post-meta-keywords.php:18 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "meta descriptionタグ"
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Content"
+msgstr "コンテンツ"
+
+#: src/templates/ajax-post-keywords.php:18
+msgid "Highlight Color"
+msgstr "ハイライト色"
+
+#: src/templates/ajax-post-keywords.php:54
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"コンテンツの掲載結果を向上させるのに役立つキーワードやキーワードフレーズを見"
+"つけるために、SEOToolSetを<a class=\"analyze\" href=\"@@\">コンテンツの分析</"
+"a>してください。独自のキーワードとキーワードフレーズを追加すると、SEOToolSet"
+"はそれらを分析してコンテンツを最適化するのに役立ちます。"
+
+#: src/templates/ajax-post-keywords.php:57
+msgid "Highlight"
+msgstr "ハイライト"
+
+#: src/templates/ajax-post-keywords.php:66
+msgid "Clear"
+msgstr "クリア"
+
+#: src/templates/ajax-post-meta-description.php:41
+msgid "Meta Title"
+msgstr "meta titleタグ"
+
+#: src/templates/ajax-post-meta-description.php:53
+msgid "Snippet Preview"
+msgstr "スニペットプレビュー"
+
+#: src/templates/ajax-post-mobile.php:88
+msgid "mobile friendliness"
+msgstr "モバイルフレンドリー"
+
+#: src/templates/ajax-post-pagespeed.php:88
+msgid "page load speed"
+msgstr "ページ読み込み速度"
+
+#: src/templates/ajax-post-queries.php:17
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:20
+msgid "Query"
+msgstr "クエリ"
+
+#: src/templates/ajax-post-queries.php:39
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Google Analyticsアカウントを％a href％設定％/ a％ページに接続します。"
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "データなし"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "アイテム"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "現在"
+
+#: src/templates/ajax-post-summary-performance.php:29
+msgid "Total Page Views"
+msgstr "ページのビュー数"
+
+#: src/templates/ajax-post-summary-performance.php:33
+msgid "Average Time on Page"
+msgstr "ページでの平均時間"
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr "本日のビュー数"
+
+#: src/templates/ajax-post-summary-performance.php:41
+msgid "Views this Week"
+msgstr "今週のビュー数"
+
+#: src/templates/ajax-post-summary-performance.php:45
+msgid "Views this Month"
+msgstr "今月のビュー数"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr "データなし。"
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "目標"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+msgid "Post not analyzed."
+msgstr "投稿は分析されません。"
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+msgid "No alerts found."
+msgstr "アラートなし。"
+
+#: src/templates/ajax-post-summary.php:15
+msgid "Status Alerts"
+msgstr "ステータスアラート"
+
+#: src/templates/ajax-post-summary.php:22
+msgid "Statistics"
+msgstr "統計"
+
+#: src/templates/ajax-post-summary.php:29
+msgid "Performance"
+msgstr "パフォーマンス"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "無効なメールアドレス。"
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "無効なユーザー名。"
+
+#: src/templates/ajax-signup-step1.php:19
+msgid "Bad password."
+msgstr "弱いパスワード。"
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr "パスワードが一致しません."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "次へ"
+
+#: src/templates/ajax-signup-step2.php:15
+msgid "No plan selected."
+msgstr "プランを選択。"
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "購読をキャンセル"
+
+#: src/templates/ajax-signup-step2.php:33
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"利用可能な課金プランを取得中にエラーが発生しました。戻ってやり直してくださ"
+"い。"
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "現在"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "戻る"
+
+#: src/templates/ajax-signup-step3.php:24
+msgid "Invalid or missing first name."
+msgstr "名が無効または見つかりません。"
+
+#: src/templates/ajax-signup-step3.php:30
+msgid "Invalid or missing last name."
+msgstr "姓が無効または見つかりません。"
+
+#: src/templates/ajax-signup-step3.php:34
+msgid "Invalid or missing postal code."
+msgstr "郵便番号が無効または見つかりません。"
+
+#: src/templates/ajax-signup-step3.php:38
+msgid "Invalid or missing credit card token."
+msgstr "クレジット カード トークンが無効または見つかりません。"
+
+#: src/templates/ajax-signup-step3.php:42
+msgid "You must accept the terms and conditions."
+msgstr "利用規約に同意する必要があります。"
+
+#: src/templates/ajax-signup-step3.php:99
+msgid "Account and subscription successfully created."
+msgstr "アカウントとサブスクリプションが作成されました。"
+
+#: src/templates/ajax-signup-step3.php:104
+msgid "Subscription successfully updated."
+msgstr "サブスクリプションは更新されました。"
+
+#: src/templates/ajax-signup-step3.php:109
+msgid "Subscription successfully deleted."
+msgstr "サブスクリプションはキャンセルされました。"
+
+#: src/templates/ajax-signup-step3.php:173
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"次へをクリックすると、購読はキャンセルされます。現在の購読は次の請求サイクル"
+"まで続き、その後終了します。"
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "名"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "姓"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "クレジットカード情報"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "郵便番号"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "同意する"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "利用条件"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "成功！"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "完了"
+
+#: src/templates/ajax-traffic.php:33
+msgid "Metric Type"
+msgstr "メトリックの種類"
+
+#: src/templates/ajax-traffic.php:40
+msgid "Visits"
+msgstr "セッション"
+
+#: src/templates/ajax-traffic.php:43
+msgid "Conversions"
+msgstr "購入者数"
+
+#: src/templates/ajax-traffic.php:47
+msgid "Time"
+msgstr "時間"
+
+#: src/templates/ajax-traffic.php:51
+msgid "This Past Year"
+msgstr "過去1年間"
+
+#: src/templates/ajax-traffic.php:54
+msgid "This Past Month"
+msgstr "過去1か月"
+
+#: src/templates/ajax-traffic.php:57
+msgid "This Past Week"
+msgstr "過去1週間"
+
+#: src/templates/ajax-traffic.php:60 src/templates/ajax-traffic.php:116
+msgid "Yesterday"
+msgstr "昨日"
+
+#: src/templates/ajax-traffic.php:66 src/templates/ajax-traffic.php:132
+msgid "All Time"
+msgstr "すべての期間"
+
+#: src/templates/ajax-traffic.php:120
+msgid "Past Week"
+msgstr "過去1週間"
+
+#: src/templates/ajax-traffic.php:124
+msgid "Past Month"
+msgstr "過去1か月"
+
+#: src/templates/ajax-traffic.php:128
+msgid "Past Year"
+msgstr "過去1年間"
+
+#: src/templates/ajax-traffic.php:136
+msgid "Monthly Change"
+msgstr "前月比"
+
+#: src/templates/ajax-traffic.php:140
+msgid "Page Ranking"
+msgstr "ページ順位"
+
+#: src/templates/big-table-sorting.php:35
+msgid "Search"
+msgstr "検索"
+
+#: src/templates/big-table-sorting.php:44
+msgid "Top Ranked"
+msgstr "最高順位"
+
+#: src/templates/big-table-sorting.php:45
+msgid "Most Viral"
+msgstr "最もバイラル"
+
+#: src/templates/big-table-sorting.php:46
+msgid "Most Shared"
+msgstr "最も共有されている"
+
+#: src/templates/big-table-sorting.php:57
+msgid "Status:"
+msgstr "ステータス:"
+
+#: src/templates/big-table-sorting.php:78
+msgid "View Archive"
+msgstr "アーカイブを見る"
+
+#: src/templates/big-table-sorting.php:84
+msgid "View New"
+msgstr "新しいものを見る"
+
+#: src/templates/big-table-sorting.php:108
+msgid "Apply"
+msgstr "適用"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "伝説"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "カウント"
+
+#: src/templates/keyword-legend.php:8
+msgid "Goal Met"
+msgstr "目標達成"
+
+#: src/templates/page-settings.php:19
+msgid "Which users can see the dashboard?"
+msgstr "どのユーザーがダッシュボードを見ることできますか？"
+
+#: src/templates/page-settings.php:20
+msgid "Which users can see the post/page widget?"
+msgstr "どのユーザーが投稿/ページウィジェットのデータを見ることできますか？"
+
+#: src/templates/page-settings.php:21
+msgid "Which users can edit data on the post/page widget?"
+msgstr "どのユーザーが投稿/ページウィジェットのデータを編集できますか？"
+
+#: src/templates/page-settings.php:22
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "どのユーザーがBruce Clay SEO設定を編集できますか？"
+
+#: src/templates/page-settings.php:36
+msgid "SEOToolSet Authentication"
+msgstr "SEOToolSet認証"
+
+#: src/templates/page-settings.php:37
+msgid "Connect to your SEOToolSet account."
+msgstr "SEOToolSetアカウントに接続する。"
+
+#: src/templates/page-settings.php:49
+msgid "Synchronize Content"
+msgstr "コンテンツを同期する"
+
+#: src/templates/page-settings.php:50
+msgid ""
+"Submit your content for analysis.  You only need to do this when you first "
+"set up your site with us, or if the post count ever gets out of sync."
+msgstr ""
+"分析のためにコンテンツを送信してください。最初に私たちとサイトを設定したと"
+"き、あるいは投稿数が今まで同期しなくなったときだけこれをする必要があります。"
+
+#: src/templates/page-settings.php:60
+msgid "Connect to your Google Analytics account."
+msgstr "Google Analyticsアカウントに接続する。"
+
+#: src/templates/page-settings.php:75
+msgid "Webmaster Verification Codes"
+msgstr "webマスター認証コード"
+
+#: src/templates/page-settings.php:76
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Google Search ConsoleとBing webマスター ツールの認証コードを入力してくださ"
+"い。"
+
+#: src/templates/page-settings.php:79
+msgid "Google Verification Code"
+msgstr "Google認証コード"
+
+#: src/templates/page-settings.php:81
+msgid "Bing Verification Code"
+msgstr "Bing認証コード"
+
+#: src/templates/page-settings.php:94
+msgid "Front Page Title and Meta Description"
+msgstr "トップページのtitleタグとmeta descriptionタグ"
+
+#: src/templates/page-settings.php:95
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"あなたのトップページとして特定のページを使用していないとき、これらは適用され"
+"ます。"
+
+#: src/templates/page-settings.php:98
+msgid "Front Page Title"
+msgstr "トップページのtitleタグ"
+
+#: src/templates/page-settings.php:100
+msgid "Front Page Meta Description"
+msgstr "トップページのmeta descriptionタグ"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "ユーザー権限"
+
+#: src/templates/page-settings.php:110
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "ユーザーがアクセスできるBruce Clay SEOの機能を制御します。"
+
+#: src/templates/page-settings.php:119
+msgid " (and higher)"
+msgstr " (およびそれ以上)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "既定値に戻す"
+
+#: src/templates/page-status.php:24
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"これは物事が正しく設定されていることを確認するためのページです。 例として"
+"WooCommerceのを見てください。"
+
+#: src/templates/page-status.php:26
+msgid "Hold Up!"
+msgstr "ちょっと待ってください！"
+
+#: src/templates/page-status.php:29
+msgid "Suspend operations?"
+msgstr "操作を一時停止しますか？"
+
+#: src/templates/page-status.php:32
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "これをチェックしてSEOToolSet操作を一時的に停止します。"
+
+#: src/templates/page-status.php:37
+msgid "Environment Variables"
+msgstr "環境変数"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "PHPのバージョン"
+
+#: src/templates/page-status.php:69
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSetアカウント情報"
+
+#: src/templates/page-status.php:80
+msgid "Real Name"
+msgstr "氏名"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "メールアドレス"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: src/templates/page-status.php:93
+msgid "API Connectivity Test"
+msgstr "API接続テスト"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "エンドポイント"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "概要"
+
+#: src/templates/post-widget.php:36
+msgid "Queries"
+msgstr "クエリ"
+
+#: src/templates/post-widget.php:39
+msgid "Pagespeed"
+msgstr "ページスピード"
+
+#: src/templates/post-widget.php:46
+msgid "Search Directives"
+msgstr "検索ディレクティブ"
+
+#: src/templates/post-widget.php:55
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"キーワードの強調表示は、ビジュアルエディタでのみ機能します。投稿内容の上にあ"
+"るタブを使用してモードを切り替えてください。"
+
+#: src/templates/post-widget.php:59
+msgid "Keyword Phrases (comma-separated)"
+msgstr "キーワード フレーズ（カンマ区切り）"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "追加する"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "または"
+
+#: src/templates/post-widget.php:67
+msgid "Add Keyword Group"
+msgstr "キーワード グループを追加する"
+
+#: src/templates/post-widget.php:74
+msgid "Analyze Content"
+msgstr "コンテンツを分析する"
+
+#: src/templates/post-widget.php:75
+msgid "Refresh Goals"
+msgstr "目標を更新する"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "設定"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.seotoolset.com/"
+msgstr "https://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"ブルースクレイSEOは、リアルタイムの競合分析に基づいて、ページ上のSEOのガイダ"
+"ンスをブログライターに提供します。分析は、右のワードプレスで、ポストのパ"
+"フォーマンスを表示するために統合されています。キーワード追跡、レポート、"
+"SEOToolSetによって供給されます。"
+
+#. Author of the plugin/theme
+msgid "Bruce Clay, Inc."
+msgstr "Bruce Clay, Inc."
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+
+#~ msgid "Check for updates"
+#~ msgstr "アップデートを確認する"
+
+#~ msgid "View details"
+#~ msgstr "詳細を見る"
+
+#~ msgid "More information about %s"
+#~ msgstr "%sについての詳細"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "%s プラグインは最新です。"
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "%sプラグインの新しいバージョンが利用可能です。"
+
+#, fuzzy
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "%s の更新が利用可能かどうかを判断できませんでした。"
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "不明なアップデートチェッカーステータス \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "利用可能な変更ログはありません。"
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "ステータスページよりも理にかなった API テストのための場所です。ほとんどの"
+#~ "場合、「モジュール式」で動作するため、API へのリクエストは、ページをロード"
+#~ "する前に <em> all </em> テストを実行するのではなく、リスト内のアイテムの"
+#~ "ヘッダーをクリックしたときにのみ行われます。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span クラス = \"pass\" > 緑の項目 </span> は、< span クラス = \"fail\" "
+#~ "> オレンジの項目 </span> が失敗することを意味している間に渡すことを意味し"
+#~ "ます。ただし、pass したテストは、最初にログアウト (<code> 削除/login </"
+#~ "code>) することによって、認証によって強制的に失敗させることができます。"
+#~ "cURL HTTP コードレスポンスと、それに応じて API のエラーレポートを確認して"
+#~ "ください。"
+
+#, fuzzy
+#~ msgid "Contributions"
+#~ msgstr "貢献"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "最終公開日"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "最高ランク"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "テストのハイライト"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "過去30日間"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API がフィールドを返しませんでした:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API がフィールドの配列を返しませんでした:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "先月から + 10%"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "名前なし"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Imps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "修正する必要があり"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr "ページの読み込み速度が大幅に低下する問題 (Google ごと)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "修正を検討する"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr "ページの読み込み速度に影響を与える可能性のある問題 (Google ごと)"
+
+#, fuzzy
+#~ msgid "Positives"
+#~ msgstr "陽性"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Google の推奨事項に一致または上回るアイテムで、ページの読み込み速度にメ"
+#~ "リットがある"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "モバイルの利便性を損なう可能性のある問題 (Google ごと)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "モバイルの利便性に影響を与える可能性のある問題 (Google ごと)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "モバイルフレンドリーガイドラインに一致または上回る項目 (Google ごと)"

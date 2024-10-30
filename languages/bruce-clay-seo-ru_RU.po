@@ -1,0 +1,1663 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:28-0700\n"
+"PO-Revision-Date: 2019-07-16 12:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Похоже, в этом месте ничего не было найдено. Может быть, попробуйте поискать?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Брюс клей SEO приборной панели"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Брюс клей SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Функция не существует"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Неверный ответ, полученный от API для"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "ошибка"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Ошибка при создании проекта!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Отсутствует"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Недопустимое имя шаблона."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Убил все настройки!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"Не удалось проверить специальное слово! Параметры Сеотулсет не были "
+"обновлены."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Настройки Сеотулсет не изменились."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Ваши настройки Сеотулсет были обновлены!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Что-то пошло не так! Параметры Сеотулсет не были обновлены."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Установка плагина не завершена. Перейдите к <a href=\"%s\">Брюс Клей SEO - "
+"Настройки</a> авторизовать данные из SEOToolSet® и Google."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Настройка неполная. Убедитесь, что вы вошли в систему, подписались и выбрали "
+"активный проект."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Этот сайт управляется с Брюс клей SEO."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "Операции Сеотулсет были приостановлены!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Сегодня"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Последний"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "дней"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"Сеотулсет не может работать на версиях PHP до 5.4.0. Пожалуйста, свяжитесь с "
+"вашим хостинг-провайдером для обновления вашего сайта."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"Сеотулсет требует отсутствующей библиотеки: Curl. Пожалуйста, свяжитесь с "
+"вашим хостинг-провайдером для обновления вашего сайта."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Причина"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Брюс клей SEO статус оповещения"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Посмотреть все"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Больше"
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr "Войти через Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"При нажатии на кнопку выше будет запущен всплывающее окно. Следуйте "
+"инструкциям, скопируйте-вставьте код авторизации Google он представляет в "
+"поле ниже, а затем закройте всплывающее окно."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Код аутентификации Google"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Войти успешно! Теперь выберите учетную запись, для которой аналитика будет "
+"включена на этот сайт."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "Вы вошли в систему как"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Выйти"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "Выберите проект для использования с Сеотулсет WP плагин"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "ИЛИ создать новый проект"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "Название проекта"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+#, fuzzy
+msgid "Description"
+msgstr "Мета описание"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "На сайте% d/пост (ов)."
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr "Произошла ошибка."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Отправлено% d страница (ы)/пост (ы) для индексации!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Есть% d страниц (ы)/пост (ы), которые нуждаются в синхронизации."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Все содержимое синхронизировано."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Анализ содержимого"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Синхронизация отсутствующего содержимого"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+msgid "(none)"
+msgstr "(нет)"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Редактировать пост"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "должности требуют внимания"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+msgid "Rankings"
+msgstr "Рейтинги"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Рейтинг"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Автор"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Просмотры"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Среднее время"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Ключевые фразы"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "# PG назначено"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Лучшая средняя позиция"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "PG. виды"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+msgid "What's this?"
+msgstr "Что это?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Общая средняя скорость страницы"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Общий средний мобильный счет"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "SEO Оценка"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "SEO Оценка пересчитывается ежемесячно и на основе сайта в целом."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Скорость страницы"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Скорость страницы средняя оценка для всех страниц на сайте по шкале от "
+"0-100, с 100 является лучшим возможным счетом. Скорость страницы оценки "
+"являются репрезентативными, как быстро ваши страницы загружаются.."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+msgid "Mobile Score"
+msgstr "Результат для мобильных устройств"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Мобильный счет является средний балл для всех страниц на сайте по шкале от "
+"0-100, с 100 является наилучшим счетом. Мобильные оценки отражают мобильное "
+"удобство, скорость и дизайн."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Показать"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+#, fuzzy
+msgid "Organic"
+msgstr "Органических"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Оплачено"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Прямой"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Социальные сети"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Оповещения"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "высокие оповещения"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "средние оповещения"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "низкие оповещения"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Консоль "
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Топ 5 сообщений"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Диапазон дат"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Активность"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Ранжирование контента"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Верхний столб движением"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Топ автор трафика"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Трафик"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+msgid "Meta Robots"
+msgstr "Мета Роботы"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Индексировать эту страницу (индекс, следовать)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Не индексировать эту страницу (без индекса, NOFOLLOW)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+msgid "Custom Attributes"
+msgstr "Пользовательские атрибуты"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Значения, разделенные заПятыми без пробелов"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr "Канонические URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Пользовательские мета робот Теги"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Индексировать эту страницу. Это по умолчанию и подразумевается."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Храните копию этой страницы в кэше поисковой системы независимо от "
+"индексации или ссылки ниже."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr ""
+"Следуйте ссылкам на этой странице. Это значение по умолчанию и "
+"подразумевается."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "Не индексировать эту страницу, но следуйте ссылкам на этой странице."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Не следуйте ссылкам на этой странице, но индексировать эту страницу для "
+"содержания."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Индекс и следуйте ссылкам на этой странице, но не храните копию страницы в "
+"кэше поисковой системы."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr ""
+"Не отображать фрагмент (результат поисковой системы) для этой страницы."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Используйте значения, разделенные запятыми, без пробелов. Например, чтобы "
+"поисковая система не индексирует страницу или не сохранила ее в кэше, но по-"
+"прежнему следит за ссылками, используйте"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "В данный момент вы ведете регистрацию данных аналитики для"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Текущий счет"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Отключить сценарий отслеживания"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+"Выберите <б> Yes </б>, если у вас уже есть отслеживание на месте для этой "
+"учетной записи."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Обновление учетной записи выполнено успешно! Выберите учетную запись, для "
+"которой аналитика будет включена на этот сайт."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Брюс клей SEO плагин требует подключения к Google Analytics и Google Search "
+"Console, чтобы использовать все свои функции."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"При создании Брюс клей SEO для WordPress плагин, вы можете войти в Google, "
+"используя тот же аккаунт Google вы используете для доступа к Google "
+"Analytics и Google Search Console. Логин будет происходить через серверы "
+"Google, и после того, как вы разрешили плагин доступ к вашей аналитики и "
+"поиска консоли данных, вам будет предоставлен код для вставки в плагин."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"После вставки кода вам будет представлен список учетных записей, которые "
+"активны в вашем аккаунте Google Analytics. После выбора, проект Google "
+"Analytics будет использоваться для обеспечения просмотра страниц и посещения "
+"данных в плагин. Вы можете изменить выбранный аккаунт Google Analytics в "
+"любое время, выбрав значок карандаша в разделе \"текущий счет\"."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Примечание: вы уже вошли в Google Analytics, если вы видите это сообщение: "
+"\"вы являетесь текущим ведением журнала аналитики для [вашего аккаунта "
+"аналитики]\". Если вы не видите это сообщение, вам нужно будет снова войти в "
+"Google Analytics."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Текущий проект"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Ни один проект не выбран!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Изменение или Настройка подписки."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Выбор учетной записи и проекта"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Брюс клей SEO плагин требует подключения к Сеотулсет для питания многих его "
+"особенностей. Подписка на плагин включает в себя доступ к Сеотулсет."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"При настройке Брюс клей SEO для WordPress, вы должны войти в Сеотулсет и "
+"указать соответствующий проект здесь, в этой Сеотулсет аутентификации "
+"панели. Проект заключается в том, как Сеотулсет хранит данные, относящиеся к "
+"вашему веб-сайту вместе, такие как ключевые слова сайта, предпочтения и т. д."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"В разделе \"текущий проект\" щелкните значок редактирования (карандаш), "
+"чтобы выбрать проект Сеотулсет, соответствующий текущему веб-сайту."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Примечание: вы уже вошли в Сеотулсет, если вы видите это сообщение: \"вы в "
+"настоящее время вошли как [Ваше имя пользователя] в Сеотулсет.\" В противном "
+"случае для входа в систему можно ввести имя пользователя и пароль."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Пароль"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Войти"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "Я забыл пароль."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "У меня нет аккаунта."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "Мета описание"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Содержание"
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Highlight Color"
+msgstr "Цвет выделения"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Есть Сеотулсет < a class = \"анализировать\" href = \"@ @\" > анализировать "
+"содержание </а> для того, чтобы найти ключевые слова и фразы, которые "
+"помогут вашему содержанию работать лучше. Добавьте свои собственные ключевые "
+"слова и фразы, и Сеотулсет будет анализировать их, чтобы помочь вам "
+"оптимизировать содержание."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Выделение"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Очистить"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "Мета Заголовок"
+
+#: src/templates/ajax-post-meta-description.php:52
+msgid "Snippet Preview"
+msgstr "Предварительный просмотр фрагмента"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Влияние правил"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "Мобильная дружелюбие"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Pagespeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "Запрос"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Показы"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Клики"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Скорость щелчка"
+
+#: src/templates/ajax-post-queries.php:23
+msgid "CTR"
+msgstr "CTR"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Подключитесь к аккаунту Google Analytics."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "Нет данных"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Пункт"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Текущий"
+
+#: src/templates/ajax-post-summary-performance.php:29
+msgid "Total Page Views"
+msgstr "Всего просмотров страниц"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Среднее время на странице"
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr "Просмотров сегодня"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Просмотров на этой неделе"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Просмотров за месяц"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr "Нет данных."
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "Цель"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Сообщение не проанализировано."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Оповещения не найдены."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Оповещения о состоянии"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Статистика"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Производительность"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Некорректный email."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Неправильное имя пользователя"
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Неверный пароль."
+
+#: src/templates/ajax-signup-step1.php:22
+#, fuzzy
+msgid "Passwords don't match."
+msgstr "Пароли не совпадают."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Следующий"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "План не выбран."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Отменить подписку"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Произошла ошибка при попытке извлечения доступных планов выставления счетов. "
+"Пожалуйста, вернитесь и повторите попытку."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "текущий"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Назад"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Недопустимое или отсутствующее имя."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Недопустимая или отсутствующая фамилия."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Неверный или отсутствующий почтовый индекс."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Неверный или отсутствующий маркер кредитной карты."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "Вы должны принять условия и положения."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Учетная запись и Подписка успешно созданы."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Подписка успешно обновлена."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Подписка успешно удалена."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"После нажатия кнопки Далее подписка будет отменена.  Текущая подписка будет "
+"продолжена до следующего цикла выставления счетов и завершится."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Имя"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "Информация о кредитной карте"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Почтовый индекс"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "Я согласен с"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "Условиями"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Успешно!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Готово"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Тип метрики"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Просмотры страницы"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Посещения"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "Конверсии"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Время"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Прошлый год"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Прошлый месяц"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "На прошлой неделе"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "За все время"
+
+#: src/templates/ajax-traffic.php:122
+msgid "Past Week"
+msgstr "На прошлой неделе"
+
+#: src/templates/ajax-traffic.php:126
+msgid "Past Month"
+msgstr "Прошлый месяц"
+
+#: src/templates/ajax-traffic.php:130
+msgid "Past Year"
+msgstr "Прошлый год"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Ежемесячное изменение"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Ранжирование страниц"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Поиск"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Статус:"
+
+#: src/templates/big-table-sorting.php:81
+msgid "View Archive"
+msgstr "Смотреть архив"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Просмотр нового"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Применить"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Легенда"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Количество"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Цель встретились"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Какие пользователи могут видеть панель мониторинга?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Какие пользователи могут видеть виджет пост/страница?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Какие пользователи могут редактировать данные на пост/страницу виджет?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Какие пользователи могут редактировать Брюс клей SEO настройки?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "Сеотулсет аутентификация"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Подключитесь к своей учетной записи Сеотулсет."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Анализ содержимого"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Представьте свой контент для анализа.  Вам только нужно сделать это, когда "
+"вы сначала настроить ваш сайт с нами, или если сообщение рассчитывать когда-"
+"либо выходит из синхронизации."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Подключитесь к аккаунту Google Analytics."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Коды подтверждения для веб-мастеров"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Введите коды подтверждения для своей консоли поиска Google и инструментов "
+"для веб-мастеров Bing."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Код подтверждения Google"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Код проверки Bing"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Титульная страница и мета-описание"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"Если вы не используете конкретную страницу в качестве титульной страницы, "
+"они будут применяться."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Заголовок титульной страницы"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Описание мета титульной страницы"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "Пользовательские разрешения"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr ""
+"Контроль, который Брюс клей SEO особенности ваши пользователи имеют доступ к."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(и выше)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Восстановить значения по умолчанию"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Это страница для обеспечения правильной настройки вещей. Смотрите "
+"WooCommerce для обширного (возможно, слишком) примера."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Задержать!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "ПриОстановить операции?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "Проверьте это, чтобы временно остановить операции Сеотулсет."
+
+#: src/templates/page-status.php:37
+msgid "Environment Variables"
+msgstr "Переменные среды"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "Версия PHP"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "Информация об учетной записи Сеотулсет"
+
+#: src/templates/page-status.php:80
+msgid "Real Name"
+msgstr "Настоящее имя"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "Email"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "Тест подключения API"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Конечная точка"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Резюме"
+
+#: src/templates/post-widget.php:36
+msgid "Queries"
+msgstr "Запросов"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Pagespeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Директивы поиска"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Подсветка ключевых слов работает только в визуальном редакторе. Пожалуйста, "
+"переключите режимы, используя вкладки над содержимым поста."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Ключевые фразы (разделенные запятыми)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Добавить"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Или"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Добавить группу ключевых слов"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Анализ содержимого"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Обновить цели"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Настройки"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.Seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Брюс клей SEO дает блог писателей на странице SEO руководство на основе "
+"реального времени конкурент анализа. Аналитика интегрирована, чтобы показать "
+"пост производительности, прямо в WordPress. Отслеживание ключевых слов, "
+"отчеты и более питание от Сеотулсет."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Брюс клей, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"HTTPS://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=plugin&utm_campaign=WordPress-General"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Проверьте настройки плагина. Необходимо подключить учетную запись "
+#~ "Сеотулсет."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "Проверьте настройки плагина. У вас нет активной подписки."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Проверьте настройки плагина. Необходимо выбрать проект."
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "Post Title"
+#~ msgstr "Заголовок поста"
+
+#~ msgid "Last Updated"
+#~ msgstr "Последнее обновление"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "ПоМетить как выполнено"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "Ranking"
+#~ msgstr "Распределение"
+
+#~ msgid "Pages"
+#~ msgstr "Страницы"
+
+#~ msgid "Last Update"
+#~ msgstr "Последнее обновление"
+
+#~ msgid "Total Views"
+#~ msgstr "Всего просмотров"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "AVG. представления"
+
+#~ msgid "Published"
+#~ msgstr "Опубликовано"
+
+#~ msgid "Assignments"
+#~ msgstr "Задания"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Топ рейтинг"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "Большинство вирусных"
+
+#~ msgid "Most Shared"
+#~ msgstr "Самые публикуемые"
+
+#~ msgid "Check for updates"
+#~ msgstr "Проверить наличие обновлений"
+
+#~ msgid "View details"
+#~ msgstr "Посмотреть детали"
+
+#~ msgid "More information about %s"
+#~ msgstr "Подробнее о %s"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Плагин %s обновлен."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Доступна новая версия плагина%s."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Не удалось определить, доступны ли обновления для% s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Неизвестный статус проверки обновлений \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Нет доступных изменений."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Место для тестирования API, которое имеет больше смысла, чем страница "
+#~ "Status. Главным образом потому, что он работает \"модульно\": запросы к "
+#~ "API только сделаны, когда вы щелкаете заголовок элемента в списке вместо "
+#~ "того, чтобы запускать <ем> все </ем> тесты сразу перед загрузкой страницы."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span class = «pass» > зеленые элементы </спан> предназначены для "
+#~ "передачи в то время как < span class = «fail» > оранжевый элементы </"
+#~ "спан> предназначены для сбоя. Тем не менее, прохождение тестов может быть "
+#~ "принудительно сбой через аутентификацию путем выхода (<коде> DELETE/login "
+#~ "</коде>) в первую очередь. Проверьте реакцию HTTP-кода cURL и отчет об "
+#~ "ошибках API соответствующим образом."
+
+#~ msgid "Contributions"
+#~ msgstr "Вклады"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Последние публикации"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Наивысший ранг"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Основные моменты тестирования"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "За последние 30 дней"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API не вернул поля (ы):"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API не вернул массив для полей:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% с прошлого месяца"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "НЕТ ИМЕНИ"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Бесов"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Должны исправить"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Проблемы, которые могут значительно снизить скорость загрузки страницы (в "
+#~ "Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Рассмотрим фиксации"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr ""
+#~ "Проблемы, которые могут повлиять на скорость загрузки страницы (на Google)"
+
+#~ msgid "Positives"
+#~ msgstr "Положительных"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Элементы, которые соответствуют или превосходят рекомендации Google и "
+#~ "могут принести пользу скорости загрузки страницы"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Проблемы, которые могут повредить мобильное удобство (в Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr ""
+#~ "Проблемы, которые могут повлиять на удобство для мобильных устройств (в "
+#~ "Google)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Элементы, которые соответствуют или превышают правила дружелюбия для "
+#~ "мобильных устройств (на Google)"

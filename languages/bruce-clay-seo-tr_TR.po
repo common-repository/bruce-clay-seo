@@ -1,0 +1,1650 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:28-0700\n"
+"PO-Revision-Date: 2019-07-16 12:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Bu yerde hiçbir şey bulunamadı gibi görünüyor. Belki bir arama yapmayı "
+"denemek istermisin"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Bruce kil SEO Dashboard"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Ömer toprak"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Işlev yok"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "API 'den alınan geçersiz yanıt"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "hata"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Proje oluşturma hatası!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Eksik"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Geçersiz şablon adı."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Tüm ayarları öldürdü!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr "Nonce doğrulanamadı! SEOToolSet ayarlarınız güncelleştirilmedi."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "SEOToolSet ayarlarınız değişmedi."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "SEOToolSet ayarlarınız güncellendi!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Bir şeyler ters gitti! SEOToolSet ayarlarınız güncelleştirilmedi."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Eklenti Kurulumu tamamlanmadı. Git <a href=\"%s\">Bruce Clay SEO--ayarlar</"
+"a> SEOToolSet® ve Google verileri yetkilendirmek için."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Kur tamamlanmamış. Oturum açtığınızdan, abone olduğunuzdan ve etkin bir "
+"projenin seçildiğinden emin olun."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Bu site Bruce Clay SEO ile yönetilir."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet operasyonları askıya alındı!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Bugün"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Son"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "gün"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet 5.4.0 önce PHP sürümlerinde çalışmaz. Sitenizi güncellemek için "
+"lütfen barındırma sağlayıcınıza başvurun."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet Kütüphane eksik: curl gerektirir. Sitenizi güncellemek için "
+"lütfen barındırma sağlayıcınıza başvurun."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Sebep"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce kil SEO durum uyarıları"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Hepsini gör"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Daha"
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr "google a giriş yap"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Yukarıdaki düğmeyi tıklatarak bir açılır pencere başlatacaktır. Yönergeleri "
+"Izleyin, Kopyala-Yapıştır Google yetkilendirme kodu aşağıdaki kutuya sunar "
+"ve sonra pop-up kapatın."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Google kimlik doğrulama kodu"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Oturum açma başarılı! Şimdi, Analytics 'in bu siteye dahil edilecek bir "
+"hesap seçin."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "Giriş yaptığınız kullanıcı adı: "
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Çıkış Yap"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "SEOToolSet WP eklentisi ile kullanılacak bir proje seçin"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "VEYA yeni bir proje oluşturun"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "Proje Adı"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Açıklama"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Sitenizde% d sayfa/post (s) vardır."
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr "Bir hata oluştu."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Dizin oluşturma için% d sayfa/post (s) gönderildi!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Eşitlenmesi gereken% d sayfa/post (s) vardır."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Tüm içerikler senkronize edilmiştir."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Içeriği çözümleme"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Eksik Içeriği senkronize etme"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+#, fuzzy
+msgid "(none)"
+msgstr "hiçbiri"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Gönderiyi Düzenle"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "mesajlar dikkat gerektirir"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "Sıralaması"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Sıralama"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Başlık"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Yazar"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Görüntülenme"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Ortalama zaman"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Anahtar kelime Ifadeler"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "= Atanan pg"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "En iyi Ortalama pozisyon"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "S. görünümler"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "Bu nedir?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Genel ortalama sayfa hızı"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Genel ortalama cep puanı"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+msgid "SEO Score"
+msgstr "SEO Puanı"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr "SEO skoru aylık ve bir bütün olarak siteye dayalı yeniden hesaplanır."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+msgid "Page Speed"
+msgstr "Sayfa Hızı"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Sayfa hızı, 0-100 gelen bir ölçekte sitedeki tüm sayfalar için Ortalama "
+"puanı 100 en iyi puan olmak. Sayfa hızı puanları sayfalarınızın ne kadar "
+"hızlı yüklmesine temsilcisidir."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+msgid "Mobile Score"
+msgstr "Mobil Puan"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Mobil skor, 100 ile en iyi skor olmak üzere, 0-100 gelen bir ölçekte "
+"sitedeki tüm sayfaların ortalama puanıdır. Mobil puanları mobil "
+"kullanılabilirlik, hız ve tasarım yansıtır."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Göster"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+#, fuzzy
+msgid "Organic"
+msgstr "Organik"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Ödenmiş"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Direkt"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Sosyal"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Uyarılar"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "yüksek uyarılar"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "Orta uyarı"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "düşük uyarılar"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Paneli Görüntüle"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 yazılar"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Tarih aralığı"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Aktivite"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Içerik sıralaması"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Anahtar Kelimeler"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Trafik tarafından Top Post"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Trafik tarafından en iyi Yazar"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Trafik"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+msgid "Meta Robots"
+msgstr "Meta Robots"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Dizin Bu sayfa (Dizin, takip)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Bu sayfayı dizine verme (NOINDEX, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+msgid "Custom Attributes"
+msgstr "Özel Nitelikler"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Boşluklar içermeyen virgülle ayrılmış değerler"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr "Kopya(Aynı) URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Özel meta robot etiketleri"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Bu sayfayı dizin. Bu varsayılan ve zımni."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Bu sayfanın bir kopyasını arama motoru önbelleğinde dizin oluşturma veya "
+"bağlantıyı izleyen bağımsız olarak saklayın."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr "Bu sayfadaki bağlantıları Izleyin. Bu varsayılan ve zımni."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "Bu sayfayı dizine değil, ancak bu sayfadaki bağlantıları izleyin."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Bu sayfadaki bağlantıları takip etmeyin, ancak içerik için bu sayfayı dizin."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Dizin ve bu sayfadaki bağlantıları izleyin, ancak arama motoru önbelleğinde "
+"sayfanın bir kopyasını tutmak değil."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "Bu sayfa için bir parçacık (arama motoru sonucu) görüntülemeyin."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Boşluklar olmadan virgülle ayrılmış değerleri kullanın. Örneğin, arama "
+"motoru sayfa dizin değil veya önbellekte tutmak ama hala bağlantıları "
+"izleyin, kullanmak"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "Şu anda Analytics verilerini günlüğe kaydetme"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Cari hesap"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Izleme komut dosyasını devre dışı bırak"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr "Bu hesap için zaten izleme varsa <b> Evet </b> seçin."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Hesap yenileme başarılı! Analytics 'in bu siteye dahil edilecek bir hesap "
+"seçin."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Bruce Clay SEO eklentisi tüm özelliklerini kullanmak için Google Analytics "
+"ve Google Search Console bir bağlantı gerektirir."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"WordPress eklentisi için Bruce Clay SEO ayarlarken, Google Analytics ve "
+"Google Search Console 'a erişmek için kullandığınız aynı Google hesabını "
+"kullanarak Google 'a giriş yapabilirsiniz. Giriş Google sunucuları üzerinden "
+"olacak, ve bir kez Analytics ve arama konsol veri eklentisi erişim izin "
+"verdik, sen eklentisi içine yapıştırmak için bir kod verilecektir."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"Kod yapıştırıldığında, Google Analytics hesabınızın içinde etkin olan "
+"hesapların listesi sunulacaktır. Bir kez seçildiğinde, Google Analytics "
+"projesi eklenti sayfa görünümü ve ziyaret veri sağlamak için "
+"kullanılacaktır. Seçilen Google Analytics hesabını, \"geçerli hesap\" "
+"altındaki kalem simgesini seçerek istediğiniz zaman değiştirebilirsiniz."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Not: Bu mesajı görürseniz, Google Analytics 'te zaten oturum açmış "
+"olursunuz: \"[Analytics hesabınız] için geçerli günlük Analytics verileriniz."
+"\" Bu mesajı göremeyin, Google Analytics 'e yeniden giriş yapmanız gerekir."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Geçerli proje"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Proje seçilmedi!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Değiştirme veya abonelik Kur."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Hesap ve proje seçimi"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Bruce Clay SEO eklentisi özellikleri birçok güç için SEOToolSet bir bağlantı "
+"gerektirir. Eklenti aboneliğiniz SEOToolSet 'e erişim içerir."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"WordPress için Bruce Clay SEO ayarlarken, SEOToolSet giriş ve burada bu "
+"SEOToolSet kimlik doğrulama bölmesinde uygun projeyi belirtmek gerekir. Bir "
+"proje, SEOToolSet 'in sitenin anahtar kelimeleri, tercihleri ve benzeri gibi "
+"Web sitenize ilişkin verileri birlikte nasıl tutmasını sağlar."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"\"Geçerli proje\" altında, geçerli Web sitenize karşılık gelen SEOToolSet "
+"projesini seçmek için Düzenle simgesini (kalem) tıklatın."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Not: Bu iletiyi görürseniz, zaten SEOToolSet 'e oturum açmış olursunuz: \"Şu "
+"anda SEOToolSet 'te [Kullanıcı adınız] olarak oturum açtınız.\" Değilse, "
+"oturum açmak için Kullanıcı adınızı ve parolanızı girebilirsiniz."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Şifre"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Giriş"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "Şifremi Unuttum."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Hesabım yok."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Anahtar Kelime"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "Meta Açıklaması"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "İçerik"
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Highlight Color"
+msgstr "Renk Vurgulayın"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Sahip SEOToolSet < a sınıf = \"analyze\" href = \"@ @\" > içerik </a> daha "
+"iyi performans yardımcı olacak anahtar kelimeler ve anahtar kelime cümleleri "
+"bulmak için analiz edin. Kendi anahtar kelimeleri ve anahtar kelime ifadeler "
+"ekleyin ve SEOToolSet içeriğinizi optimize yardımcı olmak için bunları "
+"analiz edecektir."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Vurgulama"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Temizle"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "meta başlık"
+
+#: src/templates/ajax-post-meta-description.php:52
+#, fuzzy
+msgid "Snippet Preview"
+msgstr "Parçacık önizlemesi"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Kural etkisi"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "mobil dostu"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "PageSpeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "Sorgu"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Gösterimler"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Tıklamalar"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Tıklama oranı"
+
+#: src/templates/ajax-post-queries.php:23
+msgid "CTR"
+msgstr "CTR"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Google Analytics hesabınıza bağlanın."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "Veri yok"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Öğe"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Şimdiki"
+
+#: src/templates/ajax-post-summary-performance.php:29
+msgid "Total Page Views"
+msgstr "Toplam Sayfa Görüntüleme"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Sayfada ortalama süre"
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr "Bugün Görüntüleme"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Bu hafta bakıldı"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Bu ay bakıldı"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+#, fuzzy
+msgid "No data."
+msgstr "Veri yok"
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "Hedef"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Post analiz değil."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Uyarı bulunamadı."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Durum uyarıları"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Performans"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Geçersiz e-posta adresi."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Geçersiz Kullanıcı adı."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Kötü şifre."
+
+#: src/templates/ajax-signup-step1.php:22
+#, fuzzy
+msgid "Passwords don't match."
+msgstr "Parolalar eşleşmiyor."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Şifreyi Onayla"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Sonraki"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Plan seçilmedi."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Aboneliği iptal et"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Kullanılabilir faturalandırma planları getirilmeye çalışılırken hata oluştu. "
+"Lütfen geri dönün ve tekrar deneyin."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "geçerli"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Geri"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Geçersiz veya eksik ilk ad."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Geçersiz veya eksik soyadı."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Geçersiz veya eksik posta kodu."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Geçersiz veya eksik kredi kartı belirteci."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "Şartlar ve koşulları kabul etmelisiniz."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Hesap ve abonelik başarıyla oluşturuldu."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Abonelik başarıyla güncelleştirildi."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Abonelik başarıyla silindi."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"Ileri 'yi tıklattığınızda, aboneliğiniz iptal edilecektir.  Geçerli "
+"aboneliğiniz sonraki faturalandırma döngüsüne kadar devam edecektir ve sonra "
+"sona erecek."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "İsim"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Soyadı"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "Kredi kartı bilgisi"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Posta Kodu"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "Kabul Ediyorum"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "Şartlar ve Koşulları"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Başarılı!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Tamam"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Metrik türü"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Sayfa Görüntülemeleri"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Ziyaretler"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "Dönüşümler"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Zaman"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Geçen yıl"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Geçen ay"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "Geçen hafta"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Dün"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "Tüm Zamanlar"
+
+#: src/templates/ajax-traffic.php:122
+msgid "Past Week"
+msgstr "Geçen hafta"
+
+#: src/templates/ajax-traffic.php:126
+msgid "Past Month"
+msgstr "Geçen ay"
+
+#: src/templates/ajax-traffic.php:130
+msgid "Past Year"
+msgstr "Geçen yıl"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Aylık değişim"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Sayfa sıralaması"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Arama"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Durum:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "Arşivi görüntüle"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Yeni görüntüle"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Uygula"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Efsane"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Sayı"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Hedef bir araya geldi"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Hangi kullanıcılar Dashboard görebilirsiniz?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Hangi kullanıcılar posta/sayfa widget 'ı görebilir?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Hangi kullanıcılar posta/sayfa widget 'ındaki verileri düzenleyebilir?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Hangi kullanıcılar Bruce Clay SEO ayarlarını düzenleyebilirsiniz?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "SEOToolSet kimlik doğrulaması"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "SEOToolSet hesabınıza bağlanın."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Içeriği çözümleme"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"İçeriğinizi analiz için gönderin.  Yalnızca sitenizi bizimle ilk kez "
+"kurduğunuzda ya da Gönderi sayısı hiç senkronize olmadığında bunu yapmanız "
+"gerekir."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Google Analytics hesabınıza bağlanın."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Web Yöneticisi doğrulama kodları"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Google Search Console ve Bing Web Yöneticisi Araçları için doğrulama "
+"kodlarını girin."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Google doğrulama kodu"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Bing doğrulama kodu"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Ön sayfa başlığı ve meta açıklama"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"Belirli bir sayfayı ön sayfanız olarak kullanmıyorsanız, bunlar geçerli "
+"olacaktır."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Ön sayfa başlığı"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Ön sayfa meta açıklama"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "Kullanıcı İzinleri"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "Kontrol hangi Bruce kil SEO kullanıcılarınıza erişim özellikleri."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(ve üzeri)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Varsayılanları Geri Yükle"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Bu, şeylerin doğru ayarlandığından emin olmak için kullanılan bir "
+"sayfasıdır. Bkz WooCommerce 's geniş (Belki de aşırı) örnek için."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Dur bakalım!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Operasyonları askıya almak mı?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "SEOToolSet işlemlerini geçici olarak durdurmak için bu denetimi yapın."
+
+#: src/templates/page-status.php:37
+msgid "Environment Variables"
+msgstr "Ortam Değişkenleri"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "PHP Sürümü"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSet hesap bilgileri"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "Gerçek Isim"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "E-posta"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Lisans Anahtarı"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "API bağlantı testi"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Son nokta"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Özet"
+
+#: src/templates/post-widget.php:36
+#, fuzzy
+msgid "Queries"
+msgstr "Sorgu"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "PageSpeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Arama yönergeleri"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Anahtar sözcük vurgulama yalnızca Visual Editor 'da çalışır. Lütfen yazı "
+"içeriğinin üstündeki sekmeleri kullanarak modları değiştirin."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Anahtar sözcük Ifadeleri (virgülle ayrılmış)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Ekle"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Veya"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Anahtar sözcük grubu Ekle"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Içeriği çözümleme"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Hedefleri Yenile"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Ayarlar"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO gerçek zamanlı rakip analiz dayalı sayfa SEO rehberlik blog "
+"yazarları verir. Analytics, WordPress 'te sağ Post performansını göstermek "
+"için entegre edilmiştir. Anahtar kelime izleme, raporlar ve daha fazla "
+"SEOToolSet tarafından desteklenmektedir."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Bruce Clay, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=Plugin&utm_campaign=WordPress-General"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Eklenti ayarlarını kontrol edin. SEOToolSet hesabınızı bağlamalısınız."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "Eklenti ayarlarını kontrol edin. Etkin aboneliğiniz yok."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Eklenti ayarlarını kontrol edin. Bir proje seçmeniz gerekir."
+
+#~ msgid "Status"
+#~ msgstr "Durum"
+
+#~ msgid "Post Title"
+#~ msgstr "Yazı Başlığı"
+
+#~ msgid "Last Updated"
+#~ msgstr "Son Güncelleme"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "Bitmiş olarak Işaretle"
+
+#~ msgid "Actions"
+#~ msgstr "Eylemler"
+
+#~ msgid "Ranking"
+#~ msgstr "Sıralama"
+
+#~ msgid "Pages"
+#~ msgstr "Sayfalar"
+
+#~ msgid "Last Update"
+#~ msgstr "Son Güncelleme"
+
+#~ msgid "Total Views"
+#~ msgstr "Toplam Görüntülenme"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "Ortalama görünümler"
+
+#~ msgid "Published"
+#~ msgstr "Yayınlanan"
+
+#~ msgid "Assignments"
+#~ msgstr "Ödevler"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Üst sırada"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "En viral"
+
+#~ msgid "Most Shared"
+#~ msgstr "Çok paylaşılanlar"
+
+#~ msgid "Check for updates"
+#~ msgstr "Güncellemeleri kontrol et"
+
+#~ msgid "View details"
+#~ msgstr "Detayları göster"
+
+#~ msgid "More information about %s"
+#~ msgstr "%s hakkında daha fazla bilgi"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "%s eklenti güncel olduğunu."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "%s eklentisinin yeni bir sürümü mevcut."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Güncelleme olup olmadığını belirleyemedi%s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Bilinmeyen güncelleme denetleyicisi durumu \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Mevcut bir değişim yok."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Durum sayfasından daha mantıklı API sınaması için bir yer. Çoğunlukla "
+#~ "çünkü \"modülarly\" çalışır: API Istekleri yalnızca sayfa yüklemeden önce "
+#~ "<em> Tüm </em> test etmek yerine listedeki bir öğenin başlığını "
+#~ "tıklattığınızda yapılır."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span class = \"pass\" > Green öğeleri </span> geçiş yapmak içindir < "
+#~ "span class = \"başarısız\" > Orange öğeleri </span> başarısız olmak "
+#~ "içindir. Ancak, testleri geçirerek kimlik doğrulaması üzerinden oturum "
+#~ "açma yoluyla başarısız olmak zorunda (<code> DELETE/Login </code>) önce. "
+#~ "CURL HTTP Kodu yanıtını ve API 'nin hata bildirimini buna göre denetleyin."
+
+#~ msgid "Contributions"
+#~ msgstr "Katkılar"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Son yayınlandı"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "En yüksek rütbe"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Test özellikleri"
+
+#~ msgid "Past 30 days"
+#~ msgstr "Son 30 gün"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API alan (s) döndürmedi:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API, alan (s) için dizi döndürmedi:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "Geçen aydan +% 10"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "ISIM YOK"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "ımps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Düzeltmek gerekir"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Sayfa yükü hızını önemli ölçüde düşürebilir sorunlar (Google başına)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Sabitleme düşünün"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr "Sayfa yükü hızını (Google başına) etkileyebilir sorunlar"
+
+#~ msgid "Positives"
+#~ msgstr "Pozitifler"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Google 'ın tavsiyelerine uyan veya aşan öğeler ve sayfa yükleme hızını "
+#~ "yararlanın"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Mobil dostu (Google başına) incitecek sorunlar"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr "Mobil dostu etkileyebilecek sorunlar (Google başına)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr "Mobil kullanım kurallarına uyan veya aşan öğeler (Google başına)"

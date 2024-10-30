@@ -1,0 +1,1673 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:26-0700\n"
+"PO-Revision-Date: 2019-07-16 12:27-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Het lijkt er op dat er hier niets gevonden is. Wellicht helpt de zoekfunctie?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Bruce Clay SEO dashboard"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Bruce Clay SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Functie bestaat niet"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Ongeldige reactie ontvangen van de API voor"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "fout"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Fout bij het maken Project!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Ontbrekend"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Ongeldige Sjabloonnaam."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Doodde alle instellingen!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"Nonce kon niet worden geverifieerd! Uw SEOToolSet instellingen zijn niet "
+"bijgewerkt."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Uw SEOToolSet instellingen zijn niet veranderd."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Uw SEOToolSet instellingen zijn bijgewerkt!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr "Er ging iets mis! Uw SEOToolSet instellingen zijn niet bijgewerkt."
+
+#: src/class-seotoolset.php:476
+#, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Plugin Setup is niet compleet. Ga naar <a href =\"%s\"> Bruce Clay SEO--"
+"instellingen</a> om gegevens te autoriseren van de SEOToolSet® en Google."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Setup is onvolledig. Zorg ervoor dat je bent ingelogd, geabonneerd en een "
+"actief project hebt geselecteerd."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Deze site wordt beheerd met Bruce Clay SEO."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet operaties zijn geschorst!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Vandaag"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Laatste"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "dagen"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet kan niet draaien op PHP versies voorafgaand aan 5.4.0. Neem "
+"contact op met uw hosting provider om uw site te updaten."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet vereist ontbrekende bibliotheek: curl. Neem contact op met uw "
+"hosting provider om uw site te updaten."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Reden"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay SEO status waarschuwingen"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Bekijk alles"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Meer"
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr "Login via Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Als u op bovenstaande knop klikt, wordt een pop-upvenster gestart. Volg de "
+"aanwijzingen, kopieer-plak de Google-autorisatiecode die het presenteert in "
+"het vak hieronder, en sluit vervolgens de pop-up."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Google authenticatie code"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Login succesvol! Selecteer nu een account waarvoor Analytics op deze site "
+"wordt opgenomen."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+#, fuzzy
+msgid "You are currently signed in as"
+msgstr "U bent momenteel aangemeld als"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Uitloggen"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr "Selecteer een project om te gebruiken met de SEOToolSet WP plugin"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "OF maak een nieuw project"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "Projectnaam"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Omschrijving"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Er zijn% d pagina (s)/post (s) op uw site."
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr "Er is een fout opgetreden."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Verzonden% d pagina (s)/post (s) voor het indexeren!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Er zijn% d pagina (s)/post (s) die moeten worden gesynchroniseerd."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Alle inhoud is gesynchroniseerd."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Analyseer inhoud"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Ontbrekende inhoud synchroniseren"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+msgid "(none)"
+msgstr "(geen)"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Bewerk bericht"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "berichten vereisen aandacht"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+#, fuzzy
+msgid "Rankings"
+msgstr "Rankings"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Rang"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Titel"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Auteur"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Bekeken"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "AVG. time"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Trefwoord zinnen"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "# van PG toegewezen"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Beste gemiddelde positie"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "PG. weergaven"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+#, fuzzy
+msgid "What's this?"
+msgstr "Wat is dit?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Totale gemiddelde pagina snelheid"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Algemene gemiddelde mobiele Score"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "SEO score"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr ""
+"De SEO score wordt maandelijks herberekend en op basis van de site als "
+"geheel."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Pagina snelheid"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"De pagina snelheid is de gemiddelde score voor alle pagina's op de site op "
+"een schaal van 0-100, met 100 is de best mogelijke score. Page Speed scores "
+"zijn representatief voor hoe snel uw pagina's worden geladen.."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "Mobiele Score"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"De mobiele Score is de gemiddelde score voor alle pagina's op de plaats op "
+"een schaal van 0-100, met 100 zijnd de best mogelijke score. Mobiele scores "
+"weerspiegelen mobiele bruikbaarheid, snelheid en design."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Toon"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Desktop"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+msgid "Organic"
+msgstr "Bio"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Betaald"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Direct"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Social"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Meldingen"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "hoge waarschuwingen"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "medium waarschuwingen"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "lage waarschuwingen"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Bekijk Dashboard"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 Posts"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Datumbereik"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Activiteit"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Inhoud ranking"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Trefwoorden"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Top post door Traffic"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Top auteur door Traffic"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Verkeer"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+#, fuzzy
+msgid "Meta Robots"
+msgstr "Meta robots"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Index deze pagina (index, volgen)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Don't index deze pagina (index, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+msgid "Custom Attributes"
+msgstr "Aangepaste Eigenschappen"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Door Komma's gescheiden waarden zonder spaties"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr "Omleidings-URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Aangepaste meta robot Tags"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Index deze pagina. Dit is standaard en impliciet."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Bewaar een kopie van deze pagina in de zoekmachine cache onafhankelijk van "
+"de volgende indexering of link."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr "Volg de links op deze pagina. Dit is standaard en impliciet."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr "Niet indexeren deze pagina, maar volg de links op deze pagina."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Volg niet de links op deze pagina, maar index deze pagina voor de inhoud."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Index en volg de links op deze pagina, maar bewaar geen kopie van de pagina "
+"in de zoekmachine cache."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "Toon geen fragment (zoekmachine resultaat) voor deze pagina."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Gebruik door komma's gescheiden waarden zonder spaties. Bijvoorbeeld, om de "
+"zoekmachine niet indexeren van de pagina of bewaar deze in de cache, maar "
+"nog steeds volg de links, gebruik"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "U registreert momenteel Analytics-gegevens voor"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Zichtrekening"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Tracking script uitschakelen"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr "Selecteer <b> Ja </b> als u al tracking in plaats voor dit account."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Account Refresh succesvol! Selecteer een account waarvoor Analytics op deze "
+"site wordt opgenomen."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"De Bruce Clay SEO plugin vereist een verbinding met Google Analytics en "
+"Google Search console om al zijn functies te gebruiken."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"Bij het opzetten van de Bruce Clay SEO voor WordPress plugin, u inloggen op "
+"Google met behulp van dezelfde Google-account die u gebruikt om toegang tot "
+"Google Analytics en Google Search console. De login zal gebeuren via Google-"
+"servers, en als je eenmaal hebt toegestaan de plugin toegang tot uw "
+"Analytics en zoek console gegevens, krijgt u een code te plakken in de "
+"plugin."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"Zodra de code is geplakt in, wordt u aangeboden met een lijst van de "
+"rekeningen die actief zijn in uw Google Analytics-account. Zodra "
+"geselecteerd, zal het project van Google Analytics worden gebruikt om "
+"pageviews te verstrekken en gegevens aan plugin te bezoeken. U het "
+"geselecteerde Google Analytics-account op elk gewenst moment wijzigen door "
+"het potloodpictogram onder ' huidige account ' te selecteren."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Opmerking: u bent al aangemeld bij Google Analytics als dit bericht wordt "
+"weergegeven: \"u bent de huidige logboekregistratie van Analytics-gegevens "
+"voor [uw Analytics-account].\" Als dit bericht niet wordt weergegeven, moet "
+"u zich opnieuw aanmelden bij Google Analytics."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Huidige project"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Geen project geselecteerd!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Abonnement wijzigen of instellen."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Account-en Project selectie"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"De Bruce Clay SEO plugin vereist een verbinding met de SEOToolSet aan de "
+"macht veel van zijn functies. Uw plugin abonnement omvat toegang tot de "
+"SEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"Bij het opzetten van Bruce Clay SEO voor WordPress, moet u inloggen op de "
+"SEOToolSet en specificeer het juiste project hier in dit SEOToolSet "
+"authenticatie ruit. Een project is hoe de SEOToolSet houdt de gegevens met "
+"betrekking tot uw website samen, zoals de site van de zoekwoorden, "
+"voorkeuren, enzovoort."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"Klik onder ' huidig project ' op het pictogram bewerken (potlood) om het "
+"SEOToolSet-project te kiezen dat overeenkomt met uw huidige website."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Opmerking: u bent al ingelogd bij de SEOToolSet als u dit bericht ziet: \"u "
+"bent momenteel aangemeld als [uw gebruikersnaam] in SEOToolSet.\" Zo niet, "
+"dan u uw gebruikersnaam en wachtwoord invullen om in te loggen."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Inloggen"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "Ik ben mijn wachtwoord vergeten."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Ik heb geen account."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Trefwoord"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "Meta beschrijving"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Inhoud"
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Highlight Color"
+msgstr "Highlight kleur"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Heb SEOToolSet < a class = \"analyze\" href = \"@ @\" > Analyseer uw inhoud "
+"</a> om zoekwoorden en zoekwoord zinnen die u helpen uw inhoud beter "
+"presteren vinden. Voeg uw eigen zoekwoorden en zoekwoord zinnen, en "
+"SEOToolSet zal analyseren om u te helpen optimaliseren van uw inhoud."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Uitgelicht"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Wissen"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "Meta-titel"
+
+#: src/templates/ajax-post-meta-description.php:52
+msgid "Snippet Preview"
+msgstr "Snippet-voorvertoning"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Invloed van regel"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "mobiele vriendelijkheid"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Page Speed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "Query"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Impressies"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Kliks"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Klikfrequentie"
+
+#: src/templates/ajax-post-queries.php:23
+msgid "CTR"
+msgstr "CTR"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Maak verbinding met uw Google Analytics-account."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "Geen gegevens"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Item"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Huidig"
+
+#: src/templates/ajax-post-summary-performance.php:29
+#, fuzzy
+#| msgid "Total Views"
+msgid "Total Page Views"
+msgstr "Totale weergaven"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Gemiddelde tijd op pagina"
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr "Weergaven vandaag"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Views deze week"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Views deze maand"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+#, fuzzy
+msgid "No data."
+msgstr "Geen gegevens"
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "Doel"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Post niet geanalyseerd."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+msgid "No alerts found."
+msgstr "Geen alerts gevonden."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Status meldingen"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Prestaties"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Ongeldig e-mailadres."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Verkeerde gebruikersnaam."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Slecht wachtwoord."
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr "Wachtwoorden komen niet overeen."
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Volgende"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Geen plan geselecteerd."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Abonnement annuleren"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Er is een fout opgetreden bij het ophalen van beschikbare facturerings "
+"plannen. Ga terug en probeer het opnieuw."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "huidige"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Terug"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Ongeldige of ontbrekende voornaam."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Ongeldige of ontbrekende achternaam."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Ongeldige of ontbrekende postcode."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Ongeldig of ontbrekend creditcard token."
+
+#: src/templates/ajax-signup-step3.php:42
+#, fuzzy
+msgid "You must accept the terms and conditions."
+msgstr "U moet akkoord gaan met de voorwaarden."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Account en abonnement succesvol gemaakt."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Abonnement is bijgewerkt."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Abonnement is verwijderd."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"Zodra u op Volgende klikt, wordt uw abonnement geannuleerd.  Uw huidige "
+"abonnement wordt voortgezet tot de volgende factureringscyclus en wordt "
+"vervolgens beëindigd."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Voornaam"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "Creditcard Informatie"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: src/templates/ajax-signup-step3.php:195
+#, fuzzy
+msgid "I agree to"
+msgstr "Ik ga akkoord met"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "Algemene voorwaarden"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Succes!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Klaar"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Metrische type"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Aantal keer bekeken"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Bezoeken"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "Conversies"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Tijd"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Het afgelopen jaar"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "De afgelopen maand"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "De afgelopen week"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "Tot nu toe"
+
+#: src/templates/ajax-traffic.php:122
+#, fuzzy
+msgid "Past Week"
+msgstr "Afgelopen week"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "Afgelopen maand"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "Afgelopen jaar"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Maandelijks wijzigen"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Pagina ranking"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Zoeken"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Status:"
+
+#: src/templates/big-table-sorting.php:81
+#, fuzzy
+msgid "View Archive"
+msgstr "Bekijk archief"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Bekijk nieuwe"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Toepassen"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Legenda"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Aantal"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Doel bereikt"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Welke gebruikers kunnen het dashboard zien?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Welke gebruikers kunnen de post/pagina widget zien?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Welke gebruikers kunnen gegevens bewerken op de post/pagina widget?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Welke gebruikers kunnen bewerken Bruce Clay SEO instellingen?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "SEOToolSet authenticatie"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Maak verbinding met uw SEOToolSet-account."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Analyseer inhoud"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Verzend uw inhoud voor analyse.  U hoeft alleen maar om dit te doen wanneer "
+"u voor het eerst het opzetten van uw site met ons, of als de post count ooit "
+"krijgt uit sync."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Maak verbinding met uw Google Analytics-account."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Verificatie codes voor webmasters"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Voer de verificatiecodes in voor uw Google Search-console en Bing Webmaster "
+"hulpprogramma's."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Google verificatie code"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Bing verificatie code"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Voorpagina titel en meta description"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"Wanneer u geen specifieke pagina als uw voorpagina gebruikt, zullen deze van "
+"toepassing zijn."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Titel voorpagina"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Meta beschrijving voorpagina"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "Gebruikersmachtiging"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr ""
+"Controle die Bruce Clay SEO functies van uw gebruikers hebben toegang tot."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(en hoger)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Herstel standaardinstellingen"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Dit is een pagina om ervoor te zorgen dat de dingen correct zijn ingesteld. "
+"Zie WooCommerce voor een uitgebreide (misschien overdreven zo) voorbeeld."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Houd omhoog!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Operaties onderbreken?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr "Controleer dit om tijdelijk te stoppen SEOToolSet operaties."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "Omgevingsvariabelen"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "PHP Versie"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSet account informatie"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "Echte naam"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "E-mail"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "API-connectiviteit test"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: src/templates/post-widget.php:36
+msgid "Queries"
+msgstr "Zoekopdrachten"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Page Speed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Zoek richtlijnen"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Het markeren van zoekwoorden werkt alleen in de visuele editor. Schakel modi "
+"met behulp van de tabbladen boven de post-inhoud."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Zoekwoord zinnen (komma-gescheiden)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Toevoegen"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Of"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Zoekwoord groep toevoegen"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Analyseer inhoud"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Doelen vernieuwen"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Instellingen"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO geeft blog schrijvers on-page SEO begeleiding op basis van "
+"real-time concurrent analyse. Analytics is geïntegreerd om te laten zien "
+"post prestaties, recht in WordPress. Keyword tracking, rapporten en meer "
+"Powered by SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "De klei van Bruce, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=BC-"
+"SEO&utm_medium=plugin&utm_campaign=WordPress-General"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Controleer plugin instellingen. Je moet je SEOToolSet account verbinden."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr "Controleer plugin instellingen. U hebt geen actief abonnement."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr "Controleer plugin instellingen. U moet een project selecteren."
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Post Title"
+#~ msgstr "Berichttitel"
+
+#~ msgid "Last Updated"
+#~ msgstr "Laatst bijgewerkt"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "Markeren als gereed"
+
+#~ msgid "Actions"
+#~ msgstr "Acties"
+
+#~ msgid "Ranking"
+#~ msgstr "Volgorde"
+
+#~ msgid "Pages"
+#~ msgstr "Pagina's"
+
+#~ msgid "Last Update"
+#~ msgstr "Laatste update"
+
+#~ msgid "Total Views"
+#~ msgstr "Totale weergaven"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "Gemiddelde weergaven"
+
+#~ msgid "Published"
+#~ msgstr "Gepubliceerd"
+
+#~ msgid "Assignments"
+#~ msgstr "Bestanden"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Top gerangschikt"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "De meeste virale"
+
+#~ msgid "Most Shared"
+#~ msgstr "Meest gedeeld"
+
+#~ msgid "Check for updates"
+#~ msgstr "Controleer op updates"
+
+#~ msgid "View details"
+#~ msgstr "Bekijk details"
+
+#~ msgid "More information about %s"
+#~ msgstr "Meer informatie over %s"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "De %s plugin is bijgewerkt."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Er is een nieuwe versie van de %s plugin beschikbaar."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Kon niet bepalen of updates beschikbaar zijn voor %s."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Onbekende update checker status \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Er is geen changelog beschikbaar."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Een plaats voor API-testen die zinvoller is dan de status pagina. Meestal "
+#~ "omdat het werkt \"modulair\": verzoeken om de API worden alleen gemaakt "
+#~ "wanneer u klikt op de header van een item in de lijst in plaats van lopen "
+#~ "<em> alle </em> de tests in een keer voordat het laden van de pagina."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "< span klasse = \"pass\" > groene items </span> zijn bedoeld om te "
+#~ "passeren terwijl < span klasse = \"fail\" > oranje items </span> zijn "
+#~ "bedoeld om te mislukken. Echter, het passeren van tests kunnen worden "
+#~ "gedwongen te mislukken via authenticatie door in te loggen (<code> "
+#~ "verwijderen/login </code>) eerste. Controleer de krul HTTP-code reactie "
+#~ "en de API foutrapportage dienovereenkomstig."
+
+#~ msgid "Contributions"
+#~ msgstr "Bijdragen"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Laatst gepubliceerde"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Hoogste rang"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Test hoogtepunten"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "Afgelopen 30 dagen"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API heeft geen veld (en) geretourneerd:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API heeft niet geretourneerd array voor veld (en):"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% van vorige maand"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "GEEN NAAM"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Imps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Moet vaststellen"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Problemen die kunnen verminderen pagina laadsnelheid aanzienlijk (per "
+#~ "Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Overweeg de vaststelling"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr ""
+#~ "Problemen die de laadsnelheid van de pagina kunnen beïnvloeden (per "
+#~ "Google)"
+
+#, fuzzy
+#~ msgid "Positives"
+#~ msgstr "Positieven"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Items die overeenkomen met of hoger zijn dan de aanbevelingen van Google "
+#~ "en die de laadsnelheid van de pagina kunnen profiteren"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr "Problemen die kunnen kwetsen mobiele vriendelijkheid (per Google)"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr ""
+#~ "Problemen die van invloed kunnen mobiele vriendelijkheid (per Google)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Items die overeenkomen met of hoger zijn dan mobiele-vriendelijkheid "
+#~ "richtlijnen (per Google)"

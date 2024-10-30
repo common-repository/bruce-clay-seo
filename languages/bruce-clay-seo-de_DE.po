@@ -1,0 +1,1686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bruce Clay SEO\n"
+"POT-Creation-Date: 2019-07-16 12:24-0700\n"
+"PO-Revision-Date: 2019-07-16 12:24-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seotoolset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Wie es aussieht, wurde an dieser Stelle nichts gefunden. Möchtest Du danach "
+"suchen?"
+
+#: src/class-seotoolset-admin-menu.php:68
+#, fuzzy
+msgid "Bruce Clay SEO Dashboard"
+msgstr "Bruce Clay SEO Dashboard"
+
+#. Plugin Name of the plugin/theme
+#: src/class-seotoolset-admin-menu.php:69 src/class-seotoolset-admin-meta-boxes.php:84
+#: src/class-seotoolset-admin-meta-boxes.php:115
+#: src/class-seotoolset-admin-meta-boxes.php:147 src/class-seotoolset.php:150
+#: src/templates/page-activity.php:2 src/templates/page-authors.php:2
+#: src/templates/page-content.php:2 src/templates/page-dashboard.php:16
+#: src/templates/page-keywords.php:2 src/templates/page-settings.php:29
+#: src/templates/page-status.php:21
+#, fuzzy
+msgid "Bruce Clay SEO"
+msgstr "Bruce Clay SEO"
+
+#: src/class-seotoolsetapi.php:235
+#, fuzzy
+msgid "Function doesn't exist"
+msgstr "Funktion gibt es nicht"
+
+#: src/class-seotoolsetapi.php:336
+#, fuzzy
+msgid "Invalid response received from the API for "
+msgstr "Ungültige Antwort von der API für"
+
+#: src/class-seotoolsetapi.php:338
+msgid "error"
+msgstr "Fehler"
+
+#: src/class-seotoolsetapi.php:485 src/class-seotoolset.php:217
+#: src/templates/ajax-choose-project.php:42
+#, fuzzy
+msgid "Error creating project!"
+msgstr "Fehlerbildes Projekt!"
+
+#: src/class-seotoolsetapi.php:620
+msgid "Missing"
+msgstr "Fehlend"
+
+#: src/class-seotoolsetapi.php:820
+#, fuzzy
+msgid "Invalid template name."
+msgstr "Ungültige Vorlagen-Name."
+
+#: src/class-seotoolset.php:197
+#, fuzzy
+msgid "Killed all the settings!"
+msgstr "Alle Einstellungen getötet!"
+
+#: src/class-seotoolset.php:202
+#, fuzzy
+msgid "Nonce could not be verified! Your SEOToolSet settings were not updated."
+msgstr ""
+"Nonce konnte nicht überprüft werden! Ihre SEOToolSet Einstellungen wurden "
+"nicht aktualisiert."
+
+#: src/class-seotoolset.php:244
+#, fuzzy
+msgid "Your SEOToolSet settings have not changed."
+msgstr "Ihre SEOToolSet Einstellungen haben sich nicht geändert."
+
+#: src/class-seotoolset.php:251
+#, fuzzy
+msgid "Your SEOToolSet settings have been updated!"
+msgstr "Ihre SEOToolSet Einstellungen wurden aktualisiert!"
+
+#: src/class-seotoolset.php:255
+#, fuzzy
+msgid "Something went wrong! Your SEOToolSet settings were not updated."
+msgstr ""
+"Da ist etwas schief gelaufen! Ihre SEOToolSet Einstellungen wurden nicht "
+"aktualisiert."
+
+#: src/class-seotoolset.php:476
+#, fuzzy, php-format
+msgid ""
+"Plugin setup is not complete. Go to <a href=\"%s\">Bruce Clay SEO -- "
+"Settings</a> to authorize data from the SEOToolSet® and Google."
+msgstr ""
+"Die Einrichtung des Plugins ist nicht abgeschlossen. Gehen Sie zu 'a href="
+"\"%s\">Bruce Clay SEO -- Einstellungen</a> um Daten aus dem SEOToolSet® und "
+"Google zu autorisieren."
+
+#: src/class-seotoolset.php:590
+#, fuzzy
+msgid ""
+"Setup is incomplete. Make sure you are logged in, subscribed and have an "
+"active project selected."
+msgstr ""
+"Setup ist unvollständig. Stellen Sie sicher, dass Sie angemeldet sind, "
+"abonniert sind und ein aktives Projekt ausgewählt haben."
+
+#: src/class-seotoolset.php:749
+#, fuzzy
+msgid "This site is managed with Bruce Clay SEO."
+msgstr "Diese Seite wird mit Bruce Clay SEO verwaltet."
+
+#: src/class-seotoolset.php:776
+#, fuzzy
+msgid "SEOToolSet operations have been suspended!"
+msgstr "SEOToolSet Operationen wurden ausgesetzt!"
+
+#: src/class-seotoolset.php:1041 src/templates/ajax-traffic.php:65
+#: src/templates/ajax-traffic.php:114
+msgid "Today"
+msgstr "Heute"
+
+#: src/class-seotoolset.php:1041
+msgid "Last"
+msgstr "Letzte"
+
+#: src/class-seotoolset.php:1041
+msgid "days"
+msgstr "Tage"
+
+#: seotoolset.php:81
+#, fuzzy
+msgid ""
+"SEOToolSet cannot run on PHP versions prior to 5.6.0. Please contact your "
+"hosting provider to update your site."
+msgstr ""
+"SEOToolSet kann nicht auf PHP-Versionen vor 5.4.0 laufen. Bitte wenden Sie "
+"sich an Ihren Hosting-Provider, um Ihre Website zu aktualisieren."
+
+#: seotoolset.php:96
+#, fuzzy
+msgid ""
+"SEOToolSet requires missing library: curl. Please contact your hosting "
+"provider to update your site."
+msgstr ""
+"SEOToolSet benötigt fehlende Bibliothek: Locke. Bitte wenden Sie sich an "
+"Ihren Hosting-Provider, um Ihre Website zu aktualisieren."
+
+#: src/templates/ajax-activity-table-sort.php:95
+#: src/templates/ajax-dashboard-activity.php:83
+msgid "Reason"
+msgstr "Grund"
+
+#: src/templates/ajax-activity-table-sort.php:96
+#: src/templates/ajax-dashboard-activity.php:84
+#, fuzzy
+msgid "Bruce Clay SEO Status Alerts"
+msgstr "Bruce Clay SEO Status Alerts"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:30
+#: src/templates/ajax-dashboard-activity.php:93
+#: src/templates/ajax-dashboard-content.php:32
+#: src/templates/ajax-dashboard-keywords.php:31
+#: src/templates/ajax-dashboard-topauthor.php:32
+msgid "View All"
+msgstr "Alle anzeigen"
+
+#: src/templates/ajax-activity-table-sort.php:105
+#: src/templates/ajax-dashboard-activity.php:93
+msgid "More"
+msgstr "Mehr"
+
+#: src/templates/ajax-analytics-form.php:14
+msgid "Sign in with Google"
+msgstr "Anmelden mit Google"
+
+#: src/templates/ajax-analytics-form.php:15
+#, fuzzy
+msgid ""
+"Clicking the button above will launch a pop-up window. Follow the "
+"directions, copy-paste the Google Authorization code it presents into the "
+"box below, and then close the pop-up."
+msgstr ""
+"Wenn Sie auf den Knopf oben klicken, öffnet sich ein Pop-up-Fenster. Folgen "
+"Sie den Anweisungen, kopieren Sie den Google Authorization Code, den es in "
+"der Box unten präsentiert, und schließen Sie dann das Pop-up."
+
+#: src/templates/ajax-analytics-form.php:18
+#, fuzzy
+msgid "Google Authentication Code"
+msgstr "Google Authentication Code"
+
+#: src/templates/ajax-analytics-form.php:26
+#, fuzzy
+msgid ""
+"Login successful! Now, select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Anmeldung erfolgreich! Wählen Sie nun ein Konto aus, für das Analytics auf "
+"dieser Seite aufgenommen wird."
+
+#: src/templates/ajax-analytics-form.php:28 src/templates/ajax-choose-project.php:99
+#: src/templates/ajax-has-analytics.php:31 src/templates/ajax-has-analytics.php:44
+#: src/templates/page-settings.php:84 src/templates/page-settings.php:103
+#: src/templates/page-settings.php:124
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: src/templates/ajax-choose-project.php:53 src/templates/ajax-logged-in.php:16
+msgid "You are currently signed in as"
+msgstr "Sie sind derzeit angemeldet als"
+
+#: src/templates/ajax-choose-project.php:55 src/templates/ajax-logged-in.php:48
+msgid "Log Out"
+msgstr "Abmelden"
+
+#: src/templates/ajax-choose-project.php:58
+#, fuzzy
+msgid "Select a Project to use with the SEOToolSet WP Plugin"
+msgstr ""
+"Wählen Sie ein Projekt aus, das mit dem SEOToolSet WP Plugin verwendet wird"
+
+#: src/templates/ajax-choose-project.php:74
+#, fuzzy
+msgid "OR create a new Project"
+msgstr "Ein neues Projekt schaffen"
+
+#: src/templates/ajax-choose-project.php:83
+msgid "Project Name"
+msgstr "Projektname"
+
+#: src/templates/ajax-choose-project.php:87
+msgid "URL"
+msgstr "URL"
+
+#: src/templates/ajax-choose-project.php:92
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/templates/ajax-content-sync.php:36
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) on your site."
+msgstr "Es gibt% d-page (s)/post (s) auf Ihrer Website."
+
+#: src/templates/ajax-content-sync.php:65
+msgid "An error occurred."
+msgstr "Ein Fehler ist aufgetreten."
+
+#: src/templates/ajax-content-sync.php:67
+#, fuzzy, php-format
+msgid "Sent %d page(s)/post(s) for indexing!"
+msgstr "Sent% d page (s)/post (s) for indexing!"
+
+#: src/templates/ajax-content-sync.php:71
+#, fuzzy, php-format
+msgid "There are %d page(s)/post(s) that need synchronized."
+msgstr "Es gibt% d-page (s)/post (s), die synchronisiert werden müssen."
+
+#: src/templates/ajax-content-sync.php:73
+#, fuzzy
+msgid "All content has been synchronized."
+msgstr "Alle Inhalte wurden synchronisiert."
+
+#: src/templates/ajax-content-sync.php:77
+#, fuzzy
+msgid "Sync All Content"
+msgstr "Inhalte analysieren"
+
+#: src/templates/ajax-content-sync.php:79
+#, fuzzy
+msgid "Sync Missing Content"
+msgstr "Sync fehlt"
+
+#: src/templates/ajax-content-table-sort.php:23
+#: src/templates/ajax-dashboard-content.php:59
+#: src/templates/ajax-dashboard-topauthor.php:31
+#: src/templates/ajax-dashboard-toppost.php:40
+msgid "(none)"
+msgstr "(keine)"
+
+#: src/templates/ajax-content-table-sort.php:27
+#: src/templates/ajax-dashboard-content.php:27
+#: src/templates/ajax-dashboard-content.php:29
+msgid "Edit Post"
+msgstr "Beitrag bearbeiten"
+
+#: src/templates/ajax-dashboard-activity.php:27
+#, fuzzy
+msgid "posts require attention"
+msgstr "Stellen erfordern Aufmerksamkeit"
+
+#: src/templates/ajax-dashboard-content.php:35
+#: src/templates/ajax-dashboard-keywords.php:35
+msgid "Rankings"
+msgstr "Ranglisten"
+
+#: src/templates/ajax-dashboard-content.php:42
+#: src/templates/ajax-dashboard-widget.php:71
+msgid "Rank"
+msgstr "Rang"
+
+#: src/templates/ajax-dashboard-content.php:43
+#: src/templates/ajax-dashboard-widget.php:72 src/templates/ajax-post-keywords.php:14
+#: src/templates/ajax-post-meta-keywords.php:16
+msgid "Title"
+msgstr "Titel"
+
+#: src/templates/ajax-dashboard-content.php:44
+#: src/templates/ajax-dashboard-widget.php:73
+msgid "Author"
+msgstr "Autor"
+
+#: src/templates/ajax-dashboard-content.php:45
+#: src/templates/ajax-dashboard-widget.php:74 src/templates/ajax-traffic.php:108
+msgid "Views"
+msgstr "Ansichten"
+
+#: src/templates/ajax-dashboard-content.php:46
+#: src/templates/ajax-dashboard-widget.php:75
+#, fuzzy
+msgid "Avg. Time"
+msgstr "Avg. Time"
+
+#: src/templates/ajax-dashboard-keywords.php:42
+#, fuzzy
+msgid "Keyword Phrases"
+msgstr "Stichwort Phrasen"
+
+#: src/templates/ajax-dashboard-keywords.php:43
+#, fuzzy
+msgid "# of Pg Assigned"
+msgstr "# of Pg Assigned"
+
+#: src/templates/ajax-dashboard-keywords.php:44 src/templates/ajax-post-queries.php:20
+#, fuzzy
+msgid "Best Average Position"
+msgstr "Beste Durchschnittsposition"
+
+#: src/templates/ajax-dashboard-keywords.php:45
+#, fuzzy
+msgid "Pg. Views"
+msgstr "Pg. Ansichten"
+
+#: src/templates/ajax-dashboard-seoscore.php:15
+#: src/templates/ajax-dashboard-seoscore.php:25
+#: src/templates/ajax-dashboard-seoscore.php:38 src/templates/ajax-has-analytics.php:47
+#: src/templates/ajax-logged-in.php:37
+msgid "What's this?"
+msgstr "Was ist das?"
+
+#: src/templates/ajax-dashboard-seoscore.php:22
+#, fuzzy
+msgid "Overall Average Page Speed"
+msgstr "Insgesamt Durchschnittsgeschwindigkeit"
+
+#: src/templates/ajax-dashboard-seoscore.php:35
+#, fuzzy
+msgid "Overall Average Mobile Score"
+msgstr "Insgesamt Durchschnitt Mobile Score"
+
+#: src/templates/ajax-dashboard-seoscore.php:51
+#: src/templates/ajax-dashboard-widget.php:16 src/templates/ajax-dashboard.php:60
+#, fuzzy
+msgid "SEO Score"
+msgstr "SEO Score"
+
+#: src/templates/ajax-dashboard-seoscore.php:52
+#, fuzzy
+msgid "The SEO Score is recalculated monthly and based on the site as a whole."
+msgstr ""
+"Der SEO-Score wird monatlich neu berechnet und basiert auf der Website als "
+"Ganzes."
+
+#: src/templates/ajax-dashboard-seoscore.php:55
+#, fuzzy
+msgid "Page Speed"
+msgstr "Seitengeschwindigkeit"
+
+#: src/templates/ajax-dashboard-seoscore.php:56
+#, fuzzy
+msgid ""
+"The Page Speed is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Page Speed scores are "
+"representative of how fast your pages are loading.."
+msgstr ""
+"Die Seitengeschwindigkeit ist die durchschnittliche Punktzahl für alle "
+"Seiten auf der Website auf einer Skala von 0-100, wobei 100 die bestmögliche "
+"Punktzahl ist. Die Partituren der Page Speed sind repräsentativ dafür, wie "
+"schnell Ihre Seiten geladen werden."
+
+#: src/templates/ajax-dashboard-seoscore.php:59
+#, fuzzy
+msgid "Mobile Score"
+msgstr "Mobile Score"
+
+#: src/templates/ajax-dashboard-seoscore.php:60
+#, fuzzy
+msgid ""
+"The Mobile Score is the average score for all pages on the site on a scale "
+"from 0 - 100, with 100 being the best possible score. Mobile scores reflect "
+"mobile usability, speed and design."
+msgstr ""
+"Der Mobile Score ist die durchschnittliche Punktzahl für alle Seiten auf der "
+"Website auf einer Skala von 0-100, wobei 100 die bestmögliche Punktzahl "
+"sind. Mobile Partituren spiegeln mobile Benutzerfreundlichkeit, "
+"Geschwindigkeit und Design wider."
+
+#: src/templates/ajax-dashboard-traffic.php:30 src/templates/ajax-traffic.php:72
+msgid "Show"
+msgstr "Anzeigen"
+
+#: src/templates/ajax-dashboard-traffic.php:32 src/templates/ajax-traffic.php:76
+msgid "Desktop"
+msgstr "Desktop"
+
+#: src/templates/ajax-dashboard-traffic.php:35 src/templates/ajax-traffic.php:81
+#: src/templates/post-widget.php:42
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/templates/ajax-dashboard-traffic.php:38 src/templates/ajax-traffic.php:86
+msgid "Organic"
+msgstr "Biologisch"
+
+#: src/templates/ajax-dashboard-traffic.php:41 src/templates/ajax-traffic.php:91
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: src/templates/ajax-dashboard-traffic.php:44 src/templates/ajax-traffic.php:96
+msgid "Direct"
+msgstr "Direkt"
+
+#: src/templates/ajax-dashboard-traffic.php:47 src/templates/ajax-traffic.php:101
+msgid "Social"
+msgstr "Social"
+
+#: src/templates/ajax-dashboard-widget.php:24
+msgid "Alerts"
+msgstr "Benachrichtigungen"
+
+#: src/templates/ajax-dashboard-widget.php:46
+#, fuzzy
+msgid "high alerts"
+msgstr "Hohe Alarmierungen"
+
+#: src/templates/ajax-dashboard-widget.php:50
+#, fuzzy
+msgid "medium alerts"
+msgstr "Mittelalarm"
+
+#: src/templates/ajax-dashboard-widget.php:54
+#, fuzzy
+msgid "low alerts"
+msgstr "Geringverdizen"
+
+#: src/templates/ajax-dashboard-widget.php:58
+msgid "View Dashboard"
+msgstr "Dashboard anzeigen"
+
+#: src/templates/ajax-dashboard-widget.php:68
+#, fuzzy
+msgid "Top 5 Posts"
+msgstr "Top 5 Posts"
+
+#: src/templates/ajax-dashboard.php:21 src/templates/big-table-sorting.php:102
+msgid "Date Range"
+msgstr "Datumsbereich"
+
+#: src/templates/ajax-dashboard.php:46
+msgid "Activity"
+msgstr "Aktivität"
+
+#: src/templates/ajax-dashboard.php:50
+#, fuzzy
+msgid "Content Ranking"
+msgstr "Content Ranking"
+
+#: src/templates/ajax-dashboard.php:54 src/templates/post-widget.php:25
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: src/templates/ajax-dashboard.php:66
+#, fuzzy
+msgid "Top Post by Traffic"
+msgstr "Top Post durch Verkehr"
+
+#: src/templates/ajax-dashboard.php:72
+#, fuzzy
+msgid "Top Author by Traffic"
+msgstr "Top-Autor nach Verkehr"
+
+#: src/templates/ajax-dashboard.php:78 src/templates/post-widget.php:33
+msgid "Traffic"
+msgstr "Verkehr"
+
+#: src/templates/ajax-directives.php:16
+#: src/templates/ajax-post-search-directives.php:17
+#, fuzzy
+msgid "Meta Robots"
+msgstr "Meta-Roboter"
+
+#: src/templates/ajax-directives.php:24
+#: src/templates/ajax-post-search-directives.php:25
+#, fuzzy
+msgid "Index this Page (index,follow)"
+msgstr "Index dieser Seite (Index, folgen)"
+
+#: src/templates/ajax-directives.php:26
+#: src/templates/ajax-post-search-directives.php:27
+#, fuzzy
+msgid "Don't Index this Page (noindex,nofollow)"
+msgstr "Don ' t Index this Page (noindex, nofollow)"
+
+#: src/templates/ajax-directives.php:28
+#: src/templates/ajax-post-search-directives.php:29
+msgid "Custom Attributes"
+msgstr "Benutzerdefinierte Attribute"
+
+#: src/templates/ajax-directives.php:31
+#: src/templates/ajax-post-search-directives.php:32
+#, fuzzy
+msgid "Comma-separated values without spaces"
+msgstr "Komma-getrennte Werte ohne Leerzeichen"
+
+#: src/templates/ajax-directives.php:36
+#: src/templates/ajax-post-search-directives.php:37
+msgid "Canonical URL"
+msgstr "Kanonische URL"
+
+#: src/templates/ajax-directives.php:42
+#: src/templates/ajax-post-search-directives.php:43
+#, fuzzy
+msgid "Custom Meta Robot Tags"
+msgstr "Benutzer-Tags"
+
+#: src/templates/ajax-directives.php:44
+#: src/templates/ajax-post-search-directives.php:45
+#, fuzzy
+msgid "Index this page. This is by default and implied."
+msgstr "Index dieser Seite. Das ist standardmäßig und impliziert."
+
+#: src/templates/ajax-directives.php:45
+#: src/templates/ajax-post-search-directives.php:46
+#, fuzzy
+msgid ""
+"Keep a copy of this page in the search engine cache independent of the "
+"indexing or link following."
+msgstr ""
+"Halten Sie eine Kopie dieser Seite im Suchmaschinen-Cache unabhängig von der "
+"Indizierung oder dem Link nach."
+
+#: src/templates/ajax-directives.php:46
+#: src/templates/ajax-post-search-directives.php:47
+#, fuzzy
+msgid "Follow links on this page. This is default and implied."
+msgstr ""
+"Folgen Sie den Links auf dieser Seite. Das ist Standard und impliziert."
+
+#: src/templates/ajax-directives.php:47
+#: src/templates/ajax-post-search-directives.php:48
+#, fuzzy
+msgid "Do not index this page, but follow the links on this page."
+msgstr ""
+"Indeunzieren Sie diese Seite nicht, aber folgen Sie den Links auf dieser "
+"Seite."
+
+#: src/templates/ajax-directives.php:48
+#: src/templates/ajax-post-search-directives.php:49
+#, fuzzy
+msgid "Do not follow the links on this page, but index this page for content."
+msgstr ""
+"Folgen Sie nicht den Links auf dieser Seite, sondern indizieren Sie diese "
+"Seite für den Inhalt."
+
+#: src/templates/ajax-directives.php:49
+#: src/templates/ajax-post-search-directives.php:50
+#, fuzzy
+msgid ""
+"Index and follow the links on this page, but do not keep a copy of the page "
+"in the search engine cache."
+msgstr ""
+"Verlegen Sie und folgen Sie den Links auf dieser Seite, aber halten Sie "
+"keine Kopie der Seite im Suchmaschinen-Cache."
+
+#: src/templates/ajax-directives.php:50
+#: src/templates/ajax-post-search-directives.php:51
+#, fuzzy
+msgid "Do not display a snippet (search engine result) for this page."
+msgstr "Zeigen Sie für diese Seite keinen Snippet (Suchergebnis) an."
+
+#: src/templates/ajax-directives.php:52
+#: src/templates/ajax-post-search-directives.php:53
+#, fuzzy
+msgid ""
+"Use comma-separated values without spaces. For example, to have the search "
+"engine not index the page or keep it in the cache but still follow the "
+"links, use"
+msgstr ""
+"Verwenden Sie komma-getrennte Werte ohne Leerzeichen. Zum Beispiel, um die "
+"Suchmaschine nicht zu indizieren, die Seite oder halten Sie es im Cache, "
+"sondern immer noch den Links folgen, verwenden"
+
+#: src/templates/ajax-has-analytics.php:18
+#, fuzzy
+msgid "You are currently logging Analytics data for "
+msgstr "Sie protokollieren derzeit Analytics-Daten für"
+
+#: src/templates/ajax-has-analytics.php:21
+#, fuzzy
+msgid "Current Account"
+msgstr "Aktuelles Konto"
+
+#: src/templates/ajax-has-analytics.php:26
+#, fuzzy
+msgid "Disable Tracking Script"
+msgstr "Tracking Script Deaktivieren"
+
+#: src/templates/ajax-has-analytics.php:27
+#, fuzzy
+msgid ""
+"Select <b>Yes</b> if you already have tracking in place for this account."
+msgstr ""
+"Wählen Sie <b> Ja </b>, wenn Sie bereits Tracking für dieses Konto haben."
+
+#: src/templates/ajax-has-analytics.php:42
+#, fuzzy
+msgid ""
+"Account refresh successful! Select an account for which Analytics will be "
+"included on this site."
+msgstr ""
+"Kontoerfrisung erfolgreich! Wählen Sie ein Konto aus, für das Analytics auf "
+"dieser Seite aufgenommen wird."
+
+#: src/templates/ajax-has-analytics.php:49 src/templates/page-settings.php:59
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: src/templates/ajax-has-analytics.php:50
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to Google Analytics and "
+"Google Search Console to use all of its features."
+msgstr ""
+"Das Bruce Clay SEO-Plugin benötigt eine Verbindung zu Google Analytics und "
+"Google Search Console, um alle seine Funktionen zu nutzen."
+
+#: src/templates/ajax-has-analytics.php:51
+#, fuzzy
+msgid ""
+"When setting up the Bruce Clay SEO for WordPress plugin, you can login to "
+"Google using the same Google account you use to access Google Analytics and "
+"Google Search Console. The login will happen via Google servers, and once "
+"you have allowed the plugin access to your Analytics and Search Console "
+"data, you will be given a code to paste into the plugin."
+msgstr ""
+"Beim Einrichten des Bruce Clay SEO für WordPress-Plugin können Sie sich mit "
+"dem gleichen Google-Konto bei Google anmelden, das Sie verwenden, um auf "
+"Google Analytics und Google Search Console zuzugreifen. Das Login erfolgt "
+"über Google-Server, und sobald Sie dem Plugin den Zugriff auf Ihre Analyse-"
+"und Suchkonsole-Daten erlaubt haben, erhalten Sie einen Code, der in das "
+"Plugin eingefügt werden kann."
+
+#: src/templates/ajax-has-analytics.php:52
+#, fuzzy
+msgid ""
+"Once the code is pasted in, you will be presented with a list of accounts "
+"which are active inside your Google Analytics Account. Once selected, the "
+"Google Analytics project will be used to provide pageview and visit data to "
+"the plugin. You may change the selected Google Analytics account at any time "
+"by selecting the pencil icon under \"Current Account.\""
+msgstr ""
+"Sobald der Code eingefügt ist, erhalten Sie eine Liste von Konten, die in "
+"Ihrem Google Analytics Account aktiv sind. Sobald das Google Analytics-"
+"Projekt ausgewählt ist, wird es verwendet, um die Datei zu sehen und Daten "
+"an das Plugin zu senden. Sie können das ausgewählte Google Analytics-Konto "
+"jederzeit ändern, indem Sie das Bleistift-Symbol unter \"Aktuelles Konto\" "
+"auswählen."
+
+#: src/templates/ajax-has-analytics.php:53
+#, fuzzy
+msgid ""
+"Note: you are already logged in to Google Analytics if you see this message: "
+"\"You are current logging Analytics data for [your analytics account].\" If "
+"you do not see that message, you will need to login to Google Analytics "
+"again."
+msgstr ""
+"Hinweis: Sie sind bereits bei Google Analytics eingeloggt, wenn Sie diese "
+"Meldung sehen: \"Sie sind aktuelle Logging-Analytics-Daten für [Ihr Analytik-"
+"Konto]\". Wenn Sie diese Nachricht nicht sehen, müssen Sie sich erneut bei "
+"Google Analytics anmelden."
+
+#: src/templates/ajax-logged-in.php:20
+#, fuzzy
+msgid "Current Project"
+msgstr "Aktuelles Projekt"
+
+#: src/templates/ajax-logged-in.php:26
+#, fuzzy
+msgid "No project selected!"
+msgstr "Kein Projekt ausgewählt!"
+
+#: src/templates/ajax-logged-in.php:38
+#, fuzzy
+msgid "Change or setup subscription."
+msgstr "Abonnement ändern oder einrichten."
+
+#: src/templates/ajax-logged-in.php:41
+#, fuzzy
+msgid "Account and Project Selection"
+msgstr "Konto-und Projektauswahl"
+
+#: src/templates/ajax-logged-in.php:42
+#, fuzzy
+msgid ""
+"The Bruce Clay SEO plugin requires a connection to the SEOToolSet to power "
+"many of its features. Your plugin subscription includes access to the "
+"SEOToolSet."
+msgstr ""
+"Das Bruce Clay SEO-Plugin benötigt eine Verbindung zum SEOToolSet, um viele "
+"seiner Funktionen zu nutzen. Ihr Plug-In-Abonnement beinhaltet den Zugriff "
+"auf das SEOToolSet."
+
+#: src/templates/ajax-logged-in.php:43
+#, fuzzy
+msgid ""
+"When setting up Bruce Clay SEO for WordPress, you must log in to the "
+"SEOToolSet and specify the appropriate project here in this SEOToolSet "
+"Authentication pane. A project is how the SEOToolSet keeps the data related "
+"to your website together, such as the site's keywords, preferences, and so "
+"forth."
+msgstr ""
+"Wenn Sie Bruce Clay SEO für WordPress einrichten, müssen Sie sich in das "
+"SEOToolSet einloggen und das entsprechende Projekt hier in diesem SEOToolSet "
+"Authentication Fenster angeben. Ein Projekt ist die Art und Weise, wie das "
+"SEOToolSet die Daten, die mit Ihrer Website verbunden sind, zusammenhält, "
+"wie zum Beispiel die Stichworte, Vorlieben und so weiter."
+
+#: src/templates/ajax-logged-in.php:44
+#, fuzzy
+msgid ""
+"Under \"Current Project,\" click the edit icon (pencil) to choose the "
+"SEOToolSet project that corresponds with your current website."
+msgstr ""
+"Unter \"Aktuelles Projekt\" klicken Sie auf das Bearbeiten-Symbol "
+"(Bleistift), um das SEOToolSet Projekt auszuwählen, das Ihrer aktuellen "
+"Website entspricht."
+
+#: src/templates/ajax-logged-in.php:45
+#, fuzzy
+msgid ""
+"Note: You are already logged in to the SEOToolSet if you see this message: "
+"\"You are currently signed in as [your username] in SEOToolSet.\" If not, "
+"you can enter your username and password to log in."
+msgstr ""
+"Hinweis: Sie sind bereits im SEOToolSet eingeloggt, wenn Sie diese Nachricht "
+"sehen: \"Sie sind derzeit als [Ihr Benutzername] im SEOToolSet angemeldet\". "
+"Wenn nicht, können Sie Ihren Benutzernamen und Ihr Passwort eingeben, um "
+"sich einzuloggen."
+
+#: src/templates/ajax-login-form.php:12 src/templates/ajax-signup-step1.php:38
+#: src/templates/page-status.php:72
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/templates/ajax-login-form.php:14 src/templates/ajax-signup-step1.php:40
+#: src/templates/page-status.php:76
+msgid "Password"
+msgstr "Passwort"
+
+#: src/templates/ajax-login-form.php:21
+msgid "Log In"
+msgstr "Anmelden"
+
+#: src/templates/ajax-login-form.php:24
+msgid "I forgot my password."
+msgstr "Ich habe mein Passwort vergessen."
+
+#: src/templates/ajax-login-form.php:25
+#, fuzzy
+msgid "I don't have an account."
+msgstr "Ich habe kein Konto."
+
+#: src/templates/ajax-post-keywords.php:13 src/templates/ajax-post-meta-keywords.php:15
+msgid "Keyword"
+msgstr "Suchbegriff"
+
+#: src/templates/ajax-post-keywords.php:15
+#: src/templates/ajax-post-meta-description.php:43
+#: src/templates/ajax-post-meta-keywords.php:17 src/templates/post-widget.php:29
+msgid "Meta Description"
+msgstr "Meta Description"
+
+#: src/templates/ajax-post-keywords.php:16
+msgid "Content"
+msgstr "Inhalt"
+
+#: src/templates/ajax-post-keywords.php:17
+msgid "Highlight Color"
+msgstr "Hervorhebungs-Farbe"
+
+#: src/templates/ajax-post-keywords.php:53
+#, fuzzy
+msgid ""
+"Have SEOToolSet <a class=\"analyze\" href=\"@@\">analyze your content</a> in "
+"order to find keywords and keyword phrases that will help your content "
+"perform better. Add your own keywords and keyword phrases, and SEOToolSet "
+"will analyze them to help you optimize your content."
+msgstr ""
+"Haben Sie SEOToolSet <eine Klasse = \"analysieren\" href = \"@ @\" > "
+"analysieren Sie Ihre Inhalte </a>, um Keywords und Keyword-Phrasen zu "
+"finden, die dazu beitragen, dass Ihre Inhalte besser funktionieren. Fügen "
+"Sie Ihre eigenen Keywords und Keyword-Phrasen hinzu, und SEOToolSet wird sie "
+"analysieren, um Ihnen zu helfen, Ihre Inhalte zu optimieren."
+
+#: src/templates/ajax-post-keywords.php:56
+msgid "Highlight"
+msgstr "Hervorheben"
+
+#: src/templates/ajax-post-keywords.php:65
+msgid "Clear"
+msgstr "Zurücksetzen"
+
+#: src/templates/ajax-post-meta-description.php:40
+msgid "Meta Title"
+msgstr "Meta Titel"
+
+#: src/templates/ajax-post-meta-description.php:52
+msgid "Snippet Preview"
+msgstr "Vorschau des Snippets"
+
+#: src/templates/ajax-post-mobile.php:28 src/templates/ajax-post-pagespeed.php:28
+#, fuzzy
+msgid "Rule Impact"
+msgstr "Regelauswirkungen"
+
+#: src/templates/ajax-post-mobile.php:107
+#, fuzzy
+msgid "mobile friendliness"
+msgstr "Mobile Freundlichkeit"
+
+#: src/templates/ajax-post-pagespeed.php:107
+#, fuzzy
+msgid "page load speed"
+msgstr "Pagespeed"
+
+#: src/templates/ajax-post-queries.php:16
+msgid "Google"
+msgstr "Google"
+
+#: src/templates/ajax-post-queries.php:19
+msgid "Query"
+msgstr "Abfrage"
+
+#: src/templates/ajax-post-queries.php:21
+msgid "Impressions"
+msgstr "Impressionen"
+
+#: src/templates/ajax-post-queries.php:22
+msgid "Clicks"
+msgstr "Klicks"
+
+#: src/templates/ajax-post-queries.php:23
+#, fuzzy
+msgid "Click-Through Rate"
+msgstr "Klick-Durchschlick-Rate"
+
+#: src/templates/ajax-post-queries.php:23
+msgid "CTR"
+msgstr "CTR"
+
+#: src/templates/ajax-post-queries.php:38
+#, fuzzy
+msgid ""
+"Connect your Google Analytics account on the %a href% Settings %/a% page."
+msgstr "Verbinden Sie sich mit Ihrem Google Analytics-Konto."
+
+#: src/templates/ajax-post-summary-performance.php:11
+msgid "No data"
+msgstr "Keine Daten"
+
+#: src/templates/ajax-post-summary-performance.php:25
+#: src/templates/ajax-post-summary-statistics.php:16
+msgid "Item"
+msgstr "Artikel"
+
+#: src/templates/ajax-post-summary-performance.php:26
+#: src/templates/ajax-post-summary-statistics.php:17
+msgid "Current"
+msgstr "Aktuell"
+
+#: src/templates/ajax-post-summary-performance.php:29
+msgid "Total Page Views"
+msgstr "Summe Seitenaufrufe"
+
+#: src/templates/ajax-post-summary-performance.php:33
+#, fuzzy
+msgid "Average Time on Page"
+msgstr "Durchschnittszeit auf der Seite"
+
+#: src/templates/ajax-post-summary-performance.php:37
+msgid "Views Today"
+msgstr "Besuche heute"
+
+#: src/templates/ajax-post-summary-performance.php:41
+#, fuzzy
+msgid "Views this Week"
+msgstr "Ansichten dieser Woche"
+
+#: src/templates/ajax-post-summary-performance.php:45
+#, fuzzy
+msgid "Views this Month"
+msgstr "Sehen Sie diesen Monat"
+
+#: src/templates/ajax-post-summary-statistics.php:11
+msgid "No data."
+msgstr "Keine Daten."
+
+#: src/templates/ajax-post-summary-statistics.php:18 src/templates/keyword-legend.php:5
+msgid "Goal"
+msgstr "Ziel"
+
+#: src/templates/ajax-post-summary-status-alerts.php:15
+#, fuzzy
+msgid "Post not analyzed."
+msgstr "Post nicht analysiert."
+
+#: src/templates/ajax-post-summary-status-alerts.php:21
+#, fuzzy
+msgid "No alerts found."
+msgstr "Keine Warnungen gefunden."
+
+#: src/templates/ajax-post-summary.php:14
+#, fuzzy
+msgid "Status Alerts"
+msgstr "Status Alerts"
+
+#: src/templates/ajax-post-summary.php:21
+msgid "Statistics"
+msgstr "Statistiken"
+
+#: src/templates/ajax-post-summary.php:28
+msgid "Performance"
+msgstr "Leistung"
+
+#: src/templates/ajax-signup-step1.php:10
+msgid "Invalid email address."
+msgstr "Ungültige E-Mail-Adresse."
+
+#: src/templates/ajax-signup-step1.php:15
+msgid "Invalid username."
+msgstr "Ungültiger Benutzername."
+
+#: src/templates/ajax-signup-step1.php:19
+#, fuzzy
+msgid "Bad password."
+msgstr "Schlechtes Passwort."
+
+#: src/templates/ajax-signup-step1.php:22
+msgid "Passwords don't match."
+msgstr "Passwörter stimmen nicht überei"
+
+#: src/templates/ajax-signup-step1.php:36
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: src/templates/ajax-signup-step1.php:42
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: src/templates/ajax-signup-step1.php:46 src/templates/ajax-signup-step2.php:66
+#: src/templates/ajax-signup-step3.php:202
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/templates/ajax-signup-step1.php:47 src/templates/ajax-signup-step2.php:69
+#: src/templates/ajax-signup-step3.php:205
+msgid "Next"
+msgstr "Weiter"
+
+#: src/templates/ajax-signup-step2.php:15
+#, fuzzy
+msgid "No plan selected."
+msgstr "Kein Plan ausgewählt."
+
+#: src/templates/ajax-signup-step2.php:28
+msgid "Cancel Subscription"
+msgstr "Abonnement kündigen"
+
+#: src/templates/ajax-signup-step2.php:33
+#, fuzzy
+msgid ""
+"An error occurred attempting to fetch available billing plans. Please go "
+"back and try again."
+msgstr ""
+"Es ist ein Fehler aufgetreten, der versucht hat, verfügbare Abrechnungspläne "
+"zu holen. Bitte gehen Sie zurück und versuchen Sie es noch einmal."
+
+#: src/templates/ajax-signup-step2.php:50
+msgid "current"
+msgstr "aktuell"
+
+#: src/templates/ajax-signup-step2.php:64 src/templates/ajax-signup-step3.php:201
+msgid "Back"
+msgstr "Zurück"
+
+#: src/templates/ajax-signup-step3.php:24
+#, fuzzy
+msgid "Invalid or missing first name."
+msgstr "Ungültige oder fehlende Vorname."
+
+#: src/templates/ajax-signup-step3.php:30
+#, fuzzy
+msgid "Invalid or missing last name."
+msgstr "Ungültige oder fehlende Nachname."
+
+#: src/templates/ajax-signup-step3.php:34
+#, fuzzy
+msgid "Invalid or missing postal code."
+msgstr "Ungültige oder fehlende Postleitzahl."
+
+#: src/templates/ajax-signup-step3.php:38
+#, fuzzy
+msgid "Invalid or missing credit card token."
+msgstr "Ungültige oder fehlende Kreditkartenmarke."
+
+#: src/templates/ajax-signup-step3.php:42
+msgid "You must accept the terms and conditions."
+msgstr "Sie müssen die AGBs akzeptieren."
+
+#: src/templates/ajax-signup-step3.php:99
+#, fuzzy
+msgid "Account and subscription successfully created."
+msgstr "Konto und Abonnement erfolgreich erstellt."
+
+#: src/templates/ajax-signup-step3.php:104
+#, fuzzy
+msgid "Subscription successfully updated."
+msgstr "Abonnement erfolgreich aktualisiert."
+
+#: src/templates/ajax-signup-step3.php:109
+#, fuzzy
+msgid "Subscription successfully deleted."
+msgstr "Abonnement erfolgreich gelöscht."
+
+#: src/templates/ajax-signup-step3.php:173
+#, fuzzy
+msgid ""
+"Once you click Next, your subscription will be cancelled.  Your current "
+"subscription will continue until the next billing cycle and will then "
+"terminate."
+msgstr ""
+"Wenn Sie auf Weiter klicken, wird Ihr Abonnement storniert.  Ihr aktuelles "
+"Abonnement wird bis zum nächsten Abrechnungszyklus fortgesetzt und endet "
+"dann."
+
+#: src/templates/ajax-signup-step3.php:179
+msgid "First Name"
+msgstr "Vorname"
+
+#: src/templates/ajax-signup-step3.php:182
+msgid "Last Name"
+msgstr "Nachname"
+
+#: src/templates/ajax-signup-step3.php:185
+msgid "Credit Card Information"
+msgstr "Krditkarteninformation"
+
+#: src/templates/ajax-signup-step3.php:188
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "I agree to"
+msgstr "Ich stimme zu"
+
+#: src/templates/ajax-signup-step3.php:195
+msgid "terms and conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+#: src/templates/ajax-signup-step4.php:3
+msgid "Success!"
+msgstr "Erfolgreich!"
+
+#: src/templates/ajax-signup-step4.php:7
+msgid "Done"
+msgstr "Erledigt"
+
+#: src/templates/ajax-traffic.php:35
+#, fuzzy
+msgid "Metric Type"
+msgstr "Metrischer Typ"
+
+#: src/templates/ajax-traffic.php:39
+msgid "Page Views"
+msgstr "Seitenaufrufe"
+
+#: src/templates/ajax-traffic.php:42
+msgid "Visits"
+msgstr "Besuche"
+
+#: src/templates/ajax-traffic.php:45
+msgid "Conversions"
+msgstr "Conversion"
+
+#: src/templates/ajax-traffic.php:49
+msgid "Time"
+msgstr "Zeit"
+
+#: src/templates/ajax-traffic.php:53
+#, fuzzy
+msgid "This Past Year"
+msgstr "Dieses vorige Jahr"
+
+#: src/templates/ajax-traffic.php:56
+#, fuzzy
+msgid "This Past Month"
+msgstr "Diesen vergangenen Monat"
+
+#: src/templates/ajax-traffic.php:59
+#, fuzzy
+msgid "This Past Week"
+msgstr "Diese letzte Woche"
+
+#: src/templates/ajax-traffic.php:62 src/templates/ajax-traffic.php:118
+msgid "Yesterday"
+msgstr "Gestern"
+
+#: src/templates/ajax-traffic.php:68 src/templates/ajax-traffic.php:134
+msgid "All Time"
+msgstr "Jederzeit"
+
+#: src/templates/ajax-traffic.php:122
+#, fuzzy
+msgid "Past Week"
+msgstr "Vergangene Woche"
+
+#: src/templates/ajax-traffic.php:126
+#, fuzzy
+msgid "Past Month"
+msgstr "Der letzte Monat"
+
+#: src/templates/ajax-traffic.php:130
+#, fuzzy
+msgid "Past Year"
+msgstr "Vergangene Jahre"
+
+#: src/templates/ajax-traffic.php:138
+#, fuzzy
+msgid "Monthly Change"
+msgstr "Monatlicher Wandel"
+
+#: src/templates/ajax-traffic.php:142
+#, fuzzy
+msgid "Page Ranking"
+msgstr "Seitenrangliste"
+
+#: src/templates/big-table-sorting.php:36
+msgid "Search"
+msgstr "Suche"
+
+#: src/templates/big-table-sorting.php:60
+msgid "Status:"
+msgstr "Status:"
+
+#: src/templates/big-table-sorting.php:81
+msgid "View Archive"
+msgstr "Archiv zeigen"
+
+#: src/templates/big-table-sorting.php:87
+#, fuzzy
+msgid "View New"
+msgstr "Neue Ansicht"
+
+#: src/templates/big-table-sorting.php:111
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: src/templates/keyword-legend.php:2
+msgid "Legend"
+msgstr "Legende"
+
+#: src/templates/keyword-legend.php:4
+msgid "Count"
+msgstr "Anzahl"
+
+#: src/templates/keyword-legend.php:8
+#, fuzzy
+msgid "Goal Met"
+msgstr "Ziel Met"
+
+#: src/templates/page-settings.php:19
+#, fuzzy
+msgid "Which users can see the dashboard?"
+msgstr "Welche Nutzer können das Armaturenbrett sehen?"
+
+#: src/templates/page-settings.php:20
+#, fuzzy
+msgid "Which users can see the post/page widget?"
+msgstr "Welche Benutzer können das post/page Widget sehen?"
+
+#: src/templates/page-settings.php:21
+#, fuzzy
+msgid "Which users can edit data on the post/page widget?"
+msgstr "Welche Benutzer können Daten auf dem post/page Widget bearbeiten?"
+
+#: src/templates/page-settings.php:22
+#, fuzzy
+msgid "Which users can edit Bruce Clay SEO settings?"
+msgstr "Welche Benutzer können Bruce Clay SEO-Einstellungen bearbeiten?"
+
+#: src/templates/page-settings.php:36
+#, fuzzy
+msgid "SEOToolSet Authentication"
+msgstr "SEOToolSet Authentication"
+
+#: src/templates/page-settings.php:37
+#, fuzzy
+msgid "Manage your SEOToolSet® integration."
+msgstr "Verbinden Sie sich mit Ihrem SEOToolSet Konto."
+
+#: src/templates/page-settings.php:49
+#, fuzzy
+msgid "Synchronize Content"
+msgstr "Inhalte analysieren"
+
+#: src/templates/page-settings.php:50
+#, fuzzy
+msgid ""
+"Submit your content for analysis.  You need to do this only when you first "
+"set up Bruce Clay SEO on a site, or if the post count ever gets out of sync."
+msgstr ""
+"Reichen Sie Ihre Inhalte zur Analyse ein.  Sie müssen dies nur tun, wenn Sie "
+"Ihre Website zum ersten Mal bei uns eingerichtet haben, oder wenn die Anzahl "
+"der Beiträge jemals aus der Synchronisation herauskommt."
+
+#: src/templates/page-settings.php:60
+#, fuzzy
+msgid "Connect to your Google Analytics account."
+msgstr "Verbinden Sie sich mit Ihrem Google Analytics-Konto."
+
+#: src/templates/page-settings.php:75
+#, fuzzy
+msgid "Webmaster Verification Codes"
+msgstr "Webmaster Verifizierungscodes"
+
+#: src/templates/page-settings.php:76
+#, fuzzy
+msgid ""
+"Enter the verification codes for your Google Search Console and Bing "
+"Webmaster Tools."
+msgstr ""
+"Geben Sie die Verifizierungscodes für Ihre Google Search Console und Bing "
+"Webmaster Tools ein."
+
+#: src/templates/page-settings.php:79
+#, fuzzy
+msgid "Google Verification Code"
+msgstr "Google Verification Code"
+
+#: src/templates/page-settings.php:81
+#, fuzzy
+msgid "Bing Verification Code"
+msgstr "Bing Verification Code"
+
+#: src/templates/page-settings.php:94
+#, fuzzy
+msgid "Front Page Title and Meta Description"
+msgstr "Titelseite Titel und Meta-Beschreibung"
+
+#: src/templates/page-settings.php:95
+#, fuzzy
+msgid ""
+"When you're NOT using a specific page as your front page, these will apply."
+msgstr ""
+"Wenn Sie NICHT eine bestimmte Seite als Titelseite verwenden, gelten diese."
+
+#: src/templates/page-settings.php:98
+#, fuzzy
+msgid "Front Page Title"
+msgstr "Titelseite"
+
+#: src/templates/page-settings.php:100
+#, fuzzy
+msgid "Front Page Meta Description"
+msgstr "Front Page Meta Beschreibung"
+
+#: src/templates/page-settings.php:109
+msgid "User Permissions"
+msgstr "Benutzerrechte"
+
+#: src/templates/page-settings.php:110
+#, fuzzy
+msgid "Control which Bruce Clay SEO features your users have access to."
+msgstr "Kontrolle, auf die Bruce Clay SEO Funktionen Ihrer Benutzer zugreifen."
+
+#: src/templates/page-settings.php:119
+#, fuzzy
+msgid " (and higher)"
+msgstr "(Und höher)"
+
+#: src/templates/page-settings.php:129
+msgid "Restore Defaults"
+msgstr "Standard wiederherstellen"
+
+#: src/templates/page-status.php:24
+#, fuzzy
+msgid ""
+"This is a page for ensuring that things are set up correctly. See "
+"WooCommerce's for an extensive (perhaps overly so) example."
+msgstr ""
+"Dies ist eine Seite, um sicherzustellen, dass die Dinge richtig eingerichtet "
+"sind. Sehen Sie WooCommerce es für ein umfangreiches (vielleicht übermäßig) "
+"Beispiel."
+
+#: src/templates/page-status.php:26
+#, fuzzy
+msgid "Hold Up!"
+msgstr "Halt!"
+
+#: src/templates/page-status.php:29
+#, fuzzy
+msgid "Suspend operations?"
+msgstr "Suspendierung?"
+
+#: src/templates/page-status.php:32
+#, fuzzy
+msgid "Check this to temporarily halt SEOToolSet operations."
+msgstr ""
+"Überprüfen Sie dies, um SEOToolSet Operationen vorübergehend zu stoppen."
+
+#: src/templates/page-status.php:37
+#, fuzzy
+msgid "Environment Variables"
+msgstr "Umgebungsvariablen"
+
+#: src/templates/page-status.php:40
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: src/templates/page-status.php:69
+#, fuzzy
+msgid "SEOToolSet Account Information"
+msgstr "SEOToolSet Account-Informationen"
+
+#: src/templates/page-status.php:80
+#, fuzzy
+msgid "Real Name"
+msgstr "Echter Name"
+
+#: src/templates/page-status.php:84
+msgid "Email"
+msgstr "E-Mail"
+
+#: src/templates/page-status.php:88
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: src/templates/page-status.php:93
+#, fuzzy
+msgid "API Connectivity Test"
+msgstr "API-Connectivity-Test"
+
+#: src/templates/page-status.php:94
+msgid "Endpoint"
+msgstr "Endpunkt"
+
+#: src/templates/post-widget.php:22
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: src/templates/post-widget.php:36
+msgid "Queries"
+msgstr "Abfragen"
+
+#: src/templates/post-widget.php:39
+#, fuzzy
+msgid "Pagespeed"
+msgstr "Pagespeed"
+
+#: src/templates/post-widget.php:46
+#, fuzzy
+msgid "Search Directives"
+msgstr "Durchsuchungsrichtlinien"
+
+#: src/templates/post-widget.php:55
+#, fuzzy
+msgid ""
+"Keyword highlighting only works in the Visual Editor. Please switch modes "
+"using the tabs above the post content."
+msgstr ""
+"Das Schlüsselwort, das das Hervorheben hervorhebt, funktioniert nur im "
+"Visuellen Editor. Bitte wechseln Sie die Modi mit den Registerkarten über "
+"dem Post-Inhalt."
+
+#: src/templates/post-widget.php:59
+#, fuzzy
+msgid "Keyword Phrases (comma-separated)"
+msgstr "Stichworträtstasten (Komma-getrennt)"
+
+#: src/templates/post-widget.php:60
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/templates/post-widget.php:63
+msgid "Or"
+msgstr "Oder"
+
+#: src/templates/post-widget.php:67
+#, fuzzy
+msgid "Add Keyword Group"
+msgstr "Keyword-Gruppe hinzufügen"
+
+#: src/templates/post-widget.php:74
+#, fuzzy
+msgid "Analyze Content"
+msgstr "Inhalte analysieren"
+
+#: src/templates/post-widget.php:75
+#, fuzzy
+msgid "Refresh Goals"
+msgstr "Ziele aktualisieren"
+
+#: src/templates/tabs.php:47
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://www.bruceclay.com/seo/tools/bruceclayseo/"
+msgstr "http://www.seotoolset.com/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Bruce Clay SEO gives blog writers on-page SEO guidance based on real-time "
+"competitor analysis. Analytics is integrated to show post performance, right "
+"in WordPress. Keyword tracking, reports and more powered by SEOToolSet."
+msgstr ""
+"Bruce Clay SEO gibt Blog-Autoren auf Seite SEO-Anleitung auf der Grundlage "
+"von Echtzeit-Wettbewerber-Analyse. Analytics ist integriert, um Post-"
+"Performance zu zeigen, direkt in WordPress. Keyword-Tracking, Reports und "
+"mehr mit SEOToolSet."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Bruce Clay, Inc."
+msgstr "Bruce Clay, Inc."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+msgstr ""
+"https://www.bruceclay.com/?utm_source=bc-"
+"seo&utm_medium=plugin&utm_campaign=wordpress-general"
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must connect your SEOToolSet account."
+#~ msgstr ""
+#~ "Prüfen Sie die Plug-In-Einstellungen. Sie müssen Ihr SEOToolSet Konto "
+#~ "anschließen."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You do not have an active subscription."
+#~ msgstr ""
+#~ "Prüfen Sie die Plug-In-Einstellungen. Sie haben kein aktives Abonnement."
+
+#, fuzzy
+#~ msgid "Check plugin settings. You must select a project."
+#~ msgstr ""
+#~ "Prüfen Sie die Plug-In-Einstellungen. Sie müssen ein Projekt auswählen."
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Post Title"
+#~ msgstr "Beitragstitel"
+
+#~ msgid "Last Updated"
+#~ msgstr "Zuletzt aktualisiert"
+
+#, fuzzy
+#~ msgid "Mark as Done"
+#~ msgstr "Mark als Done"
+
+#~ msgid "Actions"
+#~ msgstr "Aktionen"
+
+#~ msgid "Ranking"
+#~ msgstr "Rangliste"
+
+#~ msgid "Pages"
+#~ msgstr "Seiten"
+
+#~ msgid "Last Update"
+#~ msgstr "Letztes Update"
+
+#~ msgid "Total Views"
+#~ msgstr "Gesamtaufrufe"
+
+#, fuzzy
+#~ msgid "Avg. Views / page"
+#~ msgstr "Avg. Ansichten"
+
+#~ msgid "Published"
+#~ msgstr "Veröffentlicht"
+
+#~ msgid "Assignments"
+#~ msgstr "Aufgaben"
+
+#, fuzzy
+#~ msgid "Top Ranked"
+#~ msgstr "Top Ranking"
+
+#, fuzzy
+#~ msgid "Most Viral"
+#~ msgstr "Viral"
+
+#~ msgid "Most Shared"
+#~ msgstr "Meist geteilt"
+
+#~ msgid "Check for updates"
+#~ msgstr "Auf Aktualisierungen prüfen"
+
+#~ msgid "View details"
+#~ msgstr "Details anzeigen"
+
+#~ msgid "More information about %s"
+#~ msgstr "Mehr Informationen über %s"
+
+#~ msgctxt "the plugin title"
+#~ msgid "The %s plugin is up to date."
+#~ msgstr "Das %s Plugin ist aktuell."
+
+#~ msgctxt "the plugin title"
+#~ msgid "A new version of the %s plugin is available."
+#~ msgstr "Eine neue Version des Plugins %s ist verfügbar."
+
+#~ msgctxt "the plugin title"
+#~ msgid "Could not determine if updates are available for %s."
+#~ msgstr "Konnte nicht prüfen, ob Updates für das Plugin %s verfügbar sind."
+
+#~ msgid "Unknown update checker status \"%s\""
+#~ msgstr "Unbekannter Status für Aktualisierungscheck \"%s\""
+
+#~ msgid "There is no changelog available."
+#~ msgstr "Es steht kein Änderungsprotokoll zur Verfügung."
+
+#, fuzzy
+#~ msgid ""
+#~ "A place for API testing that makes more sense than the Status page. "
+#~ "Mostly because it works \"modularly\": Requests to the API are only made "
+#~ "when you click the header of an item in the list instead of running "
+#~ "<em>all</em> the tests at once before loading the page."
+#~ msgstr ""
+#~ "Ein Ort für API-Tests, der sinnvoller ist als die Statusseite. Vor allem, "
+#~ "weil es \"modular\" funktioniert: Anfragen an die API werden nur gemacht, "
+#~ "wenn Sie auf den Kopf eines Artikels in der Liste klicken, anstatt <em> "
+#~ "alle </em> die Tests auf einmal zu starten, bevor Sie die Seite laden."
+
+#, fuzzy
+#~ msgid ""
+#~ "<span class=\"pass\">Green items</span> are meant to pass while <span "
+#~ "class=\"fail\">orange items</span> are meant to fail. However, passing "
+#~ "tests can be forced to fail via authentication by logging out "
+#~ "(<code>DELETE /login</code>) first. Check the cURL HTTP code response and "
+#~ "the API's error reporting accordingly."
+#~ msgstr ""
+#~ "<span class = \"Pass\" > Grüne Gegenstände </span> sollen passieren, "
+#~ "während <span class = \"fail\" > orange Elemente </span> zum Scheitern "
+#~ "gehören sollen. Allerdings können die bestanden Tests durch "
+#~ "Authentifizierung durch Ausloggen (<code> DELETE/login </code>) zunächst "
+#~ "zum Scheitern gezwungen werden. Überprüfen Sie die cURL HTTP-Code-Antwort "
+#~ "und die Fehlermeldung der API entsprechend."
+
+#~ msgid "Contributions"
+#~ msgstr "Beiträge"
+
+#, fuzzy
+#~ msgid "Last Published"
+#~ msgstr "Zuletzt veröffentlicht"
+
+#, fuzzy
+#~ msgid "Highest Rank"
+#~ msgstr "Höchster Rang"
+
+#, fuzzy
+#~ msgid "Test highlights"
+#~ msgstr "Test-Highlights"
+
+#, fuzzy
+#~ msgid "Past 30 days"
+#~ msgstr "30 Tage"
+
+#, fuzzy
+#~ msgid "API did not return field(s): "
+#~ msgstr "API hat Feld (n) nicht zurückgegeben:"
+
+#, fuzzy
+#~ msgid "API did not return array for field(s): "
+#~ msgstr "API hat Array für field (s) nicht zurückgegeben:"
+
+#, fuzzy
+#~ msgid "+10% from last month"
+#~ msgstr "+ 10% aus dem letzten Monat"
+
+#, fuzzy
+#~ msgid "NO NAME"
+#~ msgstr "KEINE NAME"
+
+#, fuzzy
+#~ msgid "Imps"
+#~ msgstr "Imps"
+
+#, fuzzy
+#~ msgid "Should Fix"
+#~ msgstr "Sollte sich reparieren"
+
+#, fuzzy
+#~ msgid ""
+#~ "Issues that could decrease page load speed significantly (per Google)"
+#~ msgstr ""
+#~ "Probleme, die die Ladegeschwindigkeit der Seite deutlich verringern "
+#~ "könnten (per Google)"
+
+#, fuzzy
+#~ msgid "Consider Fixing"
+#~ msgstr "Erwägen Sie Fixierung"
+
+#, fuzzy
+#~ msgid "Issues that may impact page load speed (per Google)"
+#~ msgstr ""
+#~ "Probleme, die die Ladegeschwindigkeit der Seite (per Google) beeinflussen "
+#~ "können"
+
+#~ msgid "Positives"
+#~ msgstr "Positive"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed Google's recommendations and may benefit page "
+#~ "load speed"
+#~ msgstr ""
+#~ "Gegenstände, die den Empfehlungen von Google entsprechen oder sie "
+#~ "übertreffen und die Geschwindigkeit der Seitengeschwindigkeit begünstigen "
+#~ "können"
+
+#, fuzzy
+#~ msgid "Issues that could hurt mobile friendliness (per Google)"
+#~ msgstr ""
+#~ "Probleme, die der mobilen Freundlichkeit (per Google) schaden könnten"
+
+#, fuzzy
+#~ msgid "Issues that may impact mobile friendliness (per Google)"
+#~ msgstr ""
+#~ "Probleme, die sich auf die mobile Freundlichkeit (per Google) auswirken "
+#~ "können"
+
+#, fuzzy
+#~ msgid ""
+#~ "Items that match or exceed mobile-friendliness guidelines (per Google)"
+#~ msgstr ""
+#~ "Gegenstände, die den Richtlinien für die mobile Freundlichkeit (per "
+#~ "Google) entsprechen oder diese überschreiten"
